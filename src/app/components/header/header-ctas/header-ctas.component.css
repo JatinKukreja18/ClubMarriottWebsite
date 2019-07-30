@@ -1,4 +1,27 @@
 
 .cm-header-cta{
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+.cm-header-cta.cm-button-group .cm-button.cm-button-sm{
+  margin-bottom: 20px;
+  margin-right: 0px;
+}
+
+.cm-header-cta.cm-button-group .cm-button.cm-button-sm:last-child{
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+
+@media only screen and (min-width: 992px){
+  .cm-header-cta{
+    margin-left: auto;
+    display: block;
+  }
+  .cm-header-cta.cm-button-group .cm-button.cm-button-sm{
+    margin-bottom: 0px;
+    margin-right: 10px;
+  }
 }

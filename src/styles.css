@@ -11,6 +11,11 @@ body{
   max-width: 1150px;
   width: 100%;
 }
+.cm-outer-wrapper{
+  margin: auto;
+  max-width: 1440px;
+  width: 100%;
+}
 .cm-padding-block{
   padding: 200px 0;
 }
@@ -18,8 +23,10 @@ body{
   padding-top: 200px;
 }
 .main-body-container{
-  padding-top: 100px;
+  padding-top: 80px;
 }
+
+/* writting this carousel globally as component wise it was not working */
 .cm-owl-carousel .owl-item.center.active .cm-owl-carousel-image{
   height: 540px;
 }
@@ -30,7 +37,15 @@ body{
   transition: .5s;
   /* transition-delay: .1s; */
 }
+
+
 .cm-owl-carousel .owl-stage{
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 576px){
+  .main-body-container{
+    padding-top: 50px;
+  }
 }

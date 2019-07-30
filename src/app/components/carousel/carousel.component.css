@@ -43,7 +43,18 @@
   opacity: 0;
   transition: 1s;
   transition-delay: .5s;
+  z-index: 1;
 }
 .cm-banner-carousel .carousel-item.active  .carousel-caption{
   opacity: 1;
+}
+
+@media only screen and (max-width: 576px){
+  .cm-banner-carousel img,
+  .cm-banner-carousel-image{
+    height: 280px;
+    min-height: 280px;
+    object-fit: cover;
+    width: 100%;
+  }
 }
