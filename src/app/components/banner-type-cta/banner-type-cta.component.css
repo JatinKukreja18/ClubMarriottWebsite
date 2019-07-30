@@ -1,0 +1,17 @@
+.banner-type-cta{
+  height: 680px;
+  display: flex;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  /* align-items: center; */
+}
+.banner-type-cta-title{
+  margin-bottom: 50px;
+}
+.banner-type-cta-image{
+  height: 100%;
+  margin-left: auto;
+}
+.banner-type-cta-content{
+  align-self: center;
+}

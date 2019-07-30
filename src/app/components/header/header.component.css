@@ -3,6 +3,15 @@
   padding: 0px 62px;
   display: flex;
   align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0px 0px 14px -5px #ccc;
+}
+.cm-header > *:last-child{
+  margin-left: auto;
 }
 .cm-header-logo{
     height: 17px;

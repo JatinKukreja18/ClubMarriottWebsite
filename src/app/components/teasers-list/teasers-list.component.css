@@ -1,0 +1,40 @@
+.cm-teasers-list-block{
+  margin-top: 100px;
+}
+ul.cm-teasers-list{
+  /* margin: 0; */
+  padding: 0;
+  list-style-type: none;
+
+}
+.cm-teasers-list-item{
+  display: inline-flex;
+  /* width: 33.33%; */
+  flex-direction: column;
+}
+.cm-teasers-list-item .cm-teaser-list-image{
+  width: 100%;
+  margin-bottom: 50px;
+}
+.cm-teaser-list-image-block{
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.cm-teasers-list-item-cta{
+  position: absolute;
+  top: 0%;
+  background: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+}
+.cm-teaser-list-image-block:hover .cm-teasers-list-item-cta{
+  top: 0px;
+  opacity: 1;
+}

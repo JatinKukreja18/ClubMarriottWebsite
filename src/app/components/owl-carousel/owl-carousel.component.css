@@ -1,0 +1,27 @@
+/* .owl-carousel .owl-item img{
+  height: 540px;
+}
+.cm-owl-carousel .owl-item.cloned.active .cm-owl-carousel-image{
+  width: 363px;
+  height: 540px;
+  object-fit: cover;
+  transition: .5s;
+} */
+
+.cm-owl-carousel-item{
+  display: flex;
+  flex-direction: column;
+
+}
+.cm-owl-carousel-image{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.cm-owl-carousel-content{
+  margin-top: 50px;
+}
+.cm-owl-carousel-link{
+  margin-top: 25px;
+}

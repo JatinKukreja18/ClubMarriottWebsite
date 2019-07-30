@@ -1,6 +1,7 @@
 @font-face {
-  font-family: 'ProximaNova';
-  src: url("/fonts/FontsFree-Net-Proxima-Nova-Light.otf"); }
+  font-family: "ProximaNova";
+  src: url("/fonts/FontsFree-Net-Proxima-Nova-Light.otf");
+}
 .cm-button {
   min-width: 168px;
   padding: 15px 20px;
@@ -13,19 +14,24 @@
   box-sizing: border-box;
   border: none;
   cursor: pointer;
-  border: 1px solid;
+  border: none;
   border-radius: 3px;
-  transition: opacity .3s; }
-  .cm-button.primary {
-    color: #ffffff;
-    background: #c4b67e; }
-  .cm-button:hover {
-    opacity: .7; }
+  transition: opacity 0.3s;
+}
+.cm-button.primary {
+  color: #ffffff;
+  background: #c4b67e;
+}
+.cm-button:hover {
+  background: #d8ca92;
+}
 
 .cm-button-group .cm-button {
-  margin-right: 30px; }
-  .cm-button-group .cm-button:last-child {
-    margin-right: 0px; }
+  margin-right: 30px;
+}
+.cm-button-group .cm-button:last-child {
+  margin-right: 0px;
+}
 
 /*
     Title/Heading Styles
@@ -38,9 +44,11 @@ h1.cm-heading {
   line-height: 1.44;
   color: #000000;
   margin: 0px;
-  margin-bottom: 5px; }
-  h1.cm-heading.cm-heading-white {
-    color: #fff; }
+  margin-bottom: 5px;
+}
+h1.cm-heading.cm-heading-white {
+  color: #fff;
+}
 
 h2.cm-heading {
   font-size: 24px;
@@ -49,7 +57,8 @@ h2.cm-heading {
   line-height: 1.25;
   margin: 0px;
   margin-bottom: 5px;
-  color: #000000; }
+  color: #000000;
+}
 
 .cm-text {
   font-family: "ProximaNova", sans-serif;
@@ -57,7 +66,16 @@ h2.cm-heading {
   margin: 0px;
   margin-bottom: 5px;
   font-weight: 300;
-  color: #000000; }
+  color: #000000;
+}
+.cm-text-16 {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  margin-bottom: 5px;
+  font-weight: 300;
+  color: #000000;
+}
 
 .cm-subtext {
   font-size: 12px;
@@ -65,26 +83,30 @@ h2.cm-heading {
   font-weight: 300;
   margin: 0px;
   margin-bottom: 5px;
-  color: #b1aaaa; }
+  color: #b1aaaa;
+}
 
 .cm-text-serif {
   font-family: "EB Garamond", serif;
   font-size: 16px;
   line-height: 1.38;
-  color: #000000; }
+  color: #000000;
+}
 
 .cm-link {
   font-family: "ProximaNova", sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #000000;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 .cm-menu-link {
   font-family: "ProximaNova", sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #000000;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=club-theme.css.map */

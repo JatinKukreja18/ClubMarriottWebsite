@@ -1,6 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'club-theme.css';
-
+@import './vendor/bootstrap4/';
+@import './vendor/OwlCarousel/dist/assets/owl.carousel.min.css';
+/* @import './vendor/OwlCarousel/dist/assets/owl.theme.default.min.css'; */
 body{
   margin: 0;
+}
+.cm-wrapper{
+  margin: auto;
+  max-width: 1150px;
+  width: 100%;
+}
+.cm-padding-block{
+  padding: 200px 0;
+}
+.cm-top-padding-block{
+  padding-top: 200px;
+}
+.main-body-container{
+  padding-top: 100px;
+}
+.cm-owl-carousel .owl-item.center.active .cm-owl-carousel-image{
+  height: 540px;
+}
+.cm-owl-carousel .owl-item.active .cm-owl-carousel-image{
+  width: 363px;
+  height: 300px;
+  object-fit: cover;
+  transition: .5s;
+  /* transition-delay: .1s; */
+}
+.cm-owl-carousel .owl-stage{
+  display: flex;
+  align-items: center;
 }
