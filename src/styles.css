@@ -8,8 +8,10 @@ body{
 }
 .cm-wrapper{
   margin: auto;
-  max-width: 1150px;
+  max-width: 1190px;
   width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .cm-outer-wrapper{
   margin: auto;
@@ -17,7 +19,8 @@ body{
   width: 100%;
 }
 .cm-padding-block{
-  padding: 200px 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .cm-top-padding-block{
   padding-top: 200px;
@@ -37,7 +40,38 @@ body{
   transition: .5s;
   /* transition-delay: .1s; */
 }
-
+.teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev{
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  border-top: 13px solid #c4b67e;
+  clear: both;
+  transform: rotate(90deg);
+  position: absolute;
+  left: 0px;
+  top:38%;
+  outline:none;
+}
+.teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev span,
+.teaser-owl-carousel.owl-carousel .owl-nav button.owl-next span{
+  display: none;
+}
+.teaser-owl-carousel.owl-carousel .owl-nav button.owl-next{
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  border-top: 13px solid #c4b67e;
+  clear: both;
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 0px;
+  top:38%;
+  outline:none;
+}
 
 .cm-owl-carousel .owl-stage{
   display: flex;
@@ -47,5 +81,15 @@ body{
 @media only screen and (max-width: 576px){
   .main-body-container{
     padding-top: 50px;
+  }
+  .cm-padding-block{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .cm-top-padding-block{
+    padding-top: 80px;
+  }
+  body{
+    overflow-x: hidden;
   }
 }

@@ -1,6 +1,6 @@
 .banner-type-cta{
   height: 680px;
-  display: flex;
+  /* display: flex; */
   padding-top: 45px;
   padding-bottom: 45px;
   /* align-items: center; */
@@ -14,4 +14,22 @@
 }
 .banner-type-cta-content{
   align-self: center;
+}
+
+@media only screen and (max-width: 576px){
+  .banner-type-cta{
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: unset;
+  }
+  .banner-type-cta-image{
+    height: auto;
+    width: 100%;
+  }
+  .banner-type-cta-title{
+    text-align: center;
+    margin-bottom: 30px;
+  }
 }

@@ -13,7 +13,7 @@
 /* image style */
 .cm-banner-carousel img,
 .cm-banner-carousel-image{
-  height: 680px;
+  /* height: 680px; */
   min-height: 500px;
   max-height: calc(100vh - 100px);
   object-fit: cover;
@@ -52,9 +52,17 @@
 @media only screen and (max-width: 576px){
   .cm-banner-carousel img,
   .cm-banner-carousel-image{
-    height: 280px;
+    height: 100%;
     min-height: 280px;
+    max-height: 40vh;
     object-fit: cover;
     width: 100%;
+  }
+  .cm-banner-carousel .carousel-indicators{
+    margin-bottom: 20px;
+  }
+  .cm-banner-carousel .carousel-indicators li{
+    width: 7px;
+    height: 7px;
   }
 }

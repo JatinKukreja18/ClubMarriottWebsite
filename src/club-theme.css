@@ -22,6 +22,7 @@
   padding: 10px 15px;
   min-width: 154px;
 }
+
 .cm-button.primary {
   color: #ffffff;
   background: #c4b67e;
@@ -114,5 +115,27 @@ h2.cm-heading {
   color: #000000;
   text-decoration: none;
 }
-
+@media only screen and (max-width: 576px){
+  h1.cm-heading {
+    font-size: 20px;
+  }
+  h2.cm-heading {
+    font-size: 16px;
+  }
+  .cm-text-serif{
+    font-size: 12px;
+  }
+  .cm-button.cm-wide-mobile{
+    width: 245px;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+  }
+  .cm-button{
+    padding: 9px 15px;
+  }
+  .cm-text-16{
+    font-size: 14px;
+  }
+}
 /*# sourceMappingURL=club-theme.css.map */

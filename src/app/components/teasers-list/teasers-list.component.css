@@ -38,3 +38,23 @@ ul.cm-teasers-list{
   top: 0px;
   opacity: 1;
 }
+@media only screen and (max-width: 576px){
+
+  .cm-teasers-list-block{
+    /* padding: 0 20px; */
+  }
+  .cm-teasers-list-item{
+    padding: 0px 60px;
+    display:  block;
+    background: #fff;
+  }
+  .cm-teasers-list-block{
+    margin-top: 30px;
+  }
+  ul.cm-teasers-list{
+    margin: 0%;
+  }
+  .cm-teasers-list-item .cm-text-serif{
+    margin-bottom: 0;
+  }
+}
