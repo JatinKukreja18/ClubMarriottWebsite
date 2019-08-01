@@ -1,0 +1,11 @@
+.cm-links-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 575px){
+  .cm-links-list{
+    margin-bottom: 40px;
+  }
+}

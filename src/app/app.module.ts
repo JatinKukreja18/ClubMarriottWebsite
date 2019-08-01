@@ -1,3 +1,5 @@
+import { FooterComponent } from './components/footer/footer.component';
+import { SectionTextComponent } from './components/footer/section-text/section-text.component';
 import { CarouselType3Component } from './components/carousel-type3/carousel-type3.component';
 import { HomeLastContainerComponent } from './containers/home-last-section/last-container.component';
 import { MemberFormComponent } from './components/member-form/member-form.component';
@@ -22,6 +24,7 @@ import { HeaderCtasComponent } from './components/header/header-ctas/header-ctas
 import { RichTextComponent } from './components/rich-text/rich-text.component';
 import { CarouselType2Component } from './components/carousel-type2/carousel-type2.component';
 import { OwlCarouselComponent } from './components/owl-carousel/owl-carousel.component';
+import { LinksListComponent } from './components/footer/links-list/links-list.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +47,10 @@ import { OwlCarouselComponent } from './components/owl-carousel/owl-carousel.com
     OwlCarouselComponent,
     HomeMembershipContainerComponent,
     MemberFormComponent,
-    HomeLastContainerComponent
+    HomeLastContainerComponent,
+    LinksListComponent,
+    SectionTextComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
