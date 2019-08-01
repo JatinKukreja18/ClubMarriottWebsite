@@ -2,6 +2,251 @@
   font-family: "ProximaNova";
   src: url("/fonts/FontsFree-Net-Proxima-Nova-Light.otf");
 }
+/* form elements */
+.cm-button-group {
+  display: flex;
+  justify-content: space-between;
+}
+.cm-button-group.centered {
+  justify-content: center;
+}
+.cm-button-group.stacked {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.help-text {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #b1aaaa;
+  margin-bottom: 20px;
+}
+.cm-input-label .cm-input-text{
+  border: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  color: #000000;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  /* margin-bottom: 20px; */
+  font-weight: 300;
+  cursor: text;
+}
+.cm-input {
+  border: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  color: #000000;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  /* margin-bottom: 20px; */
+  font-weight: 300;
+  cursor: text;
+}
+.cm-input.touched:invalid {
+  border-color: #e44b4b;
+}
+.cm-input:focus {
+  border-bottom: 1px solid #000;
+}
+
+.cm-input::placeholder {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.cm-input::-webkit-input-placeholder {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.cm-input-group {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.cm-input-group .cm-input {
+  /* height: 100%; */
+  display: block;
+  margin: 0px;
+  /* margin-right: 30px; */
+}
+.cm-input-group .cm-select {
+  margin-right: 30px;
+  /* margin-top: 10px; */
+}
+.cm-input-group .cm-input-label{
+  margin-bottom: 0px;
+  flex:1;
+  margin-right: 30px;
+}
+.cm-input-group .cm-input-label:last-child {
+  margin-right: 0;
+}
+.cm-input-group.vertical {
+  flex-direction: column;
+}
+.cm-input-group.start {
+  justify-content: flex-start;
+}
+
+.cm-input-label {
+  display: flex;
+  margin-bottom: 20px;
+  /* margin-top: 10px; */
+  align-items: flex-start;
+  position: relative;
+}
+.cm-input-label.cm-input-mini {
+  min-width: 70px;
+  width: 70px;
+  max-width: 70px;
+}
+.cm-input-label.noMargin {
+  margin: 0px;
+}
+.cm-input-label span.cm-placeholder-label {
+  position: absolute;
+  font-family: "ProximaNova", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+  bottom: 3px;
+  left: 0;
+  transition: .2s;
+  pointer-events: none;
+}
+.cm-input-label .cm-input:focus + span.cm-placeholder-label,
+.cm-input-label .cm-input.touched + span.cm-placeholder-label{
+  bottom: 25px;
+  font-size: 12px;
+}
+.cm-input-label a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.disguise-text {
+  width: calc(100% - 27px);
+  font-family: "ProximaNova", sans-serif;
+  font-size: 10px;
+  margin-left: 27px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.disguise-text > a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.disguise-text.collapse {
+  margin-left: 2px;
+  width: auto;
+}
+
+.cm-input-checkbox {
+  display: none;
+}
+.cm-input-checkbox + span.check-icon {
+  width: 17px;
+  margin-right: 10px;
+  height: 17px;
+  display: inline-block;
+  /* background: url("../assets/icons/unchecked.svg");  */
+}
+.cm-input-checkbox:checked + span.check-icon,
+.cm-input-checkbox[checked] + span.check-icon {
+  /* background: url("../assets/icons/checked.svg");  */
+}
+
+/* .cm-form {
+  padding: 50px;
+  margin: auto;
+  overflow-y: scroll;
+  overflow-y: overlay;
+}
+.cm-form:valid .cm--button.primary {
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+.cm-form:invalid .cm-button.primary {
+  color: #cbcbcb;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.cm-form .cm-button.primary {
+  display: block;
+  margin: 0 auto;
+} */
+
+.cm-select {
+  position: relative;
+}
+.cm-select > i.arrow-down{
+    position: absolute;
+    right: 0;
+    top: calc(50% - 4px);
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #000;
+}
+.cm-select .cm-input {
+  pointer-events: none;
+}
+.cm-select.cm-select-mini{
+  width: 70px;
+  min-width: 70px;
+}
+.cm-select-options {
+  display: none;
+  padding: 0px;
+  position: absolute;
+  top: calc(100% + 2px);
+  width: 100%;
+  left: 0px;
+  margin: 0px;
+  box-shadow: 0 0 5px 0 rgba(118, 192, 255, 0.2);
+  border: solid 1px #e6e6e6;
+  z-index: 1;
+  list-style-type: none;
+}
+.cm-select-options > .cm-select-option {
+  height: 26px;
+  padding: 5px;
+  background-color: #fff;
+  font-family: "ProximaNova", sans-serif;
+  font-size: 14px;
+  width: 100%;
+  transition: translate 0.3s;
+  color: #000000;
+  cursor: pointer;
+}
+.cm-select-options > .cm-select-option:hover,
+.cm-select-options > .cm-select-option.active,
+.cm-select-options > .cm-select-option.selected {
+  background: #ebf2f8;
+}
+.cm-select-options.in {
+  display: block;
+}
+
+/* form elements ends */
+
 .cm-button {
   min-width: 168px;
   padding: 15px 20px;
@@ -18,7 +263,7 @@
   border-radius: 3px;
   transition: opacity 0.3s;
 }
-.cm-button.cm-button-sm{
+.cm-button.cm-button-sm {
   padding: 10px 15px;
   min-width: 154px;
 }
@@ -115,27 +360,75 @@ h2.cm-heading {
   color: #000000;
   text-decoration: none;
 }
-@media only screen and (max-width: 576px){
+/* helpers */
+.mt-10{
+  margin-top: 10px;
+}
+.mt-20{
+  margin-top: 20px;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.mt-40{
+  margin-top: 40px;
+}
+.mt-50{
+  margin-top: 50px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+.mb-40{
+  margin-bottom: 40px;
+}
+.mb-50{
+  margin-bottom: 50px !important;
+}
+@media only screen and (max-width: 576px) {
   h1.cm-heading {
     font-size: 20px;
   }
   h2.cm-heading {
     font-size: 16px;
   }
-  .cm-text-serif{
+  .cm-text-serif {
     font-size: 12px;
   }
-  .cm-button.cm-wide-mobile{
+  .cm-button.cm-wide-mobile {
     width: 245px;
     max-width: 100%;
     margin: auto;
     display: block;
   }
-  .cm-button{
+  .cm-button {
     padding: 9px 15px;
   }
-  .cm-text-16{
+  .cm-text-16 {
     font-size: 14px;
   }
+  .cm-input,.cm-input-text,.cm-select-option{
+    font-size: 14px;
+  }
+  .cm-input-label span.cm-placeholder-label,
+  .cm-input-label .cm-input-text{
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .cm-input::placeholder {
+    font-size: 12px;
+  }
+
+  .cm-input::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+
 }
+
 /*# sourceMappingURL=club-theme.css.map */

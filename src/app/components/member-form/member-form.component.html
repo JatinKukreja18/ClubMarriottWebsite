@@ -1,0 +1,37 @@
+<form  id="memberForm" class="cm-form member-form   visible" action="" method="post">
+    <h1 class="cm-heading mb-50">Become a member</h1>
+  <!-- input group for name -->
+    <div class="cm-input-group">
+      <!-- custom select for all options -->
+      <div class="cm-select cm-input-item cm-select-mini" id="avail-title-select">
+       <i class="arrow-down"></i>
+        <input type="text" class="cm-input" autocomplete="new-password" placeholder="Title" id="avail-title" required >
+        <ul class="cm-select-options">
+          <li class="cm-select-option" data-value="Mr.">Mr.</li>
+          <li class="cm-select-option" data-value="Ms.">Ms.</li>
+        </ul>
+      </div>
+      <label for="" class="cm-input-label">
+        <input type="text" class="cm-input cm-input-item" id="fullname" required>
+        <span class="cm-placeholder-label">Full Name</span>
+      </label>
+    </div>
+
+    <div class="cm-input-group">
+        <label for="" class="cm-input-label cm-input-mini">
+          <span class="cm-text-16 cm-input-text">+91</span>
+        </label>
+        <label for="" class="cm-input-label">
+          <input type="number" maxlength="10" class="cm-input"  required id="mobile" pattern="^[0-9]*$">
+          <span class="cm-placeholder-label">Mobile</span>
+        </label>
+    </div>
+    <label for="" class="cm-input-label">
+      <input type="text" type="text" class="cm-input" id="email" name="email"  pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"        required>
+      <span class="cm-placeholder-label">Email address</span>
+    </label>
+    <p class="help-text">
+        By offering the content above, I give permission to Club Marriott to make contact with me to receive more information and agree to the Terms & Conditions and the privacy statement on the website.
+    </p>
+    <button class="cm-button primary mt-30">Get started</button>
+  </form>

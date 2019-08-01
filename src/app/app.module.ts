@@ -1,3 +1,5 @@
+import { MemberFormComponent } from './components/member-form/member-form.component';
+import { HomeMembershipContainerComponent } from './containers/home-membership/home-membership-containercomponent';
 import { HomeBenefitsContainerComponent } from './containers/home-benefits/home-benefits-containercomponent';
 import { HomeExperiencesContainerComponent } from './containers/home-experience/home-experiences-containercomponent';
 import { RichTextLargeComponent } from './components/rich-text-large/rich-text-large.component';
@@ -36,7 +38,9 @@ import { OwlCarouselComponent } from './components/owl-carousel/owl-carousel.com
     HomeExperiencesContainerComponent,
     CarouselType2Component,
     HomeBenefitsContainerComponent,
-    OwlCarouselComponent
+    OwlCarouselComponent,
+    HomeMembershipContainerComponent,
+    MemberFormComponent
   ],
   imports: [
     BrowserModule,
