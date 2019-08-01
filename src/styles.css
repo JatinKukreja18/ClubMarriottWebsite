@@ -32,13 +32,21 @@ body{
 /* writting this carousel globally as component wise it was not working */
 .cm-owl-carousel .owl-item.center.active .cm-owl-carousel-image{
   height: 540px;
+  margin-top:0px;
+  transition: 0.5s;
+  /* transition-delay: s; */
 }
 .cm-owl-carousel .owl-item.active .cm-owl-carousel-image{
-  width: 363px;
+  /* width: 363px; */
   height: 300px;
   object-fit: cover;
-  transition: .5s;
+
   /* transition-delay: .1s; */
+}
+.cm-owl-carousel .owl-item .cm-owl-carousel-image{
+  transition: margin .5s;
+  transition-delay: .1s;
+  margin-top: 177px;
 }
 .teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev{
   content: '';

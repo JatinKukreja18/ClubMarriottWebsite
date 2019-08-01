@@ -6,6 +6,10 @@
   background: #fff;
   width: 100%;
   box-shadow: 0px 0px 14px -5px #ccc;
+  transition: .8s;
+}
+.cm-header.cm-hidden{
+  top: -100%;
 }
 .cm-header-wrapper{
   max-width: 1440px;

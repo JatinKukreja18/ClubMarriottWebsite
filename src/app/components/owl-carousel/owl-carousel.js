@@ -8,6 +8,9 @@ $(document).ready(function(){
     responsive:{
         600:{
             items:3
+        },
+        769:{
+          items:3
         }
     }
 });
