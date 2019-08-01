@@ -1,0 +1,10 @@
+.cm-carousel-type-3-image{
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 576px){
+  .cm-carousel-type-3-item{
+    padding: 0px 60px;
+    display:  block;
+    background: #fff;
+  }
+}
