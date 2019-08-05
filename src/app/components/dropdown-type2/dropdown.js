@@ -26,7 +26,7 @@ $( function() {
         .addClass( "custom-combobox-input ui-widget ui-widget-content ui-state-default ui-corner-left" )
         .autocomplete({
           delay: 0,
-          minLength: 0,
+          minLength: 1,
           source: $.proxy( this, "_source" )
         })
         .tooltip({
@@ -35,7 +35,7 @@ $( function() {
           }
         });
         // placeholder for input
-      this.input.attr('placeholder','Enter City');
+      this.input.attr('placeholder','Enter city');
 
       this._on( this.input, {
         autocompleteselect: function( event, ui ) {
@@ -55,7 +55,6 @@ $( function() {
 
       $( "<a>" )
         .attr( "tabIndex", -1 )
-        .attr( "title", "Show All Items" )
         .tooltip()
         .appendTo( this.wrapper )
         .button({

@@ -26,7 +26,7 @@ $( function() {
         .addClass( "custom-combobox-input ui-widget ui-widget-content ui-state-default ui-corner-left" )
         .autocomplete({
           delay: 0,
-          minLength: 0,
+          minLength: 1,
           source: $.proxy( this, "_source" )
         })
         .tooltip({
@@ -39,10 +39,12 @@ $( function() {
 
       this._on( this.input, {
         autocompleteselect: function( event, ui ) {
+
           ui.item.option.selected = true;
           this._trigger( "select", event, {
             item: ui.item.option
           });
+          console.log(this);
         },
 
         autocompletechange: "_removeIfInvalid"
@@ -55,7 +57,6 @@ $( function() {
 
       $( "<a>" )
         .attr( "tabIndex", -1 )
-        .attr( "title", "Show All Items" )
         .tooltip()
         .appendTo( this.wrapper )
         .button({
@@ -78,7 +79,7 @@ $( function() {
           }
 
           // Pass empty string as value to search for, displaying all results
-          input.autocomplete( "search", "" );
+          // input.autocomplete( "search", "" );
         });
     },
 
