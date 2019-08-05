@@ -1,10 +1,10 @@
-import { AboutPageComponent } from './pages/about/about.component';
+import { SearchPageComponent } from './pages/search/search.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomePageComponent } from './pages/home/home.component';
 
 const routes: Routes = [
-  { path:  'about', component:  AboutPageComponent},
+  { path:  'search', component:  SearchPageComponent},
   { path:  '', component:  HomePageComponent}
 
 ];

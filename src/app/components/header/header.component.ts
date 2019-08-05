@@ -7,10 +7,4 @@ import './header.js';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  title = 'ClubMarriottWebsite';
-
-}
-function toggleHamburger() {
-  document.querySelector('.cm-header-hamburger-link').classList.toggle('opened');
-  document.querySelector('.cm-header-hamburger').classList.toggle('opened');
 }

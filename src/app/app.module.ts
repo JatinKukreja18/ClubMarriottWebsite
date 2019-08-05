@@ -1,3 +1,7 @@
+import { HotelSearchCardComponent } from './components/hotel-search-card/hotel-search-card.component';
+import { SearchResultsComponent } from './components/search-results/search-results.component';
+import { DropdownComponent } from './components/dropdown/dropdown.component';
+import { SearchPageComponent } from './pages/search/search.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SectionTextComponent } from './components/footer/section-text/section-text.component';
 import { CarouselType3Component } from './components/carousel-type3/carousel-type3.component';
@@ -25,6 +29,7 @@ import { RichTextComponent } from './components/rich-text/rich-text.component';
 import { CarouselType2Component } from './components/carousel-type2/carousel-type2.component';
 import { OwlCarouselComponent } from './components/owl-carousel/owl-carousel.component';
 import { LinksListComponent } from './components/footer/links-list/links-list.component';
+import { SearchBannerComponent } from './components/search-banner/search-banner.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +55,12 @@ import { LinksListComponent } from './components/footer/links-list/links-list.co
     HomeLastContainerComponent,
     LinksListComponent,
     SectionTextComponent,
-    FooterComponent
+    FooterComponent,
+    SearchPageComponent,
+    DropdownComponent,
+    SearchBannerComponent,
+    SearchResultsComponent,
+    HotelSearchCardComponent
   ],
   imports: [
     BrowserModule,

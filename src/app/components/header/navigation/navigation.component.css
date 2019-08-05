@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  min-height: calc(100vh - 160px );
+  /* min-height: calc(100vh - 160px ); */
   justify-content: center;
 }
 .cm-header-menu-list-item{

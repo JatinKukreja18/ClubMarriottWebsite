@@ -1,15 +1,16 @@
 .cm-footer{
   width: 100%;
 }
-.footer-top{
+.footer-bottom{
   padding: 40px 0;
   border-top: 1px solid #e8e8e8;
   border-bottom: 1px solid #e8e8e8;
 }
-.bottom-footer{
+.top-footer{
   width: 100%;
-  padding: 40px 0;
+  border-top: 1px solid #e8e8e8;
 }
-.bottom-footer-image{
+.top-footer-image{
+  padding: 40px 0;
   width: 100%;;
 }

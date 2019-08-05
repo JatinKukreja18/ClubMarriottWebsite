@@ -15,7 +15,7 @@
 .cm-banner-carousel-image{
   /* height: 680px; */
   min-height: 500px;
-  max-height: calc(100vh - 100px);
+  height: calc(100vh - 100px);
   object-fit: cover;
   width: 100%;
 }

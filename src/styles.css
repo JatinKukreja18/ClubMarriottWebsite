@@ -2,6 +2,8 @@
 @import 'club-theme.css';
 @import './vendor/bootstrap4/';
 @import './vendor/OwlCarousel/dist/assets/owl.carousel.min.css';
+/* ../../themes/base/jquery.ui.all.css */
+/* @import './vendor/jquery-ui-1.10.4/themes/base/jquery.ui.all.css'; */
 /* @import './vendor/OwlCarousel/dist/assets/owl.theme.default.min.css'; */
 body{
   margin: 0;
@@ -13,6 +15,7 @@ body{
   padding-right: 20px;
   padding-left: 20px;
 }
+
 .cm-outer-wrapper{
   margin: auto;
   max-width: 1440px;
@@ -158,6 +161,78 @@ body{
   display: flex;
   align-items: center;
 }
+
+
+/* Dropdown style */
+.custom-combobox-input{
+  background: transparent;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    height: 46px;
+    color: #fff;
+    outline: none;
+}
+.ui-menu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.ui-menu-item{
+  background: #fff;
+  padding: 2px 0px;
+  font-size: 16px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  background-color: rgba(1, 1, 1, 0.6);
+  font-family: "ProximaNova", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+}
+.ui-menu-item:hover{
+  background-color: rgba(1, 1, 1, 0.8);
+}
+.custom-combobox-input::placeholder {
+    color: #fff;
+}
+
+.custom-combobox-input::-webkit-input-placeholder {
+    color: #fff;
+}
+.custom-combobox{
+  position: relative;
+  height: 100%;
+  display: block;
+}
+.custom-combobox-toggle{
+  width: 10px;
+  height: 100%;
+}
+.custom-combobox-toggle::after{
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #ffffff;
+  clear: both;
+  position: absolute;
+  right: 0px;
+  top:50%;
+  transform: translateY(-50%);
+  outline:none;
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 576px){
   .main-body-container{

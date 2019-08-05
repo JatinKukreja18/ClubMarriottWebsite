@@ -27,8 +27,9 @@
             ],
             "scripts": [
               "./src/vendor/jquery/jquery-3.4.1.min.js",
-              "./src/vendor/bootstrap4/dist/js/bootstrap.min.js",
-              "./src/vendor/OwlCarousel/dist/owl.carousel.min.js"
+              "./src/vendor/bootstrap4/dist/js/bootstrap.bundle.min.js",
+              "./src/vendor/OwlCarousel/dist/owl.carousel.min.js",
+              "./src/vendor/jquery-ui-1.12.1.autocomplete/jquery-ui.min.js"
             ],
             "es5BrowserSupport": true
           },
