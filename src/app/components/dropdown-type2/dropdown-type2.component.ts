@@ -1,0 +1,13 @@
+import { Component } from '@angular/core';
+declare var $:any;
+// import "../../../vendor/jquery-ui-1.12.1.autocomplete/jquery-ui.min.js";
+import './dropdown.js';
+@Component({
+  selector: 'cm-dropdown-type2',
+  templateUrl: './dropdown-type2.component.html',
+  styleUrls: ['./dropdown-type2.component.css']
+})
+export class DropdownType2Component {
+  title = 'ClubMarriottWebsite';
+
+}

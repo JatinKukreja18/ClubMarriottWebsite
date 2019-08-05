@@ -4,7 +4,6 @@ $(document).ready(function(){
     document.querySelector('.cm-header-hamburger-link').classList.toggle('cm-header-hamburger-link-opened');
     document.querySelector('.cm-header-hamburger').classList.toggle('cm-header-hamburger-opened');
   })
-  console.log(this);
   var lastScrollTop = 0;
   $(window).scroll(function(event){
     var st = $(this).scrollTop();

@@ -1,3 +1,4 @@
+import { DropdownCategoryComponent } from './components/dropdown-category/dropdown-category.component';
 import { HotelSearchCardComponent } from './components/hotel-search-card/hotel-search-card.component';
 import { SearchResultsComponent } from './components/search-results/search-results.component';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
@@ -30,6 +31,7 @@ import { CarouselType2Component } from './components/carousel-type2/carousel-typ
 import { OwlCarouselComponent } from './components/owl-carousel/owl-carousel.component';
 import { LinksListComponent } from './components/footer/links-list/links-list.component';
 import { SearchBannerComponent } from './components/search-banner/search-banner.component';
+import { DropdownType2Component } from './components/dropdown-type2/dropdown-type2.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +62,9 @@ import { SearchBannerComponent } from './components/search-banner/search-banner.
     DropdownComponent,
     SearchBannerComponent,
     SearchResultsComponent,
-    HotelSearchCardComponent
+    HotelSearchCardComponent,
+    DropdownType2Component,
+    DropdownCategoryComponent
   ],
   imports: [
     BrowserModule,

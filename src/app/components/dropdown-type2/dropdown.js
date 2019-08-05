@@ -35,7 +35,7 @@ $( function() {
           }
         });
         // placeholder for input
-      this.input.attr('placeholder','City/hotel name');
+      this.input.attr('placeholder','Enter City');
 
       this._on( this.input, {
         autocompleteselect: function( event, ui ) {
@@ -136,5 +136,5 @@ $( function() {
     }
   });
 
-  $( "#hotelslist" ).combobox();
+  $( "#cm-cities" ).combobox();
 } );
