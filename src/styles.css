@@ -196,6 +196,9 @@ body{
 .ui-menu-item:hover{
   background-color: rgba(1, 1, 1, 0.8);
 }
+.ui-helper-hidden-accessible{
+  display: none;
+}
 .dropdown-type1 + .custom-combobox .custom-combobox-input::placeholder {
     color: #fff;
 }
