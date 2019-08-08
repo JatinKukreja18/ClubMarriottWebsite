@@ -313,4 +313,10 @@ body{
   .no-padding-sm{
     padding: 0;
   }
+  .cm-order-sm-1{
+    order: 1;
+  }
+  .cm-order-sm-2{
+    order: 2;
+  }
 }
