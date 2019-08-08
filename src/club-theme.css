@@ -270,7 +270,7 @@
   border: none;
   cursor: pointer;
   border: none;
-  border-radius: 3px;
+  /* border-radius: 3px; */
   transition: opacity 0.3s;
 }
 .cm-button.cm-button-sm {

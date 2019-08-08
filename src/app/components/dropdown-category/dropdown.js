@@ -26,7 +26,7 @@ $( function() {
         .addClass( "custom-combobox-input ui-widget ui-widget-content ui-state-default ui-corner-left" )
         .autocomplete({
           delay: 0,
-          minLength: 1,
+          minLength: 0,
           source: $.proxy( this, "_source" )
         })
         .tooltip({
@@ -136,4 +136,5 @@ $( function() {
   });
 
   $( "#cm-hotel-category" ).combobox();
+  $('.custom-combobox-input').prop('disabled','disabled');
 } );
