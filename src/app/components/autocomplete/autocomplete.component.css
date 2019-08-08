@@ -1,0 +1,27 @@
+@import "../../../vendor/jquery-ui-1.12.1.autocomplete/jquery-ui.min.css";
+.cm-autocomplete{
+  font-size: 0;
+}
+.cm-autocomplete input{
+  height: 22px;
+  font-family: "ProximaNova", sans-serif;
+}
+.cm-autocomplete-cross{
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  opacity: 0;
+  transition: .3s;
+}
+.cm-autocomplete.active .cm-autocomplete-cross{
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  opacity: 1;
+  cursor: pointer;
+}
+@media only screen and (max-width: 767px){
+  .cm-autocomplete input{
+    font-size: 12px;
+  }
+}

@@ -197,11 +197,14 @@ body{
   color: #000;
 }
 .ui-menu-item:hover{
-  background-color: rgba(1, 1, 1, 0.8);
+  background-color: #eee;
 }
 .ui-helper-hidden-accessible{
   display: none;
 }
+/* .ui-widget input{
+  font-family: "ProximaNova", sans-serif !important;
+} */
 .dropdown-type1 + .custom-combobox .custom-combobox-input::placeholder {
     color: #fff;
 }
@@ -321,5 +324,8 @@ body{
   }
   .cm-order-sm-2{
     order: 2;
+  }
+  .ui-menu-item{
+    font-size: 12px;
   }
 }

@@ -48,6 +48,13 @@
   font-weight: 300;
   cursor: text;
 }
+.cm-input.cm-input-gg{
+  border-bottom: 1px solid #b1aaaa;
+  font-size: 14px;
+}
+.cm-input.cm-input-gg:focus{
+  border-bottom: 1px solid #c4b67e;
+}
 .cm-input.touched:invalid {
   border-color: #e44b4b;
 }
@@ -68,7 +75,10 @@
   font-weight: 300;
   color: #000000;
 }
-
+.cm-input.cm-input-gg::placeholder,
+.cm-input::-webkit-input-placeholder {
+  color: #b1aaaa;
+}
 .cm-input-group {
   position: relative;
   margin-bottom: 20px;

@@ -31,7 +31,7 @@ import { CarouselType2Component } from './components/carousel-type2/carousel-typ
 import { OwlCarouselComponent } from './components/owl-carousel/owl-carousel.component';
 import { LinksListComponent } from './components/footer/links-list/links-list.component';
 import { SearchBannerComponent } from './components/search-banner/search-banner.component';
-import { DropdownType2Component } from './components/dropdown-type2/dropdown-type2.component';
+import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +63,7 @@ import { DropdownType2Component } from './components/dropdown-type2/dropdown-typ
     SearchBannerComponent,
     SearchResultsComponent,
     HotelSearchCardComponent,
-    DropdownType2Component,
+    AutocompleteComponent,
     DropdownCategoryComponent
   ],
   imports: [
