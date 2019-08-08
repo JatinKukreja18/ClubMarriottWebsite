@@ -33,29 +33,14 @@ body{
 }
 
 /* writting this carousel globally as component wise it was not working */
-.cm-owl-carousel .owl-item.center.active .cm-owl-carousel-image{
-  height: 540px;
+.cm-owl-carousel .owl-item.center.active .cm-owl-carousel-image-block{
+  height: 440px;
   margin-top:0px;
-  /* transition: height 1s; */
-  /* transition-delay: s; */
-  transition-property: height,margin;
-  transition-duration: .8s,1s;
-  transition-delay: 0,1s;
 }
-.cm-owl-carousel .owl-item.active .cm-owl-carousel-image{
-  /* width: 363px; */
-  height: 300px;
-  object-fit: cover;
-
-  /* transition-delay: .1s; */
-}
-.cm-owl-carousel .owl-item .cm-owl-carousel-image{
-  transition: margin .8s;
-  /* transition-delay: s; */
-  /* transition-property: height,margin;
-  transition-duration: .5s,0s;
-  transition-delay: .1s,0s; */
-  margin-top: 177px;
+.cm-owl-carousel .owl-item.center.active .cm-owl-carousel-image-block::before,
+.cm-owl-carousel .owl-item.center.active .cm-owl-carousel-image-block::after
+{
+  transform: scaleY(0);
 }
 .cm-owl-carousel.owl-carousel .owl-nav button.owl-prev{
   content: '';
@@ -336,5 +321,11 @@ body{
   }
   .ui-menu-item{
     font-size: 12px;
+  }
+  /* carousel styling mobile */
+  .cm-owl-carousel .owl-item .cm-owl-carousel-image-block,
+  .cm-owl-carousel .owl-item.center.active .cm-owl-carousel-image-block
+  {
+    height: 300px;
   }
 }

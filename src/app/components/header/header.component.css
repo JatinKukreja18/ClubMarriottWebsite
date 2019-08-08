@@ -80,6 +80,7 @@
   transform: rotate(-45deg)
 }
 
+
 @media only screen and (max-width: 767px){
   .cm-header{
     padding: 0 20px;
@@ -96,6 +97,12 @@
   .cm-header-hamburger-link{
     top: 18px
   }
+  .cm-header.cm-hidden .cm-header-hamburger-link{
+    top: -40px;
+    transition: .5s;
+  }
+}
+@media only screen and (max-width: 991px){
   .cm-header.cm-hidden .cm-header-hamburger-link{
     top: -40px;
     transition: .5s;

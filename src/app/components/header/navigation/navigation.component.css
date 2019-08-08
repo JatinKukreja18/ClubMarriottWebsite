@@ -11,9 +11,33 @@
 .cm-header-menu-list-item{
   padding: 20px 0px;
   cursor: pointer;
+  position: relative;
 }
-
-
+.cm-header-menu-list-item.cm-header-menu-list-item-active{
+  color: #c4b67e;
+}
+.cm-header-menu-list-item.cm-header-menu-list-item-active::after{
+  background: #c4b67e;
+}
+/* active link */
+.cm-header-menu-list-item::after{
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  width: calc(100% - 38px);
+  background: #000;
+  height: 1px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: .2s;
+  transform: scale(0);
+}
+.cm-header-menu-list-item.cm-header-menu-list-item-active::after,
+.cm-header-menu-list-item:hover::after{
+  transform: scale(1);
+  transition: .5s;
+}
 @media only screen and (min-width: 992px){
   .cm-header-menu-list{
     display: flex;
