@@ -165,7 +165,7 @@ body{
 
 /* Dropdown style for hotel list*/
 .dropdown-type1 + .custom-combobox .custom-combobox-input{
-  background: transparent;
+    background: transparent;
     box-shadow: none;
     border: none;
     border-bottom: 1px solid #fff;
@@ -280,16 +280,16 @@ body{
 
 
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 767px){
   .main-body-container{
     padding-top: 50px;
   }
   .cm-padding-block{
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .cm-top-padding-block{
-    padding-top: 80px;
+    padding-top: 50px;
   }
   body{
     overflow-x: hidden;
@@ -299,5 +299,18 @@ body{
   }
   .cm-carousel-type-3.owl-carousel .owl-nav button.owl-next{
     right: 0;
+  }
+  .dropdown-type1 + .custom-combobox .custom-combobox-input{
+    font-size: 12px;
+    height: 25px;
+  }
+  .cm-inner-wrapper{
+    width: 100%;
+    max-width: calc(100vw - 170px);
+    margin: auto;
+    min-width: 245px;
+  }
+  .no-padding-sm{
+    padding: 0;
   }
 }

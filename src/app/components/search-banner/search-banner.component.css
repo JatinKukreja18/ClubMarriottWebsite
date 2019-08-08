@@ -47,6 +47,15 @@
 
 @media only screen and (max-width:767px){
   .search-banner{
-    height: calc(100vh - 50px);
+    height: 280px;
+    min-height: unset;
+  }
+  .search-content-container{
+    min-width: 245px;
+    width: calc(100% - 170px);
+    margin: auto;
+  }
+  .search-banner-caption{
+    padding: 4px 5px;
   }
 }

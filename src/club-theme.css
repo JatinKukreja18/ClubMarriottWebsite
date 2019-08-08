@@ -293,7 +293,7 @@ h1.cm-heading {
   font-family: "ProximaNova", sans-serif;
   font-size: 32px;
   font-weight: 300;
-  line-height: 1.44;
+  line-height: 1.19;
   color: #000000;
   margin: 0px;
   margin-bottom: 5px;
@@ -391,19 +391,19 @@ h2.cm-heading {
 .mb-50{
   margin-bottom: 50px !important;
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 767px) {
   h1.cm-heading {
-    font-size: 20px;
+    font-size: 24px;
   }
   h2.cm-heading {
     font-size: 16px;
   }
   .cm-text-serif {
-    font-size: 12px;
+    font-size: 14px;
   }
   .cm-button.cm-wide-mobile {
-    width: 245px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 245px;
     margin: auto;
     display: block;
   }
@@ -428,9 +428,19 @@ h2.cm-heading {
   .cm-input::-webkit-input-placeholder {
     font-size: 12px;
   }
-  .mb-25-sm{
-    margin-bottom: 25px;
+  .mb-25-xs{
+    margin-bottom: 25px !important;
+  }
+  .mt-25-xs{
+    margin-top: 25px !important;
   }
 }
-
+@media only screen and (max-width: 767px){
+  .mb-25-sm{
+    margin-bottom: 25px !important;
+  }
+  .mt-25-sm{
+    margin-top: 25px !important;
+  }
+}
 /*# sourceMappingURL=club-theme.css.map */
