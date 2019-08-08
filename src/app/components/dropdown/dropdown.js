@@ -26,7 +26,7 @@ $( function() {
         .addClass( "custom-combobox-input ui-widget ui-widget-content ui-state-default ui-corner-left" )
         .autocomplete({
           delay: 0,
-          minLength: 1,
+          minLength: 0,
           source: $.proxy( this, "_source" )
         })
         .tooltip({
@@ -79,7 +79,7 @@ $( function() {
           }
 
           // Pass empty string as value to search for, displaying all results
-          // input.autocomplete( "search", "" );
+          input.autocomplete( "search", "" );
         });
     },
 

@@ -25,3 +25,9 @@
     margin-right: 10px;
   }
 }
+@media only screen and (max-width: 767px){
+  .cm-header-cta.cm-button-group .cm-button.cm-button-sm,
+  .cm-header-cta.cm-button-group .cm-button.cm-button-sm:last-child{
+    margin-right: auto;
+  }
+}

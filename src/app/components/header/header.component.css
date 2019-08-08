@@ -9,7 +9,7 @@
   transition: .5s;
 }
 .cm-header.cm-hidden{
-  top: -100%;
+  top: -80px;
   transition: .8s;
 }
 .cm-header-wrapper{
@@ -68,7 +68,7 @@
   position: absolute;
   background: #000;
   top: 4px;
-  transition: .3s;
+  transition: .6s;
 }
 .cm-header-hamburger-link.cm-header-hamburger-link-opened{
   border: none;
@@ -80,7 +80,7 @@
   transform: rotate(-45deg)
 }
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 767px){
   .cm-header{
     padding: 0 20px;
     height: 50px;
@@ -95,5 +95,9 @@
   }
   .cm-header-hamburger-link{
     top: 18px
+  }
+  .cm-header.cm-hidden .cm-header-hamburger-link{
+    top: -40px;
+    transition: .5s;
   }
 }

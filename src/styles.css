@@ -180,18 +180,21 @@ body{
   padding: 0;
   margin: 0;
   width: 100%;
+  box-shadow: 1px 4px 5px 0 rgba(0, 0, 0, 0.11);
+  background-color: #ffffff;
+  max-height: 70vh;
+  overflow: scroll;
+  overflow: overlay;
 }
 
 .ui-menu-item{
   background: #fff;
-  padding: 2px 0px;
+  padding: 5px 10px;
   font-size: 14px;
   cursor: pointer;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-  background-color: rgba(1, 1, 1, 0.6);
   font-family: "ProximaNova", sans-serif;
   font-weight: 300;
-  color: #ffffff;
+  color: #000;
 }
 .ui-menu-item:hover{
   background-color: rgba(1, 1, 1, 0.8);
