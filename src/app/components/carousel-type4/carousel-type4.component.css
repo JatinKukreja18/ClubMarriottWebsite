@@ -10,7 +10,9 @@
   align-items: center;
   justify-content: center;
 }
-
+.cm-carousel-type4 .carousel-item {
+  z-index: 0;
+}
 .cm-carousel-type4 .carousel-control-prev,
 .cm-carousel-type4 .carousel-control-next{
   width: 40px;
