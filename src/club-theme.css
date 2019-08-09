@@ -270,6 +270,8 @@
   border: none;
   cursor: pointer;
   border: none;
+  text-decoration: none;
+  display: inline-block;
   /* border-radius: 3px; */
   transition: opacity 0.3s;
 }
@@ -283,6 +285,7 @@
   background: #c4b67e;
 }
 .cm-button:hover {
+  text-decoration: none;
   background: #d8ca92;
 }
 .cm-button-group .cm-button.cm-button-sm {

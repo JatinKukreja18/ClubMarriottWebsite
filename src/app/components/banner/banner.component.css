@@ -42,20 +42,17 @@
 .cm-banner-is-hidden{
   display: none;
 }
-@media only screen and (max-width: 576px){
-  /* .banner-type-cta{
-    padding-top: 0;
-    padding-bottom: 0;
-    display: flex;
-    flex-wrap: wrap;
-    height: unset;
-  }
-  .banner-type-cta-image{
-    height: auto;
-    width: 100%;
-  }
-  .banner-type-cta-title{
+@media only screen and (max-width: 767px){
+  .cm-banner-content-block{
     text-align: center;
-    margin-bottom: 30px;
-  } */
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: calc(100% - 170px);
+    min-width: 245px;
+  }
+  .cm-banner{
+    height: 280px;
+    min-height: unset;
+  }
 }
