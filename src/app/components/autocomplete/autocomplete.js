@@ -19,19 +19,21 @@ $( function() {
   ];
 
   // function that structures each autocomplete item
-  $( "#tags" ).autocomplete({
-      minLength: 0,
-      source: cityList,
-      focus: function( event, ui ) {
-        $( "#project" ).val( ui.item.label );
-        return false;
-      },
-    })
-    .autocomplete( "instance" )._renderItem = function( ul, item ) {
-      return $( "<li>" )
-        .append( "<div><b>" + item.city + "</b><br>" + item.state + "</div>" )
-        .appendTo( ul );
-    };
+  if($( "#tags" ).length){
+    $( "#tags" ).autocomplete({
+        minLength: 0,
+        source: cityList,
+        focus: function( event, ui ) {
+          $( "#project" ).val( ui.item.label );
+          return false;
+        },
+      })
+      .autocomplete( "instance" )._renderItem = function( ul, item ) {
+        return $( "<li>" )
+          .append( "<div><b>" + item.city + "</b><br>" + item.state + "</div>" )
+          .appendTo( ul );
+      };
+  }
 } );
 
 

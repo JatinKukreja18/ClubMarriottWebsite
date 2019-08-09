@@ -23,6 +23,7 @@ body{
 }
 .cm-padding-block{
   padding-top: 200px;
+  overflow: hidden;
   padding-bottom: 200px;
 }
 .cm-top-padding-block{

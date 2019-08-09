@@ -1,3 +1,6 @@
+import { CarouselType4Component } from './components/carousel-type4/carousel-type4.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { BenefitsPageComponent } from './pages/benefits/benefits.component';
 import { DropdownCategoryComponent } from './components/dropdown-category/dropdown-category.component';
 import { HotelSearchCardComponent } from './components/hotel-search-card/hotel-search-card.component';
 import { SearchResultsComponent } from './components/search-results/search-results.component';
@@ -49,6 +52,7 @@ import { AutocompleteComponent } from './components/autocomplete/autocomplete.co
     RichTextLargeComponent,
     HomeExperiencesContainerComponent,
     CarouselType2Component,
+    CarouselType4Component,
     CarouselType3Component,
     HomeBenefitsContainerComponent,
     OwlCarouselComponent,
@@ -64,7 +68,9 @@ import { AutocompleteComponent } from './components/autocomplete/autocomplete.co
     SearchResultsComponent,
     HotelSearchCardComponent,
     AutocompleteComponent,
-    DropdownCategoryComponent
+    DropdownCategoryComponent,
+    BenefitsPageComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
