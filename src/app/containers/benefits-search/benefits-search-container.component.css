@@ -1,0 +1,17 @@
+.benefits-search-container{
+  padding-bottom: 100px;
+}
+.benefits-dropdown-container{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.benefits-search-button{
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 576px){
+  /* .benefits-container{
+    margin-top: 224px;
+  } */
+}

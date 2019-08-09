@@ -26,6 +26,9 @@ body{
   overflow: hidden;
   padding-bottom: 200px;
 }
+.cm-bottom-padding-block{
+  padding-bottom: 200px;
+}
 .cm-top-padding-block{
   padding-top: 200px;
 }
@@ -191,6 +194,17 @@ body{
 /* .ui-widget input{
   font-family: "ProximaNova", sans-serif !important;
 } */
+.dropdown-type1.dark + .custom-combobox .custom-combobox-input{
+  color: #b1aaaa;
+  border-color: #b1aaaa;
+}
+.dropdown-type1.dark + .custom-combobox .custom-combobox-toggle::after{
+  border-top: 8px solid #b1aaaa;
+}
+.dropdown-type1.dark  + .custom-combobox .custom-combobox-input::placeholder,
+.dropdown-type1.dark  + .custom-combobox .custom-combobox-input::-webkit-input-placeholder{
+  color: #b1aaaa;
+}
 .dropdown-type1 + .custom-combobox .custom-combobox-input::placeholder {
     color: #fff;
 }

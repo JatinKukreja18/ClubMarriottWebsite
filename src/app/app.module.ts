@@ -1,3 +1,5 @@
+import { BenefitsHotelsContainerComponent } from './containers/benefits-hotels/benefits-hotels-container.component';
+import { BenefitsSearchContainerComponent } from './containers/benefits-search/benefits-search-container.component';
 import { CarouselType4Component } from './components/carousel-type4/carousel-type4.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { BenefitsPageComponent } from './pages/benefits/benefits.component';
@@ -12,7 +14,7 @@ import { CarouselType3Component } from './components/carousel-type3/carousel-typ
 import { HomeLastContainerComponent } from './containers/home-last-section/last-container.component';
 import { MemberFormComponent } from './components/member-form/member-form.component';
 import { HomeMembershipContainerComponent } from './containers/home-membership/home-membership-containercomponent';
-import { HomeBenefitsContainerComponent } from './containers/home-benefits/home-benefits-containercomponent';
+import { HomeBenefitsContainerComponent } from './containers/home-benefits/home-benefits-container.component';
 import { HomeExperiencesContainerComponent } from './containers/home-experience/home-experiences-containercomponent';
 import { RichTextLargeComponent } from './components/rich-text-large/rich-text-large.component';
 import { BannerTypeCtaComponent } from './components/banner-type-cta/banner-type-cta.component';
@@ -70,7 +72,9 @@ import { AutocompleteComponent } from './components/autocomplete/autocomplete.co
     AutocompleteComponent,
     DropdownCategoryComponent,
     BenefitsPageComponent,
-    BannerComponent
+    BannerComponent,
+    BenefitsSearchContainerComponent,
+    BenefitsHotelsContainerComponent
   ],
   imports: [
     BrowserModule,

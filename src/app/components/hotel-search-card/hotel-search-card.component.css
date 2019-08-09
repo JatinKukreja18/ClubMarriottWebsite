@@ -2,6 +2,9 @@
   width: 100%;
   margin-bottom: 100px;
 }
+.hotel-card.less-space{
+  margin-bottom: 50px;
+}
 .hotel-card-image{
   width: 100%;
   margin-bottom: 25px;
