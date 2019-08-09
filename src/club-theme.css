@@ -274,6 +274,7 @@
   display: inline-block;
   /* border-radius: 3px; */
   transition: opacity 0.3s;
+  text-align: center;
 }
 .cm-button.cm-button-sm {
   padding: 10px 15px;
