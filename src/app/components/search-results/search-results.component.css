@@ -49,6 +49,7 @@ padding-bottom: 100px;
   .search-category{
     /* padding: 0px 10px; */
     text-align: center;
+    flex: 1;
   }
   .search-filter-inputs{
       flex-direction: column;

@@ -8,6 +8,5 @@ import './dropdown.js';
   styleUrls: ['./dropdown.component.css']
 })
 export class DropdownComponent {
-  title = 'ClubMarriottWebsite';
 
 }

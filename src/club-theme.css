@@ -48,6 +48,12 @@
   font-weight: 300;
   cursor: text;
 }
+.cm-input.cm-input-white,
+.cm-input.cm-input-white:focus
+{
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
 .cm-input.cm-input-gg{
   border-bottom: 1px solid #b1aaaa;
   font-size: 14px;
@@ -76,8 +82,12 @@
   color: #000000;
 }
 .cm-input.cm-input-gg::placeholder,
-.cm-input::-webkit-input-placeholder {
+.cm-input.cm-input-gg::-webkit-input-placeholder {
   color: #b1aaaa;
+}
+.cm-input.cm-input-white::placeholder,
+.cm-input.cm-input-white::-webkit-input-placeholder {
+  color: #fff;
 }
 .cm-input-group {
   position: relative;

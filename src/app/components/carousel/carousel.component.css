@@ -18,6 +18,7 @@
   height: calc(100vh - 100px);
   object-fit: cover;
   width: 100%;
+  background: #ddd;
 }
 
 /* carousel indicators ovveride for banner */

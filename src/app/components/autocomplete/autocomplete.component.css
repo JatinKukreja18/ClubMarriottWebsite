@@ -1,10 +1,14 @@
 @import "../../../vendor/jquery-ui-1.12.1.autocomplete/jquery-ui.min.css";
 .cm-autocomplete{
   font-size: 0;
+  position: relative;
 }
 .cm-autocomplete input{
   height: 22px;
+  background: transparent;
   font-family: "ProximaNova", sans-serif;
+  text-overflow: ellipsis;
+  padding-right: 16px;
 }
 .cm-autocomplete-cross{
   position: absolute;

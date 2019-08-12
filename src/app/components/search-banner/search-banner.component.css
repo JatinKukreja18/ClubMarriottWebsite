@@ -52,7 +52,7 @@
   }
   .search-content-container{
     min-width: 245px;
-    width: calc(100% - 170px);
+    width: calc(100% - 115px);
     margin: auto;
   }
   .search-banner-caption{
