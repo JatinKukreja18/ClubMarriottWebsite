@@ -296,10 +296,23 @@ body{
 
 
 
+.is-hidden{
+  display: none !important;
+}
 
-
-
+.visible-mobile{
+  display: none !important;
+}
+.hidden-mobile{
+  display: inherit !important;
+}
 @media only screen and (max-width: 767px){
+  .visible-mobile{
+    display: inherit !important;
+  }
+  .hidden-mobile{
+    display: none !important;
+  }
   .cm-wrapper.cm-wrapper-collapse-mobile{
     padding: 0;
   }

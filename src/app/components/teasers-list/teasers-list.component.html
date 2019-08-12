@@ -1,3 +1,20 @@
+<!--
+    This is a component which can have 3 or more items.
+    On desktop it is a 3 grid structure/carousel
+    On mobile its one item carousel.
+
+    Contains following elements:
+      image
+      title
+      description
+      link/button
+
+
+      since this is a reusable component, any field can be hidden using "is-hidden" class.
+
+ -->
+
+
 <div class="cm-teasers-list-block">
   <ul class="cm-teasers-list  owl-carousel teaser-owl-carousel owl-theme">
     <!-- teaser item -->
@@ -9,12 +26,14 @@
           alt=""
           srcset=""
         />
-        <div class="cm-teasers-list-item-cta">
-          <button class="cm-button primary">discover more</button>
+        <div class="cm-teasers-list-item-cta hidden-mobile">
+          <!-- the redirect link in below should be same in both anchor tags in the same <li> -->
+          <a href="#" class="cm-button primary cm-teaser-link">discover more</a>
         </div>
       </div>
-      <h2 class="cm-heading">Unique dining experiences</h2>
-      <p class="cm-text-serif">Up to a 20% off on food and beverage.</p>
+      <h2 class="cm-heading cm-teaser-title">Unique dining experiences</h2>
+      <p class="cm-text-serif cm-teaser-desc">Up to a 20% off on food and beverage.</p>
+      <a href="#" class="cm-link cm-teaser-link visible-mobile">Discover More</a>
     </li>
     <!-- teaser item -->
     <li class=" item cm-teasers-list-item ">
@@ -25,14 +44,16 @@
           alt=""
           srcset=""
         />
-        <div class="cm-teasers-list-item-cta">
-          <button class="cm-button primary">discover more</button>
+        <div class="cm-teasers-list-item-cta hidden-mobile">
+          <a href="#" class="cm-button primary">discover more</a>
         </div>
       </div>
-      <h2 class="cm-heading">Endless traveling</h2>
-      <p class="cm-text-serif">
+      <h2 class="cm-heading cm-teaser-title">Endless traveling</h2>
+      <p class="cm-text-serif cm-teaser-desc">
         Up to a 20% off on the Best Available Rate of rooms.
       </p>
+      <a href="#" class="cm-link cm-teaser-link visible-mobile">Discover More</a>
+
     </li>
     <!-- teaser item -->
     <li class=" item cm-teasers-list-item ">
@@ -43,12 +64,14 @@
           alt=""
           srcset=""
         />
-        <div class="cm-teasers-list-item-cta">
-          <button class="cm-button primary">discover more</button>
+        <div class="cm-teasers-list-item-cta hidden-mobile">
+          <a href="#" class="cm-button primary">discover more</a>
         </div>
       </div>
-      <h2 class="cm-heading">Blissfull relaxation</h2>
-      <p class="cm-text-serif">Up to a 20% off on select Spa treatments.</p>
+      <h2 class="cm-heading cm-teaser-title">Blissfull relaxation</h2>
+      <p class="cm-text-serif cm-teaser-desc">Up to a 20% off on select Spa treatments.</p>
+      <a href="#" class="cm-link cm-teaser-link visible-mobile">Discover More</a>
+
     </li>
   </ul>
 </div>

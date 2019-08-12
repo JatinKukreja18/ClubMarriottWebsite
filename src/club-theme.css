@@ -425,6 +425,9 @@ h2.cm-heading {
   .cm-text-serif {
     font-size: 14px;
   }
+  .cm-link{
+    font-size: 14px;
+  }
   .cm-button.cm-wide-mobile {
     width: 100%;
     max-width: 245px;

@@ -38,15 +38,17 @@ ul.cm-teasers-list{
   top: 0px;
   opacity: 1;
 }
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 767px){
 
   .cm-teasers-list-block{
     /* padding: 0 20px; */
   }
   .cm-teasers-list-item{
-    padding: 0px 60px;
     display:  block;
     background: #fff;
+    width: calc(100% - 110px);
+    margin: auto;
+    min-width: 245px;
   }
   .cm-teasers-list-block{
     margin-top: 30px;
@@ -56,5 +58,13 @@ ul.cm-teasers-list{
   }
   .cm-teasers-list-item .cm-text-serif{
     margin-bottom: 0;
+  }
+  .cm-teaser-desc,
+  .cm-teaser-title,.cm-teaser-link{
+    text-align: center;
+  }
+  .cm-teaser-link{
+    display: block;
+    margin-top: 5px;
   }
 }
