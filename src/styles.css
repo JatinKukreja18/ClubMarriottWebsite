@@ -176,6 +176,7 @@ body{
   max-height: 70vh;
   overflow: scroll;
   overflow: overlay;
+  height: 360px;
 }
 
 .ui-menu-item{
@@ -196,6 +197,25 @@ body{
 }
 .ui-helper-hidden-accessible{
   display: none;
+}
+/* ui menu scrollbar */
+.ui-menu::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.ui-menu::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+.ui-menu::-webkit-scrollbar-thumb {
+  background: #dddddd;
+}
+
+/* Handle on hover */
+.ui-menu::-webkit-scrollbar-thumb:hover {
+  background: #bbb;
 }
 /* .ui-widget input{
   font-family: "ProximaNova", sans-serif !important;
@@ -292,7 +312,9 @@ body{
   outline:none;
 }
 
-
+.dropdown-type2 + .custom-combobox .custom-combobox-toggle{
+  visibility: visible;
+}
 
 
 

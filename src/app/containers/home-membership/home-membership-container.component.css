@@ -23,6 +23,7 @@
 .membership-form{
   background: #fff;
   padding: 50px 100px;
+  max-width: 588px;
 }
 .membership-banner{
   position: absolute;

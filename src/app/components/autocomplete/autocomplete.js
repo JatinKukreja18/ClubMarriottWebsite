@@ -15,6 +15,34 @@ $( function() {
       city: "Chandigarh",
       label:"Chandigarh, Punjab, India",
       state: "Punjab, India"
+    },{
+      city: "Chandigarh",
+      label:"Chandigarh, Punjab, India",
+      state: "Punjab, India"
+    },{
+      city: "Chandigarh",
+      label:"Chandigarh, Punjab, India",
+      state: "Punjab, India"
+    },{
+      city: "Chandigarh",
+      label:"Chandigarh, Punjab, India",
+      state: "Punjab, India"
+    },{
+      city: "Chandigarh",
+      label:"Chandigarh, Punjab, India",
+      state: "Punjab, India"
+    },{
+      city: "Chandigarh",
+      label:"Chandigarh, Punjab, India",
+      state: "Punjab, India"
+    },{
+      city: "Chandigarh",
+      label:"Chandigarh, Punjab, India",
+      state: "Punjab, India"
+    },{
+      city: "Chandigarh",
+      label:"Chandigarh, Punjab, India",
+      state: "Punjab, India"
     }
   ];
 
@@ -24,9 +52,11 @@ $( function() {
         minLength: 0,
         source: cityList,
         focus: function( event, ui ) {
-          $( "#project" ).val( ui.item.label );
           return false;
         },
+      })
+      .focus(function () {
+          $(this).autocomplete("search");
       })
       .autocomplete( "instance" )._renderItem = function( ul, item ) {
         return $( "<li>" )
