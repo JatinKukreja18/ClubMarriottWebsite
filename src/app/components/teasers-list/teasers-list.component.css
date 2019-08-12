@@ -1,8 +1,8 @@
 .cm-teasers-list-block{
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 ul.cm-teasers-list{
-  /* margin: 0; */
+  margin: 0;
   padding: 0;
   list-style-type: none;
 
@@ -20,6 +20,7 @@ ul.cm-teasers-list{
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  display: flex;
 }
 .cm-teasers-list-item-cta{
   position: absolute;

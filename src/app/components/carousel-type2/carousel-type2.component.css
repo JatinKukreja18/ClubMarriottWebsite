@@ -28,18 +28,42 @@
   fill: #c4b67e;
   transition: .3s;
 }
+.carousel-type-two-caption-block{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  max-width: 978px;
+  width: calc(83.33% - 10px);
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: flex-end;
+}
+.cm-carousel-type2.right-aligned .carousel-type-two-caption-block{
+  justify-content: flex-end;
+}
 
+.cm-carousel-type2.left-aligned .carousel-type-two-caption-block{
+  justify-content: flex-start;
+}
+
+.cm-carousel-type2.center-aligned .carousel-type-two-caption-block{
+  justify-content: center;
+}
 .cm-carousel-type2 .carousel-caption{
+  position: relative;
   width: 320px;
   text-align: left;
   background: #fff;
   padding: 50px 27px;
   z-index: 1;
-  left: auto;
-  top: 50%;
-  bottom: auto;
-  transform: translateY(-50%);
-  right: 15%;
+  left: unset;
+  top: unset;
+  bottom: unset;
+  transform: none;
+  right: unset;
   opacity: 0;
   transition: 1s;
   transition-delay: .3s;

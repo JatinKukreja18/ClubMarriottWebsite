@@ -1,5 +1,5 @@
 .banner-type-cta{
-  height: 680px;
+  /* height: 680px; */
   /* display: flex; */
   padding-top: 45px;
   padding-bottom: 45px;
@@ -16,7 +16,7 @@
   align-self: center;
 }
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 767px){
   .banner-type-cta{
     padding-top: 0;
     padding-bottom: 0;

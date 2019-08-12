@@ -23,7 +23,7 @@ body{
 }
 .cm-padding-block{
   padding-top: 200px;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding-bottom: 200px;
 }
 .cm-bottom-padding-block{
@@ -123,7 +123,7 @@ body{
   clear: both;
   transform: rotate(90deg);
   position: absolute;
-  left: 0px;
+  left: -40px;
   top:38%;
   outline:none;
 }
@@ -141,7 +141,7 @@ body{
   clear: both;
   transform: rotate(-90deg);
   position: absolute;
-  right: 0px;
+  right: -40px;
   top:38%;
   outline:none;
 }
@@ -329,6 +329,8 @@ body{
   body{
     overflow-x: hidden;
   }
+  /* carousels */
+
   .cm-carousel-type-3.owl-carousel .owl-nav button.owl-prev{
     left: 0;
   }
@@ -365,5 +367,16 @@ body{
   .cm-owl-carousel .owl-item.center.active .cm-owl-carousel-image-block
   {
     height: 300px;
+  }
+}
+
+@media only screen and (max-width:1260px){
+
+  .teaser-owl-carousel.owl-carousel .owl-nav button.owl-next{
+    right: 0;
+  }
+
+  .teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev{
+    left: 0;
   }
 }

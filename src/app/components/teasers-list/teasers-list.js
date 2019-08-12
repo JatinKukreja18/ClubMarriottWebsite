@@ -13,7 +13,7 @@ $('.teaser-owl-carousel').owlCarousel({
           margin:0,
           items:1
       },
-      579:{
+      768:{
         center: false,
         items:3,
         loop:false
