@@ -1,3 +1,4 @@
+import { OutletPageComponent } from './pages/outlet/outlet.component';
 import { BenefitsPageComponent } from './pages/benefits/benefits.component';
 import { SearchPageComponent } from './pages/search/search.component';
 import { NgModule } from '@angular/core';
@@ -7,6 +8,7 @@ import { HomePageComponent } from './pages/home/home.component';
 const routes: Routes = [
   { path:  'search', component:  SearchPageComponent},
   { path:  'benefits', component:  BenefitsPageComponent},
+  { path:  'outlet', component:  OutletPageComponent},
   { path:  '', component:  HomePageComponent}
 
 ];

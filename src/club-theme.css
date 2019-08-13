@@ -15,7 +15,9 @@
   align-items: center;
   flex-direction: column;
 }
-
+.cm-button-group.start{
+  justify-content: flex-start;
+}
 
 .help-text {
   font-family: "ProximaNova", sans-serif;
@@ -369,7 +371,8 @@ h2.cm-heading {
   color: #000000;
 }
 
-.cm-link {
+.cm-link,
+.cm-link:hover {
   font-family: "ProximaNova", sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -428,7 +431,7 @@ h2.cm-heading {
   .cm-text-serif {
     font-size: 14px;
   }
-  .cm-link{
+  .cm-link,.cm-link:hover{
     font-size: 14px;
   }
   .cm-button.cm-wide-mobile {
@@ -440,6 +443,15 @@ h2.cm-heading {
   .cm-button {
     padding: 9px 15px;
   }
+  .cm-button-group.vertical-sm{
+    flex-direction: column;
+    align-items: center;
+  }
+  .cm-button-group.vertical-sm .cm-button{
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
   .cm-text-16 {
     font-size: 14px;
   }

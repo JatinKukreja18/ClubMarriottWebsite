@@ -1,3 +1,5 @@
+import { SimpleBannerComponent } from './components/simple-banner/simple-banner.component';
+import { OutletPageComponent } from './pages/outlet/outlet.component';
 import { BenefitsHotelsContainerComponent } from './containers/benefits-hotels/benefits-hotels-container.component';
 import { BenefitsSearchContainerComponent } from './containers/benefits-search/benefits-search-container.component';
 import { CarouselType4Component } from './components/carousel-type4/carousel-type4.component';
@@ -37,6 +39,7 @@ import { OwlCarouselComponent } from './components/owl-carousel/owl-carousel.com
 import { LinksListComponent } from './components/footer/links-list/links-list.component';
 import { SearchBannerComponent } from './components/search-banner/search-banner.component';
 import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
+import { PropertiesDetailsComponent } from './components/address/properties-details.component';
 
 @NgModule({
   declarations: [
@@ -74,7 +77,10 @@ import { AutocompleteComponent } from './components/autocomplete/autocomplete.co
     BenefitsPageComponent,
     BannerComponent,
     BenefitsSearchContainerComponent,
-    BenefitsHotelsContainerComponent
+    BenefitsHotelsContainerComponent,
+    OutletPageComponent,
+    SimpleBannerComponent,
+    PropertiesDetailsComponent
   ],
   imports: [
     BrowserModule,

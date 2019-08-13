@@ -1,0 +1,14 @@
+.simple-banner{
+  height: 680px;
+  max-height: calc(100vh - 80px);
+}
+.simple-banner-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media only screen and (max-width:767px){
+  .simple-banner{
+    height: 280px;
+  }
+}

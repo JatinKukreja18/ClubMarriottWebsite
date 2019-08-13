@@ -1,0 +1,42 @@
+<div class="main-body-container">
+  <!-- reused header -->
+  <cm-header></cm-header>
+
+  <!-- just image banner -->
+  <cm-simple-banner></cm-simple-banner>
+  <!-- first section after banner in benefits page -->
+  <div class="cm-padding-block cm-wrapper">
+    <div class="row">
+      <div class="col-md-5 col-lg-4">
+          <!-- reused rich text large, the content shall change from backend -->
+          <cm-properties-details></cm-properties-details>
+      </div>
+      <div class="col-md-6 col-lg-5 offset-lg-3 offset-md-1">
+          <iframe class="property-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14682.37800017743!2d72.5267419!3d23.0753234!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c5fe3945df84b79!2sKuro+-+The+Asian+Bistro!5e0!3m2!1sen!2sin!4v1565688312600!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="col-12">
+          <div class="cm-button-group start vertical-sm mt-50 property-actions">
+              <button class="cm-button cm-button-sm cm-wide-mobile primary">Reserve</button>
+              <button class="cm-button cm-button-sm cm-wide-mobile primary">VIEW CERTIFICATES</button>
+            </div>
+          <div class="mt-50">
+            <a href="" class="cm-link property-back-link">Back to the Hotel</a>
+          </div>
+      </div>
+    </div>
+      <!-- reused rich text, the content needs to change from backend -->
+  </div>
+  <div class="cm-wrapper">
+      <!-- Reusing rich tect large component the text inside is based on it's first usage
+      replace the text with below in Content management system
+
+      "Explore our curated breadth of hotels"
+      -->
+      <div class="mb-25-sm">
+        <cm-rich-text-large></cm-rich-text-large>
+      </div>
+      <div class="mb-100">
+        <cm-owl-carousel></cm-owl-carousel>
+      </div>
+  <cm-footer></cm-footer>
+</div>
