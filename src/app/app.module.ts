@@ -1,3 +1,5 @@
+import { AppCtasComponent } from './components/app-ctas/app-ctas.component';
+import { SubscriptionComponent } from './components/subscription/subscription.component';
 import { SimpleBannerComponent } from './components/simple-banner/simple-banner.component';
 import { OutletPageComponent } from './pages/outlet/outlet.component';
 import { BenefitsHotelsContainerComponent } from './containers/benefits-hotels/benefits-hotels-container.component';
@@ -80,7 +82,9 @@ import { PropertiesDetailsComponent } from './components/address/properties-deta
     BenefitsHotelsContainerComponent,
     OutletPageComponent,
     SimpleBannerComponent,
-    PropertiesDetailsComponent
+    PropertiesDetailsComponent,
+    SubscriptionComponent,
+    AppCtasComponent
   ],
   imports: [
     BrowserModule,
