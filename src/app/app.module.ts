@@ -1,3 +1,4 @@
+import { SearchComponent } from './components/search/search.component';
 import { AppCtasComponent } from './components/app-ctas/app-ctas.component';
 import { SubscriptionComponent } from './components/subscription/subscription.component';
 import { SimpleBannerComponent } from './components/simple-banner/simple-banner.component';
@@ -84,7 +85,8 @@ import { PropertiesDetailsComponent } from './components/address/properties-deta
     SimpleBannerComponent,
     PropertiesDetailsComponent,
     SubscriptionComponent,
-    AppCtasComponent
+    AppCtasComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

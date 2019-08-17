@@ -75,8 +75,15 @@
 .cm-carousel-type2 .carousel-item.active .carousel-caption{
   opacity: 1;
 }
-@media only screen and (max-width: 576px){
-
+@media only screen and (max-width: 767px){
+  .carousel-type-two-caption-block{
+    width: 100%;
+    position: relative;
+    background: #fff;
+  }
+  .cm-carousel-type2 .carousel-item .carousel-caption{
+    opacity: 1;
+  }
   .carousel-type-two .carousel-inner{
     overflow: visible;
   }
@@ -94,10 +101,14 @@
   }
   .cm-carousel-type2 .carousel-control-next,
   .cm-carousel-type2 .carousel-control-prev{
-    top: calc(100% + 112px);
+    top: 280px;
+    height: 80px;
   }
   .carousel-control-next svg path,
   .carousel-control-prev svg path{
     fill: #c4b67e;
+  }
+  .cm-carousel-type2 .cm-banner-overlay{
+    height: 280px;
   }
 }

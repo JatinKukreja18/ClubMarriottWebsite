@@ -1,7 +1,28 @@
-<div class="cm-padding-block search-results-section">
+<div class="cm-padding-block search-results-container">
 
-
-  <div class="cm-wrapper">
+  <div class="cm-wrapper cm-inner-wrapper search-results-section" id="not-found-container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+          <h1 class="cm-heading mb-50 text-center">Nothing Found</h1>
+          <p class="cm-text-16 text-center mb-50">Sorry, but nothing matched your search terms. Please try again with some different keywords.
+          </p>
+          <cm-search></cm-search>
+        </div>
+      </div>
+  </div>
+  <div class="cm-wrapper cm-inner-wrapper search-results-section" id="did-you-mean-container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+          <h1 class="cm-heading mb-50 text-center">Sorry, your search for Abra did not yield any results. Did you mean Agra?</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <cm-hotel-search-card></cm-hotel-search-card>
+        </div>
+      </div>
+  </div>
+  <div class="cm-wrapper search-results-section search-results-section-active">
       <h1 class="cm-heading mb-50 text-center">Explore all hotels</h1>
 
       <div class="search-filter-block row mb-50">

@@ -37,7 +37,7 @@ body{
 }
 
 /* writting this carousel globally as component wise it was not working */
-.cm-owl-carousel .owl-item.center.active .cm-owl-carousel-image-block{
+.cm-owl-carousel .owl-item .cm-owl-carousel-image-block{
   height: 440px;
   margin-top:0px;
 }
@@ -176,7 +176,7 @@ body{
   max-height: 70vh;
   overflow: scroll;
   overflow: overlay;
-  height: 360px;
+  height: auto;
 }
 
 .ui-menu-item{
@@ -371,6 +371,7 @@ body{
     max-width: calc(100vw - 170px);
     margin: auto;
     min-width: 245px;
+    padding: 0;
   }
   .no-padding-sm{
     padding: 0;

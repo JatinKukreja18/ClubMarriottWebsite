@@ -49,6 +49,7 @@
   /* margin-bottom: 20px; */
   font-weight: 300;
   cursor: text;
+  background: transparent;
 }
 .cm-input.cm-input-white,
 .cm-input.cm-input-white:focus
@@ -59,6 +60,7 @@
 .cm-input.cm-input-gg{
   border-bottom: 1px solid #b1aaaa;
   font-size: 14px;
+  color: #c4b67e;
 }
 .cm-input.cm-input-gg:focus{
   border-bottom: 1px solid #c4b67e;
@@ -138,6 +140,12 @@
 }
 .cm-input-label.noMargin {
   margin: 0px;
+}
+.cm-input-label .cm-input-white + span.cm-placeholder-label{
+  color: #fff;
+}
+.cm-input-label .cm-input-gg + span.cm-placeholder-label{
+  color: #c4b67e;
 }
 .cm-input-label span.cm-placeholder-label {
   position: absolute;

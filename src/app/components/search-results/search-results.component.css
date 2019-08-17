@@ -1,6 +1,12 @@
 
-.search-results-section{
+.search-results-container{
 padding-bottom: 100px;
+}
+.search-results-section{
+  display: none;
+}
+.search-results-section.search-results-section-active{
+  display: block;
 }
 .search-filter-block{
   /* width: 100%;
