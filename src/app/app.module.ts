@@ -1,3 +1,5 @@
+import { MemberPageComponent } from './pages/member/member.component';
+import { MemberFormSectionComponent } from './components/member-form-section/member-form.component';
 import { SearchComponent } from './components/search/search.component';
 import { AppCtasComponent } from './components/app-ctas/app-ctas.component';
 import { SubscriptionComponent } from './components/subscription/subscription.component';
@@ -86,7 +88,9 @@ import { PropertiesDetailsComponent } from './components/address/properties-deta
     PropertiesDetailsComponent,
     SubscriptionComponent,
     AppCtasComponent,
-    SearchComponent
+    SearchComponent,
+    MemberFormSectionComponent,
+    MemberPageComponent
   ],
   imports: [
     BrowserModule,

@@ -129,9 +129,11 @@
   display: block;
   height: calc(100vh - 80px);
   /* cursor: pointer; */
+  transform: translateX(-100%);
 }
 .cm-member-drawer-overlay.cm-member-drawer-overlay-opened{
   opacity: 1;
+  transform: translateX(0%);
 }
 @media only screen and (max-width: 991px){
   .cm-member-drawer{
