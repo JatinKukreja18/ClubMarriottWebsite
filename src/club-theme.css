@@ -387,6 +387,9 @@ h2.cm-heading {
   color: #000000;
   text-decoration: underline;
 }
+.cm-link.cm-link-serif{
+  font-family: "EB Garamond", serif;
+}
 
 .cm-menu-link {
   font-family: "ProximaNova", sans-serif;

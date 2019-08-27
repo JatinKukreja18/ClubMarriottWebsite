@@ -1,4 +1,5 @@
 import { MemberPageComponent } from './pages/member/member.component';
+import { BlogsPageComponent } from './pages/blogs/blogs.component';
 import { OutletPageComponent } from './pages/outlet/outlet.component';
 import { BenefitsPageComponent } from './pages/benefits/benefits.component';
 import { SearchPageComponent } from './pages/search/search.component';
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path:  'benefits', component:  BenefitsPageComponent},
   { path:  'outlet', component:  OutletPageComponent},
   { path:  'become-member', component:  MemberPageComponent},
+  { path:  'blogs', component:  BlogsPageComponent},
   { path:  '', component:  HomePageComponent}
 
 ];

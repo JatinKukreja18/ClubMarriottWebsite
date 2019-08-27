@@ -7,6 +7,9 @@
   justify-content: center;
   position: relative;
 }
+.cm-banner.cm-banner-fixed{
+  height: 680px;;
+}
 .cm-banner-image{
   height: 100%;
   min-height: 500px;

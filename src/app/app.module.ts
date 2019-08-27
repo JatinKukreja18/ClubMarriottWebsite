@@ -1,3 +1,5 @@
+import { BlogThumbnailComponent } from './components/blog-thumbnail/blog-thumbnail.component';
+import { BlogsPageComponent } from './pages/blogs/blogs.component';
 import { MemberPageComponent } from './pages/member/member.component';
 import { MemberFormSectionComponent } from './components/member-form-section/member-form.component';
 import { SearchComponent } from './components/search/search.component';
@@ -90,7 +92,9 @@ import { PropertiesDetailsComponent } from './components/address/properties-deta
     AppCtasComponent,
     SearchComponent,
     MemberFormSectionComponent,
-    MemberPageComponent
+    MemberPageComponent,
+    BlogsPageComponent,
+    BlogThumbnailComponent
   ],
   imports: [
     BrowserModule,
