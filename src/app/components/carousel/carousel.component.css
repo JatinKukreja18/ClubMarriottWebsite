@@ -24,6 +24,7 @@
 /* carousel indicators ovveride for banner */
 .cm-banner-carousel .carousel-indicators{
   margin-bottom: 30px;
+  z-index: 1;
 }
 .cm-banner-carousel .carousel-indicators li{
   width: 12px;
