@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $('.cm-left-sticky').addClass('affix-it');
+  // $('.cm-left-sticky').addClass('affix-it');
   $('.cm-right-adjust').css('margin-left','auto')
 
   $(document).on('scroll',function(){
