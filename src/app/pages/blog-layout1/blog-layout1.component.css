@@ -1,0 +1,26 @@
+.blog-content-images{
+  width: 100%;
+}
+.blog-content-image{
+  width: 100%;
+  margin-bottom: 50px;
+}
+.blog-social-icons{
+  list-style-type: none;
+  padding: 0;
+  display:flex;
+  margin: 0;
+  margin-top: 25px;
+}
+.blog-social-icons li{
+  margin-right: 25px;
+}
+.blog-social-icons li img {
+  width: 20px;
+}
+.blog-title{
+  margin-bottom: 15px;
+}
+.blog-content-container{
+  margin-top: 50px;
+}

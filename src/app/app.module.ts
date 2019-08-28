@@ -1,3 +1,6 @@
+import { BlogLayout3Component } from './pages/blog-layout3/blog-layout3.component';
+import { BlogLayout2Component } from './pages/blog-layout2/blog-layout2.component';
+import { BlogLayout1Component } from './pages/blog-layout1/blog-layout1.component';
 import { BlogThumbnailComponent } from './components/blog-thumbnail/blog-thumbnail.component';
 import { BlogsPageComponent } from './pages/blogs/blogs.component';
 import { MemberPageComponent } from './pages/member/member.component';
@@ -94,7 +97,10 @@ import { PropertiesDetailsComponent } from './components/address/properties-deta
     MemberFormSectionComponent,
     MemberPageComponent,
     BlogsPageComponent,
-    BlogThumbnailComponent
+    BlogThumbnailComponent,
+    BlogLayout1Component,
+    BlogLayout2Component,
+    BlogLayout3Component
   ],
   imports: [
     BrowserModule,
