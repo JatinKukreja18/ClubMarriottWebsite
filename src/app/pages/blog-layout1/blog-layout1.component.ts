@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+declare var $:any;
+// the blog js is in progress
+// import "./blog.js";
 
 @Component({
   selector: 'cm-blog-layout1',

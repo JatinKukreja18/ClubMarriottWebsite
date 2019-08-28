@@ -33,3 +33,17 @@
 .blog-text-content .blog-content-image:last-child{
   margin-bottom: 0;
 }
+
+
+.affix-it{
+  position: fixed;
+  top: 100px;
+}
+.affix-it.stop{
+  position: absolute;
+  bottom: 0;
+  top: auto;
+}
+.sticky-container{
+  position: relative;
+}

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-
+declare var $:any;
+import "./blog.js";
 @Component({
   selector: 'cm-blog-layout2',
   templateUrl: './blog-layout2.component.html',

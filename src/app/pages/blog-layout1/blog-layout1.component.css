@@ -24,3 +24,19 @@
 .blog-content-container{
   margin-top: 50px;
 }
+
+.cm-layout1-left-sticky.affix-it{
+  position: fixed;
+  top: 100px;
+  position: fixed;
+  /* bottom: 0; */
+  width: 52%;
+}
+.cm-layout1-left-sticky.affix-it.stop{
+  position: absolute;
+  bottom: 0;
+  top: auto;
+}
+.sticky-container{
+  position: relative;
+}
