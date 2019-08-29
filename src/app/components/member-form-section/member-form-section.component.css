@@ -9,7 +9,7 @@
   align-items: center;
   margin: auto;
   padding: 0 80px;
-  height: calc(100vh - 80px);
+  height:100%;
 
 }
 .membership-form-block.align-right{
@@ -28,7 +28,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: calc(100vh - 80px);
+  height: calc(100%);
 }
 .membership-banner-image{
   height: 100%;
@@ -37,9 +37,14 @@
 }
 .membership-section-wrapper{
   position: relative;
+  height: calc(100vh - 80px);
+  min-height: 680px;
 }
 @media only screen and (max-width: 992px){
-
+.membership-section-wrapper{
+  min-height: unset;
+  height: auto;
+}
 .membership-form{
   padding: 30px 45px;
 }

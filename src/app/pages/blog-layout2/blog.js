@@ -2,6 +2,7 @@ $(document).ready(function(){
 
   // $('.cm-left-sticky').addClass('affix-it');
   $('.cm-right-adjust').css('margin-left','auto')
+  if($('.cm-right-adjust').length){
 
   $(document).on('scroll',function(){
     if(document.scrollingElement.scrollTop > document.querySelector('.cm-footer').offsetTop - 460){
@@ -18,4 +19,5 @@ $(document).ready(function(){
       $('.cm-left-sticky').addClass('affix-it');
     }
   })
+}
 })

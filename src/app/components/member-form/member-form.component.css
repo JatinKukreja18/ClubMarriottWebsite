@@ -1,6 +1,9 @@
 .member-form{
   width: 100%;
 }
+.assist-space{
+  padding-left: 30px;
+}
 @media only screen and (max-width: 767px){
   .cm-select.cm-select-mini{
     width: 50px;
