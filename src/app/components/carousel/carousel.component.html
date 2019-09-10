@@ -1,35 +1,98 @@
 
-<div class="cm-banner-carousel">
-  <div id="cmBannerCarousel" class="carousel slide" data-ride="carousel" >
+
+
+<!--
+  This is a generic carousel that can be used in two ways
+
+  ## Type 1
+    This is a banner style carousel.
+    Add 'cm-type-1' in div that has 'cm-carousel'.
+    You can additionally add 'left-aligned','right-aligned' and 'center-aligned' (this is default) to align the content
+
+  ## Type 2
+    This is a small box style carousel(experience style).
+    Add 'cm-type-2' in div that has 'cm-carousel'.
+    You can additionally add 'left-aligned','right-aligned' and 'center-aligned' (this is default) to align the content
+
+  #To hide any item add is-hidden to that particular component like carousel-indicators and arrows.
+-->
+<div class="cm-type-1 cm-carousel">
+  <div id="cm-generic-carousel" class="carousel slide" data-ride="carousel" >
     <ol class="carousel-indicators">
-      <li data-target="#cmBannerCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#cmBannerCarousel" data-slide-to="1"></li>
-      <li data-target="#cmBannerCarousel" data-slide-to="2"></li>
+      <li data-target="#cm-generic-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#cm-generic-carousel" data-slide-to="1"></li>
+      <li data-target="#cm-generic-carousel" data-slide-to="2"></li>
     </ol>
 
     <div class="carousel-inner">
       <!-- carousel items -->
       <div class="carousel-item active">
         <img class="cm-banner-carousel-image" src="../../../assets/main-banner.jpg"  alt="First slide">
-        <div class="carousel-caption ">
-          <!-- heading for the banner -->
+        <!-- <div class="carousel-caption ">
           <h1 class="cm-heading cm-heading-white cm-banner-carousel-title">Exclusive benefits, local experiences</h1>
+        </div> -->
+        <div class="carousel-caption-block">
+          <div class="carousel-caption ">
+            <h2 class="cm-heading caption-title">The BMW Experience</h2>
+            <p class="cm-text-16 caption-subtitle">J.W. Marriott, Benagaluru</p>
+            <p class="cm-text-serif caption-text" >Arrive in style, stay in oppulent surroundings and enjoy drinks at the most chic space in town — Playground</p>
+            <button class="cm-button primary caption-cta cm-wide-mobile">
+              Discover More
+            </button>
+          </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <img class="cm-banner-carousel-image" src="../../../assets/banner.jpg" alt="...">
-        <div class="carousel-caption ">
-            <h1 class="cm-heading cm-heading-white  cm-banner-carousel-title">Exclusive benefits, local experiences</h1>
+      <div class="carousel-item ">
+        <img class="cm-banner-carousel-image" src="../../../assets/main-banner.jpg"  alt="First slide">
+        <!-- <div class="carousel-caption ">
+          <h1 class="cm-heading cm-heading-white cm-banner-carousel-title">Exclusive benefits, local experiences</h1>
+        </div> -->
+        <div class="carousel-caption-block">
+          <div class="carousel-caption ">
+            <h2 class="cm-heading caption-title">The BMW Experience</h2>
+            <p class="cm-text-16 caption-subtitle">J.W. Marriott, Benagaluru</p>
+            <p class="cm-text-serif caption-text" >Arrive in style, stay in oppulent surroundings and enjoy drinks at the most chic space in town — Playground</p>
+            <button class="cm-button primary caption-cta cm-wide-mobile">
+              Discover More
+            </button>
+          </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <img  class="cm-banner-carousel-image" src="../../../assets/banner.jpg" alt="...">
-        <div class="carousel-caption ">
-            <h1 class="cm-heading cm-heading-white  cm-banner-carousel-title">Exclusive benefits, local experiences</h1>
+      <div class="carousel-item ">
+        <img class="cm-banner-carousel-image" src="../../../assets/main-banner.jpg"  alt="First slide">
+        <!-- <div class="carousel-caption ">
+          <h1 class="cm-heading cm-heading-white cm-banner-carousel-title">Exclusive benefits, local experiences</h1>
+        </div> -->
+        <div class="carousel-caption-block">
+          <div class="carousel-caption ">
+            <h2 class="cm-heading caption-title">The BMW Experience</h2>
+            <p class="cm-text-16 caption-subtitle">J.W. Marriott, Benagaluru</p>
+            <p class="cm-text-serif caption-text" >Arrive in style, stay in oppulent surroundings and enjoy drinks at the most chic space in town — Playground</p>
+            <button class="cm-button primary caption-cta cm-wide-mobile">
+              Discover More
+            </button>
+          </div>
         </div>
       </div>
     </div>
-
+    <a class="carousel-control-prev" href="#cm-generic-carousel" role="button" data-slide="prev">
+      <svg xmlns="http://www.w3.org/2000/svg" width="39" height="79" viewBox="0 0 39 79">
+        <g fill="none" fill-rule="evenodd" transform="translate(-41)">
+            <ellipse cx="40" cy="39.5" fill="#FFF" rx="40" ry="39.5"/>
+            <path fill="#DDDBD6" d="M49.763 40.737l13.474 10v-20z"/>
+        </g>
+      </svg>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#cm-generic-carousel" role="button" data-slide="next">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="79" viewBox="0 0 40 79">
+          <g fill="none" fill-rule="evenodd" transform="matrix(-1 0 0 1 80 0)">
+              <ellipse cx="40" cy="39.5" fill="#FFF" rx="40" ry="39.5"/>
+              <path fill="#DDDBD6" d="M49.763 40.737l13.474 10v-20z"/>
+          </g>
+        </svg>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
   <!-- overlay -->
   <div class="cm-banner-overlay"></div>

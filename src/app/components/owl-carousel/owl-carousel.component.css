@@ -7,7 +7,9 @@
   object-fit: cover;
   transition: .5s;
 } */
-
+.cm-owl-carousel-subtext{
+  margin-bottom: 5px;
+}
 .cm-owl-carousel-item{
   display: flex;
   flex-direction: column;

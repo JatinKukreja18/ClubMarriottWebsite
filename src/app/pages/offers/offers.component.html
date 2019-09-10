@@ -1,0 +1,74 @@
+<div class="main-body-container">
+
+<cm-header></cm-header>
+<cm-search-banner></cm-search-banner>
+  <div class="cm-wrapper cm-padding-block">
+    <!-- Reusing rich tect large component the text inside is based on it's first usage
+    replace the text with below in Content management system
+      Ideal Text below:
+    "Indulge in our exclusive signature collections "
+    -->
+    <div class="row">
+      <div class="col-md-10 offset-md-1 cm-inner-wrapper">
+        <cm-rich-text-large></cm-rich-text-large>
+      </div>
+      <div class="col-md-4 offset-md-4 search-brand  cm-inner-wrapper">
+        <!-- reusing this dropdown here.
+          placeholder to be changed to "Select Brand"
+          and Brand names to be added in the dropdown backend.
+        -->
+        <cm-dropdown-category></cm-dropdown-category>
+      </div>
+    </div>
+    <div class="offers-carousel-container">
+      <cm-owl-carousel></cm-owl-carousel>
+    </div>
+  </div>
+
+  <!-- reusing text component.
+  Ideal text here "Curated Club Marriott Experiences"
+  -->
+      <div class="cm-wrapper">
+          <div class="row">
+              <div class="col-md-10 offset-md-1 cm-inner-wrapper">
+                <cm-rich-text-large></cm-rich-text-large>
+              </div>
+          </div>
+      </div>
+      <!-- reusing carousel. ideal data to be updated from backend -->
+      <div class="curated-experience-container mt-50">
+        <cm-carousel-type2></cm-carousel-type2>
+      </div>
+
+  <!-- reusing text component.
+  Ideal text here "Featured Offers"
+  -->
+  <div class="cm-wrapper cm-padding-block">
+      <div class="row">
+          <div class="col-md-10 offset-md-1 cm-inner-wrapper">
+            <cm-rich-text-large></cm-rich-text-large>
+          </div>
+      </div>
+      <!-- reusing teaser carousel. ideal data to be updated from backend -->
+      <div class="featured-offers-container mt-50">
+        <cm-teasers-list></cm-teasers-list>
+      </div>
+  </div>
+  <!-- reusing text component.
+  Ideal text here "Featured Events"
+  -->
+  <div class="cm-wrapper">
+      <div class="row">
+          <div class="col-md-10 offset-md-1 cm-inner-wrapper">
+            <cm-rich-text-large></cm-rich-text-large>
+          </div>
+      </div>
+  </div>
+  <!-- reusing carousel. ideal data to be updated from backend
+  example :"South East Asian Cinema";
+  -->
+  <div class="curated-experience-container mt-50">
+    <cm-carousel-type2></cm-carousel-type2>
+  </div>
+<cm-footer></cm-footer>
+</div>

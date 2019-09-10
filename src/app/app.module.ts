@@ -50,6 +50,7 @@ import { LinksListComponent } from './components/footer/links-list/links-list.co
 import { SearchBannerComponent } from './components/search-banner/search-banner.component';
 import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 import { PropertiesDetailsComponent } from './components/address/properties-details.component';
+import { OffersPageComponent } from './pages/offers/offers.component';
 
 @NgModule({
   declarations: [
@@ -100,7 +101,8 @@ import { PropertiesDetailsComponent } from './components/address/properties-deta
     BlogThumbnailComponent,
     BlogLayout1Component,
     BlogLayout2Component,
-    BlogLayout3Component
+    BlogLayout3Component,
+    OffersPageComponent
   ],
   imports: [
     BrowserModule,

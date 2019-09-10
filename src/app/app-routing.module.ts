@@ -1,3 +1,4 @@
+import { OffersPageComponent } from './pages/offers/offers.component';
 import { BlogLayout3Component } from './pages/blog-layout3/blog-layout3.component';
 import { BlogLayout1Component } from './pages/blog-layout1/blog-layout1.component';
 import { MemberPageComponent } from './pages/member/member.component';
@@ -11,6 +12,7 @@ import { HomePageComponent } from './pages/home/home.component';
 import { BlogLayout2Component } from './pages/blog-layout2/blog-layout2.component';
 
 const routes: Routes = [
+  { path:  'offers', component:  OffersPageComponent},
   { path:  'search', component:  SearchPageComponent},
   { path:  'benefits', component:  BenefitsPageComponent},
   { path:  'outlet', component:  OutletPageComponent},
