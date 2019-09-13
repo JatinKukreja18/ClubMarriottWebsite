@@ -514,7 +514,7 @@ h2.cm-heading {
   .cm-button.cm-wide-mobile {
     width: 100%;
     max-width: 245px;
-    margin: auto;
+    margin: 0 auto;
     display: block;
   }
   .cm-button {

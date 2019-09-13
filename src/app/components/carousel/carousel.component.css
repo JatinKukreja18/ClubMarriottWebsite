@@ -16,7 +16,8 @@
 .cm-type-1-image{
   /* height: 680px; */
   min-height: 500px;
-  height: calc(100vh - 80px);
+  height: 100%;
+  max-height: 680px;
   object-fit: cover;
   width: 100%;
   background: #ddd;
@@ -55,15 +56,15 @@
   right: 0;
   padding: 0 20px;
 }
-.cm-type-1.right-aligned .carousel-caption{
+.cm-type-1 .carousel-item.right-aligned .carousel-caption{
   align-items: flex-end;
 }
 
-.cm-type-1.left-aligned .carousel-caption{
+.cm-type-1 .carousel-item.left-aligned .carousel-caption{
   align-items: flex-start;
 }
 
-.cm-type-1.center-aligned .carousel-caption{
+.cm-type-1 .carousel-item.center-aligned .carousel-caption{
   align-items: center;
 }
 .cm-type-1 .carousel-caption h2,
@@ -129,15 +130,15 @@
   align-items: center;
   justify-content: flex-end;
 }
-.cm-type-2.right-aligned .carousel-caption-block{
+.cm-type-2 .carousel-item.right-aligned .carousel-caption-block{
   justify-content: flex-end;
 }
 
-.cm-type-2.left-aligned .carousel-caption-block{
+.cm-type-2 .carousel-item.left-aligned .carousel-caption-block{
   justify-content: flex-start;
 }
 
-.cm-type-2.center-aligned .carousel-caption-block{
+.cm-type-2 .carousel-item.center-aligned .carousel-caption-block{
   justify-content: center;
 }
 .cm-type-2 .carousel-caption{
@@ -199,8 +200,7 @@
   .cm-type-2 .cm-banner-overlay{
     height: 280px;
   }
-}
-@media only screen and (max-width: 767px){
+
   .cm-type-1 img,
   .cm-type-1-image{
     height: 100%;
@@ -216,4 +216,53 @@
     width: 7px;
     height: 7px;
   }
+  .cm-type-1 .carousel-caption{
+    max-width: calc(100vw - 170px);
+    padding: 0;
+  }
+}
+.membership-form{
+  background: #fff;
+  padding: 50px 100px;
+  max-width: 588px;
+}
+.membership-banner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100%);
+}
+.membership-banner-image{
+  height: 100%;
+  object-fit: cover;
+  width: 100%
+}
+.membership-section-wrapper{
+  position: relative;
+  height: calc(100vh - 80px);
+  min-height: 680px;
+}
+@media only screen and (max-width: 992px){
+.membership-section-wrapper{
+  min-height: unset;
+  height: auto;
+}
+.membership-form{
+  padding: 30px 45px;
+}
+.membership-form-block{
+  padding: 50px;
+  position: relative;
+  transform: none;
+  height: auto  ;
+}
+.membership-form-block,
+.membership-form-block.align-left,
+.membership-form-block.align-right{
+  justify-content: center;
+}
+.membership-banner{
+  height: 100%;
+}
 }
