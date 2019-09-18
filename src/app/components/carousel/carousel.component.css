@@ -24,11 +24,11 @@
 }
 
 /* carousel indicators ovveride for banner type */
-.cm-type-1 .carousel-indicators{
+.cm-type-1 .carousel .carousel-indicators{
   margin-bottom: 30px;
   z-index: 2;
 }
-.cm-type-1 .carousel-indicators li{
+.cm-type-1 .carousel  .carousel-indicators li.round{
   width: 12px;
   height: 12px;
   border: none;

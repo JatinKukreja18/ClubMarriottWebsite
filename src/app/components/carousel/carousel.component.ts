@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component ,ViewEncapsulation } from '@angular/core';
 declare var $:any;
 import "./carousel.js";
 @Component({
   selector: 'cm-carousel',
   templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.css']
+  styleUrls: ['./carousel.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class CarouselComponent {
 }
