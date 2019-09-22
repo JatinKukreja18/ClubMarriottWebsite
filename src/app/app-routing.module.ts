@@ -1,3 +1,4 @@
+import { AllBannersComponent } from './pages/all-banners/all-banners.component';
 import { OffersPageComponent } from './pages/offers/offers.component';
 import { BlogLayout3Component } from './pages/blog-layout3/blog-layout3.component';
 import { BlogLayout1Component } from './pages/blog-layout1/blog-layout1.component';
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path:  'blog-layout1', component:  BlogLayout1Component},
   { path:  'blog-layout2', component:  BlogLayout2Component},
   { path:  'blog-layout3', component:  BlogLayout3Component},
+  { path:  'all-banners', component:  AllBannersComponent},
   { path:  '', component:  HomePageComponent}
 
 ];

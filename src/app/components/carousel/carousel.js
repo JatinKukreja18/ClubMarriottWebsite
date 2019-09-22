@@ -1,7 +1,6 @@
 
 $(document).ready(function(){
 
-  console.log($('.cm-carousel .carousel')[0].id);
   for(var i = 0 ; i < $('.cm-carousel .carousel').length; i++){
     $('.cm-carousel .carousel')[i].id
     console.log($('.cm-carousel .carousel')[i].id);

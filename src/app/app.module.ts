@@ -1,3 +1,5 @@
+import { BannerFourComponent } from './components/banner-4/banner-4.component';
+import { BannerTwoComponent } from './components/banner-2/banner-2.component';
 import { BlogLayout3Component } from './pages/blog-layout3/blog-layout3.component';
 import { BlogLayout2Component } from './pages/blog-layout2/blog-layout2.component';
 import { BlogLayout1Component } from './pages/blog-layout1/blog-layout1.component';
@@ -51,6 +53,8 @@ import { SearchBannerComponent } from './components/search-banner/search-banner.
 import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 import { PropertiesDetailsComponent } from './components/address/properties-details.component';
 import { OffersPageComponent } from './pages/offers/offers.component';
+import { AllBannersComponent } from './pages/all-banners/all-banners.component';
+import { BannerThreeComponent } from './components/banner-3/banner-3.component';
 
 @NgModule({
   declarations: [
@@ -102,7 +106,11 @@ import { OffersPageComponent } from './pages/offers/offers.component';
     BlogLayout1Component,
     BlogLayout2Component,
     BlogLayout3Component,
-    OffersPageComponent
+    OffersPageComponent,
+    BannerTwoComponent,
+    BannerThreeComponent,
+    BannerFourComponent,
+    AllBannersComponent
   ],
   imports: [
     BrowserModule,
