@@ -35,7 +35,9 @@ body{
 .main-body-container{
   padding-top: 80px;
 }
-
+.full-image{
+  width: 100%;
+}
 /* writting this carousel globally as component wise it was not working */
 .cm-owl-carousel .owl-item .cm-owl-carousel-image-block{
   height: 440px;

@@ -1,0 +1,14 @@
+.property-map{
+  width: 100%;
+  min-height: 500px;
+}
+@media only screen and (max-width:767px){
+  .property-map{
+    margin-top: 25px;
+    min-height: 330px;
+  }
+  .property-back-link{
+    display: block;
+    text-align: center;
+  }
+}

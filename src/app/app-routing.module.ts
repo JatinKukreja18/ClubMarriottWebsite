@@ -11,12 +11,14 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomePageComponent } from './pages/home/home.component';
 import { BlogLayout2Component } from './pages/blog-layout2/blog-layout2.component';
+import { PropertyPageComponent } from './pages/property/property.component';
 
 const routes: Routes = [
   { path:  'offers', component:  OffersPageComponent},
   { path:  'search', component:  SearchPageComponent},
   { path:  'benefits', component:  BenefitsPageComponent},
   { path:  'outlet', component:  OutletPageComponent},
+  { path:  'property', component:  PropertyPageComponent},
   { path:  'become-member', component:  MemberPageComponent},
   { path:  'blogs', component:  BlogsPageComponent},
   { path:  'blog-layout1', component:  BlogLayout1Component},

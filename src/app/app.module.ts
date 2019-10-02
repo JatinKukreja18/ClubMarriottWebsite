@@ -1,3 +1,6 @@
+import { CardListSectionComponent } from './components/card-list-section/card-list-section.component';
+import { SocialLinksComponent } from './components/social-links/social-links.component';
+import { PropertyPageComponent } from './pages/property/property.component';
 import { BannerFourComponent } from './components/banner-4/banner-4.component';
 import { BannerTwoComponent } from './components/banner-2/banner-2.component';
 import { BlogLayout3Component } from './pages/blog-layout3/blog-layout3.component';
@@ -110,7 +113,10 @@ import { BannerThreeComponent } from './components/banner-3/banner-3.component';
     BannerTwoComponent,
     BannerThreeComponent,
     BannerFourComponent,
-    AllBannersComponent
+    AllBannersComponent,
+    PropertyPageComponent,
+    SocialLinksComponent,
+    CardListSectionComponent
   ],
   imports: [
     BrowserModule,

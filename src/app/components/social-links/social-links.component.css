@@ -1,0 +1,20 @@
+.cm-social-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+.cm-social-list-item:not(:last-child){
+  margin-right: 25px
+}
+.cm-social-list-item > a{
+  display: block;
+  cursor: pointer;
+}
+@media (max-width: 767px){
+  .cm-social-list{
+    margin-bottom: 40px;
+  }
+}
