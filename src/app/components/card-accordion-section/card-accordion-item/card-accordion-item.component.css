@@ -1,3 +1,9 @@
+.cm-accordion-item{
+  border-bottom: 1px solid #a1a1a1;
+}
+.cm-accordion-item:last-of-type{
+  /* border-bottom: none; */
+}
 .load-more-block{
   text-align: center;
   margin-bottom: 50px;
@@ -7,7 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 50px;
+  padding: 50px 0;
 }
 .cm-accordion-header h2{
   margin: 0;
@@ -30,7 +36,17 @@
   left: 0;
   transition: .3s;
 }
-
-.cm-accordion-header.is-opened   .cm-card-accordion-link:after{
+.cm-card-accordion-link:before{
   transform:rotate(90deg);
+}
+.cm-accordion-body{
+  max-height: 0px;
+  overflow: hidden;
+  transition: all .3s ease;
+}
+.is-opened .cm-accordion-body{
+  max-height: 520px;
+}
+.is-opened .cm-accordion-header  .cm-card-accordion-link::before{
+  transform:rotate(0deg);
 }
