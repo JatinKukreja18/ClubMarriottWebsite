@@ -175,7 +175,7 @@ body{
   width: 100%;
   box-shadow: 1px 4px 5px 0 rgba(0, 0, 0, 0.11);
   background-color: #ffffff;
-  max-height: 70vh;
+  max-height: 60vh;
   overflow: scroll;
   overflow: overlay;
   height: auto;
@@ -330,6 +330,11 @@ body{
 .hidden-mobile{
   display: inherit !important;
 }
+.lets-chat-link img{
+  height: 20px;
+  margin-right: 5px;
+}
+
 @media only screen and (max-width: 767px){
   .visible-mobile{
     display: inherit !important;

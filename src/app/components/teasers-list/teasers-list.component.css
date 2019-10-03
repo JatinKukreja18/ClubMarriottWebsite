@@ -39,6 +39,9 @@ ul.cm-teasers-list{
   top: 0px;
   opacity: 1;
 }
+.cm-teaser-desc.top{
+  margin-bottom: 5px;
+}
 @media only screen and (max-width: 767px){
 
   .cm-teasers-list-block{
@@ -64,6 +67,7 @@ ul.cm-teasers-list{
   .cm-teaser-title,.cm-teaser-link{
     text-align: center;
   }
+
   .cm-teaser-link{
     display: block;
     margin-top: 5px;

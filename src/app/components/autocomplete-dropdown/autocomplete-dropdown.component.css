@@ -1,0 +1,57 @@
+@import "../../../vendor/jquery-ui-1.12.1.autocomplete/jquery-ui.min.css";
+.cm-autocomplete{
+  font-size: 0;
+  position: relative;
+}
+.cm-autocomplete input{
+  height: 22px;
+  background: transparent;
+  font-family: "ProximaNova", sans-serif;
+  text-overflow: ellipsis;
+  padding-right: 16px;
+}
+.cm-autocomplete-cross{
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  opacity: 0;
+  transition: .3s;
+}
+.cm-autocomplete.active .cm-autocomplete-cross{
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  opacity: 1;
+  cursor: pointer;
+}
+.cm-autocomplete.active .autocomplete-dropdown-link{
+  display: none;
+}
+.autocomplete-dropdown-link{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+.autocomplete-dropdown-link:before{
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 13px solid #dddbd6;
+  clear: both;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  outline: none;
+}
+@media only screen and (max-width: 767px){
+  .cm-autocomplete input{
+    font-size: 12px;
+  }
+}

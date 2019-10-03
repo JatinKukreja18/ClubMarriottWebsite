@@ -1,3 +1,4 @@
+import { AutocompleteDropdownComponent } from './components/autocomplete-dropdown/autocomplete-dropdown.component';
 import { MemberSectionComponent } from './components/member-section/member-section.component';
 import { CardComponent } from './components/cm-card/cm-card.component';
 import { CardAccordionItemComponent } from './components/card-accordion-section/card-accordion-item/card-accordion-item.component';
@@ -126,7 +127,8 @@ import { BannerThreeComponent } from './components/banner-3/banner-3.component';
     CardAccordionSectionComponent,
     CardAccordionItemComponent,
     CardComponent,
-    MemberSectionComponent
+    MemberSectionComponent,
+    AutocompleteDropdownComponent
   ],
   imports: [
     BrowserModule,
