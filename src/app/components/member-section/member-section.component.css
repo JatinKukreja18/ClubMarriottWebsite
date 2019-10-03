@@ -11,5 +11,33 @@
   margin-bottom: 25px;
 }
 .price{
-  margin: 40px 0;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 30px 0;
+}
+.member-links{
+  margin-right: 25px;
+  display: inline-flex;
+  align-items: center
+}
+.member-links img{
+  height: 20px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 767px){
+  .content-title{
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .member-section-image{
+    margin-bottom: 50px;
+  }
+  .member-subtext{
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .member-links-block{
+    text-align: center;
+  }
 }

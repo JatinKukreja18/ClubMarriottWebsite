@@ -35,10 +35,10 @@ ul.cm-card-list{
 }
 
 @media only screen and (max-width: 767px){
-
-  .cm-card-list-block{
-    /* padding: 0 20px; */
+  .cm-card-list-section-title{
+    margin-bottom: 25px;
   }
+
   .cm-card-list-item{
     display:  block;
     background: #fff;
