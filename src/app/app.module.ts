@@ -1,3 +1,7 @@
+import { CardComponent } from './components/cm-card/cm-card.component';
+import { CardAccordionItemComponent } from './components/card-accordion-section/card-accordion-item/card-accordion-item.component';
+import { CardAccordionSectionComponent } from './components/card-accordion-section/card-accordion-section.component';
+import { BannerFiveComponent } from './components/banner-5/banner-5.component';
 import { CardListSectionComponent } from './components/card-list-section/card-list-section.component';
 import { SocialLinksComponent } from './components/social-links/social-links.component';
 import { PropertyPageComponent } from './pages/property/property.component';
@@ -113,10 +117,14 @@ import { BannerThreeComponent } from './components/banner-3/banner-3.component';
     BannerTwoComponent,
     BannerThreeComponent,
     BannerFourComponent,
+    BannerFiveComponent,
     AllBannersComponent,
     PropertyPageComponent,
     SocialLinksComponent,
-    CardListSectionComponent
+    CardListSectionComponent,
+    CardAccordionSectionComponent,
+    CardAccordionItemComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

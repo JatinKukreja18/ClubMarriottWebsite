@@ -452,6 +452,11 @@ h2.cm-heading {
   font-weight: 300;
   color: #000000;
   text-decoration: underline;
+  cursor: pointer;
+}
+.cm-link.underlined,
+.cm-link.underlined:not([href]):not([tabindex]){
+  text-decoration: underline;
 }
 .cm-link.cm-link-serif{
   font-family: "EB Garamond", serif;

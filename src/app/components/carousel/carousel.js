@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
   for(var i = 0 ; i < $('.cm-carousel .carousel').length; i++){
-    $('.cm-carousel .carousel')[i].id
+    $('.cm-carousel .carousel')[i].id = 'cm-carousel' + i;
     console.log($('.cm-carousel .carousel')[i].id);
     $('#'+ $('.cm-carousel .carousel')[i].id + ' .carousel-item')[0].classList.add('active')
 

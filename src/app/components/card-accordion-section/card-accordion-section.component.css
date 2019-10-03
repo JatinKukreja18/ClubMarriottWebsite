@@ -9,7 +9,16 @@ ul.cm-card-list{
   list-style-type: none;
 
 }
-
+.cm-card-list-item{
+  display: inline-flex;
+  /* width: 33.33%; */
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.cm-card-list-item .cm-card-list-image{
+  width: 100%;
+  margin-bottom: 50px;
+}
 .cm-card-list-image-block{
   position: relative;
   overflow: hidden;
@@ -33,7 +42,15 @@ ul.cm-card-list{
   top: 0px;
   opacity: 1;
 }
+.cm-card-title{
 
+}
+.cm-card-subtext{
+  margin-bottom: 0;
+}
+.cm-card-desc{
+  margin-top: 25px;
+}
 @media only screen and (max-width: 767px){
 
   .cm-card-list-block{

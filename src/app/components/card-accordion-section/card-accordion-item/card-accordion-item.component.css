@@ -1,0 +1,36 @@
+.load-more-block{
+  text-align: center;
+  margin-bottom: 50px;
+  background: #fff;
+}
+.cm-accordion-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.cm-accordion-header h2{
+  margin: 0;
+}
+.cm-card-accordion-link{
+  width: 20px;
+  position: relative;
+  height: 20px;
+  cursor: pointer;
+}
+.cm-card-accordion-link:before,
+.cm-card-accordion-link:after{
+  position: absolute;
+  width: 20px;
+  height: 1px;
+  background: #c2c2c2;
+  content:'';
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  transition: .3s;
+}
+
+.cm-accordion-header.is-opened   .cm-card-accordion-link:after{
+  transform:rotate(90deg);
+}
