@@ -1,3 +1,4 @@
+import { MemberSectionComponent } from './components/member-section/member-section.component';
 import { CardComponent } from './components/cm-card/cm-card.component';
 import { CardAccordionItemComponent } from './components/card-accordion-section/card-accordion-item/card-accordion-item.component';
 import { CardAccordionSectionComponent } from './components/card-accordion-section/card-accordion-section.component';
@@ -124,7 +125,8 @@ import { BannerThreeComponent } from './components/banner-3/banner-3.component';
     CardListSectionComponent,
     CardAccordionSectionComponent,
     CardAccordionItemComponent,
-    CardComponent
+    CardComponent,
+    MemberSectionComponent
   ],
   imports: [
     BrowserModule,

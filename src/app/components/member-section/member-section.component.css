@@ -1,0 +1,15 @@
+.member-section-image{
+  width: 100%;
+}
+.cm-member-section-content{
+  display: block;
+}
+.content-title{
+  margin-bottom: 40px;
+}
+.content-desc{
+  margin-bottom: 25px;
+}
+.price{
+  margin: 40px 0;
+}
