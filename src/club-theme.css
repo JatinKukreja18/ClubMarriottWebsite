@@ -469,6 +469,73 @@ h2.cm-heading {
   color: #000000;
   text-decoration: none;
 }
+/* pagination boostrap overwritten*/
+.cm-pagination .page-link,
+.cm-pagination .page-link:not([href]):not([tabindex])
+{
+  cursor: pointer;
+  border: none;
+  color: #b1aaaa;
+  padding: 0 12px;
+  padding: 0 12.5px;
+}
+.cm-pagination .page-item.disabled .page-link{
+  color: #b1aaaa;
+}
+.cm-pagination .page-link:hover{
+  color: #c4b67e;
+  background: transparent;
+  text-decoration: underline;
+}
+.cm-pagination .page-item.active .page-link{
+    color: #c4b67e;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.cm-arrow{
+  position: relative;
+  width: 15px;
+  transition: .2s;
+  height: 20px;
+  display: inline-block;
+}
+.cm-arrow:hover{
+  transition: .3s;
+  width: 20px;
+}
+.cm-arrow::before{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  content: '';
+  background: #b1aaaa;
+  height: 1px;
+  transition: .5s;
+}
+.cm-arrow::after{
+  position: absolute;
+  top: 6px;
+  transform: rotate(-45deg);
+  width: 8px;
+  right: 1px;
+  height: 100%;
+  content: '';
+  border-right: 1px solid #b1aaaa;
+  border-bottom: 1px solid #b1aaaa;
+  transition: .5s;
+  height: 8px;
+  transform-origin: center;
+}
+.cm-arrow.left::after{
+  right: unset;
+  left: 1px;
+  border-right: none;
+  border-bottom: none;
+  border-left: 1px solid #b1aaaa;
+  border-top: 1px solid #b1aaaa;
+
+}
 /* helpers */
 .mt-10{
   margin-top: 10px;

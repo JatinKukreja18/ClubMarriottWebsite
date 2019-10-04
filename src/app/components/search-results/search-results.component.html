@@ -23,10 +23,10 @@
       </div>
   </div>
   <div class="cm-wrapper search-results-section search-results-section-active">
-      <h1 class="cm-heading mb-50 text-center">Explore all hotels</h1>
+      <h1 class="cm-heading mb-100 text-center">Explore all hotels</h1>
 
-      <div class="search-filter-block row mb-50">
-        <!-- <div class="row"> -->
+      <!-- <div class="search-filter-block row mb-50">
+
           <div class="col-md-8 search-filter-links">
             <ul class="search-categories">
               <li class="search-category">ALL HOTELS</li>
@@ -36,16 +36,15 @@
           </div>
           <div class="cm-inner-wrapper search-filter-inputs">
             <div class=" col-md-6 col-sm-12 mb-25-sm no-padding-sm">
-              <!-- <div class="search-filters"> -->
+
                   <cm-autocomplete></cm-autocomplete>
-              <!-- </div> -->
+
             </div>
             <div class=" col-md-6 col-sm-12 mb-25-sm no-padding-sm">
                 <cm-dropdown-category></cm-dropdown-category>
             </div>
           </div>
-        <!-- </div> -->
-      </div>
+      </div> -->
 
       <div class="row">
         <div class="col-md-4">
@@ -65,6 +64,31 @@
         </div>
         <div class="col-md-4">
           <cm-hotel-search-card></cm-hotel-search-card>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+            <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-end cm-pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true" class="cm-arrow left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" >1</a></li>
+                  <li class="page-item"><a class="page-link" >2</a></li>
+                  <li class="page-item"><a class="page-link" >3</a></li>
+                  <li class="page-item disabled"><a class="page-link" >...</a></li>
+                  <li class="page-item"><a class="page-link" >12</a></li>
+                  <li class="page-item">
+                    <a class="page-link"  aria-label="Next">
+                      <span aria-hidden="true" class="cm-arrow"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
         </div>
       </div>
 </div>

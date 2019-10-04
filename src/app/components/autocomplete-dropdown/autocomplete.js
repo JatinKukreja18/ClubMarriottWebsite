@@ -1,4 +1,8 @@
 $( function() {
+  // jQuery.ui.autocomplete.prototype._resizeMenu = function () {
+  //   var ul = this.menu.element;
+  //   ul.outerWidth(this.element.outerWidth());
+  // }
   // this is a sample city list. the same structure shall be used for UI compatibilty
   var cityList = [
     {
