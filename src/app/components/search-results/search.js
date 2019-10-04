@@ -17,7 +17,15 @@ $(document).ready(function(){
       scrollToResults();
     }
     else{
-      console.log('unhandled scenario');
+      console.log('results found for city selected');
+      $('.search-results-section-active').removeClass('search-results-section-active');
+      $('#total-results').addClass('search-results-section-active');
+      $('#city-offers').addClass('search-results-section-active');
+
+      $('#total-results .hotels-listed .hotel-column').not(":first").remove();
+      $('#result-title').html('Featured Hotels');
+      $('#selected-city').html(e.detail.split(',')[0]);
+      scrollToResults();
     }
 
   }, false);

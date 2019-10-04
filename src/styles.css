@@ -278,15 +278,16 @@ body{
   background: transparent;
     box-shadow: none;
     border: none;
-    border-bottom: 1px solid #b1aaaa;
+    /* border-bottom: 1px solid #b1aaaa; */
     width: 100%;
-    height: 22px;
-    color: #000;
+    height: 26px;
+    color: #b1b1b1;
     outline: none;
-    font-family: "ProximaNova", sans-serif;
-    font-size: 14px;
+    /* font-family: "ProximaNova", sans-serif; */
+    font-size: 24px;
     font-weight: 300;
     padding-bottom: 5px;
+    width: 45px;
 }
 .dropdown-type2 + .custom-combobox .custom-combobox-input:focus{
   border-color: #c4b67e;

@@ -1,4 +1,4 @@
-<div class="cm-padding-block search-results-container">
+<div class="cm-bottom-padding-block search-results-container">
 
   <div class="cm-wrapper cm-inner-wrapper search-results-section" id="not-found-container">
       <div class="row">
@@ -22,8 +22,8 @@
         </div>
       </div>
   </div>
-  <div class="cm-wrapper search-results-section search-results-section-active">
-      <h1 class="cm-heading mb-100 text-center">Explore all hotels</h1>
+  <div class="cm-wrapper search-results-section search-results-section-active" id="total-results">
+      <h1 class="cm-heading mb-100 text-center" id="result-title" >Explore all hotels</h1>
 
       <!-- <div class="search-filter-block row mb-50">
 
@@ -45,28 +45,35 @@
             </div>
           </div>
       </div> -->
-
-      <div class="row">
-        <div class="col-md-4">
+     <div class="search-filter-block row mb-50">
+        <div class=" col-md-3 col-sm-12 mb-25-sm no-padding-sm">
+          <div class="per-page">
+            <h2 class="cm-heading cm-heading-gray">Hotels Per Page</h2>
+            <cm-dropdown-category></cm-dropdown-category>
+          </div>
+        </div>
+     </div>
+      <div class="row hotels-listed" >
+        <div class="col-md-4 hotel-column">
           <cm-hotel-search-card></cm-hotel-search-card>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 hotel-column">
           <cm-hotel-search-card></cm-hotel-search-card>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 hotel-column">
           <cm-hotel-search-card></cm-hotel-search-card>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 hotel-column">
           <cm-hotel-search-card></cm-hotel-search-card>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 hotel-column">
           <cm-hotel-search-card></cm-hotel-search-card>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 hotel-column">
           <cm-hotel-search-card></cm-hotel-search-card>
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-100">
         <div class="col-sm-12">
             <nav aria-label="Page navigation">
                 <ul class="pagination justify-content-end cm-pagination">
@@ -91,5 +98,9 @@
               </nav>
         </div>
       </div>
+</div>
+<div class="cm-wrapper cm-bottom-padding-block search-results-section" id="city-offers">
+    <h1 class="cm-heading mb-100 text-center" id="result-title" >Featured Offers in <span id="selected-city"></span></h1>
+    <cm-teasers-list></cm-teasers-list>
 </div>
 </div>
