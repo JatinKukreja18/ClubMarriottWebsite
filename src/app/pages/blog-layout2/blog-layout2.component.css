@@ -47,3 +47,34 @@
 .sticky-container{
   position: relative;
 }
+
+.blog-fixed-navigation{
+  position: fixed;
+  top: -120px;
+  background: #fff;
+  height: 120px;
+  width: 100%;
+  z-index: 11;
+  border-top: solid 1px #dddbd6;
+  border-bottom: solid 1px #dddbd6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: .5s;
+}
+.blog-fixed-navigation img{
+  padding-left: 10px;
+}
+.blog-fixed-navigation img:last-of-type{
+  padding-right: 10px;
+}
+.blog-fixed-navigation h1{
+  margin-bottom: 0;
+}
+.blog-fixed-navigation.slide-up,.blog-fixed-navigation.slide-up.show{
+  top: 0;
+  transition: .8s;
+}
+.blog-fixed-navigation.show{
+  top: 80px;
+}

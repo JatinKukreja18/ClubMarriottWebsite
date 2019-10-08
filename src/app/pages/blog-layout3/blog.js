@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-  if(document.querySelector('#blog-layout-2')){
+  if(document.querySelector('#blog-layout-3')){
     $(document).on('scroll',function(){
 
-      if(document.scrollingElement.scrollTop <= document.querySelector('#blog-layout-2').offsetTop){
+      if(document.scrollingElement.scrollTop <= document.querySelector('#blog-layout-3').offsetTop){
         $('.blog-fixed-navigation').removeClass('show');
         // $('.cm-right-adjust').css('margin-left','auto')
       }else{
@@ -16,7 +16,7 @@ $(document).ready(function(){
   var lastScrollTop = 0;
   $(window).scroll(function(event){
     var st = $(this).scrollTop();
-    if (st > lastScrollTop && st > document.querySelector('#blog-layout-2').offsetTop ){
+    if (st > lastScrollTop && st > document.querySelector('#blog-layout-3').offsetTop ){
         document.querySelector('.blog-fixed-navigation').classList.add('slide-up');
     } else {
       document.querySelector('.blog-fixed-navigation').classList.remove('slide-up');
