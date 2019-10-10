@@ -1,3 +1,4 @@
+import { OffersSignaturePageComponent } from './pages/offers-signatures/offers.component';
 import { AutocompleteDropdownComponent } from './components/autocomplete-dropdown/autocomplete-dropdown.component';
 import { MemberSectionComponent } from './components/member-section/member-section.component';
 import { CardComponent } from './components/cm-card/cm-card.component';
@@ -128,7 +129,8 @@ import { BannerThreeComponent } from './components/banner-3/banner-3.component';
     CardAccordionItemComponent,
     CardComponent,
     MemberSectionComponent,
-    AutocompleteDropdownComponent
+    AutocompleteDropdownComponent,
+    OffersSignaturePageComponent
   ],
   imports: [
     BrowserModule,

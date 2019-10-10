@@ -1,3 +1,4 @@
+import { OffersSignaturePageComponent } from './pages/offers-signatures/offers.component';
 import { AllBannersComponent } from './pages/all-banners/all-banners.component';
 import { OffersPageComponent } from './pages/offers/offers.component';
 import { BlogLayout3Component } from './pages/blog-layout3/blog-layout3.component';
@@ -15,6 +16,7 @@ import { PropertyPageComponent } from './pages/property/property.component';
 
 const routes: Routes = [
   { path:  'offers', component:  OffersPageComponent},
+  { path:  'offers-signature', component:  OffersSignaturePageComponent},
   { path:  'search', component:  SearchPageComponent},
   { path:  'benefits', component:  BenefitsPageComponent},
   { path:  'outlet', component:  OutletPageComponent},

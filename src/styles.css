@@ -8,6 +8,12 @@
 body{
   margin: 0;
 }
+.divider{
+  display: block;
+  height: 1px;
+  background: #a1a1a1;
+  width: 100%;
+}
 .cm-wrapper{
   margin: auto;
   max-width: 1190px;
