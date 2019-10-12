@@ -13,6 +13,7 @@ $(document).ready(function(){
 
     }else{
       generateDots('#'+ $('.cm-carousel .carousel')[i].id);
+      generateArrows('#'+ $('.cm-carousel .carousel')[i].id);
     }
 
   }
@@ -28,4 +29,8 @@ function generateDots(id) {
     }
   }
   // carousel-indicators
+}
+function generateArrows(id){
+  $(id + ' .carousel-control-next').attr('href',id);
+  $(id + ' .carousel-control-prev').attr('href',id)
 }
