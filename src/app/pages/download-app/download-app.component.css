@@ -1,3 +1,5 @@
+
+/* Section 1 */
 .sticky-sections{
   position: relative;
   height: 400vh;
@@ -100,4 +102,113 @@ height: 100%;
 {
   opacity: 0;
   transition: 0s;
+}
+
+
+/* Section 2 */
+.sticky-sections-part-2{
+  position: relative;
+  height: 300vh;
+  background: linear-gradient(60deg, #f5f5f5, #d9d9d9);
+  z-index: 1;
+  flex-direction: column;
+  display: flex;
+}
+.sticky-sections-part-2.align-bottom{
+  flex-direction: column-reverse;
+}
+.sticky-section-part-2{
+  position: relative;
+  height: 100vh;
+}
+.sticky-section-part-2.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(60deg, #f5f5f5, #d9d9d9);
+  margin: auto;
+  right: 0;
+}
+.sticky-section-part-2 .main-content{
+  text-align: center;
+  height: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+.sticky-section-part-2 .image-container{
+  height: 74vh;
+    padding: 25px;
+    position: relative;
+    width: auto;
+    /* flex: 1; */
+    width: auto;
+}
+.sticky-section-part-2 .image-container img{
+  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 50px 0;
+    transform: translate(-50%,0);
+    transition: 1s;
+}
+.sticky-section-part-2 .main-content h1{
+  padding-bottom: 25px;
+  margin: 0;
+}
+.sticky-section-part-2 .main-content p{
+  margin: 0;
+  padding-bottom: 50px;
+}
+.sticky-section-part-2.section-2 #part-2-image-1{
+  transform: translate(-100%,0);
+}
+
+.sticky-section-part-2.section-2 #part-2-image-3{
+  transform: translate(0%,0);
+}
+.sticky-section-part-2.section-3 #part-2-image-1{
+  transform: translate(-200%,0);
+}
+
+.sticky-section-part-2.section-3 #part-2-image-3{
+  transform: translate(100%,0);
+}
+.personal-section{
+  position: relative;
+  height: calc(180vh);
+}
+.personal-section-inner{
+  height: 100vh;
+}
+#personal-section-2{
+  position: absolute;
+  top: 80vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.personal-section .image-banner{
+  text-align: center;
+  height: 100%;
+}
+.personal-section .content{
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.personal-section .image-banner img{
+  padding-top: 100px;
+  height: 100%;
+  box-sizing: border-box;
 }
