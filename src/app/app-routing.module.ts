@@ -1,3 +1,4 @@
+import { DownloadAppPageComponent } from './pages/download-app/download-app.component';
 import { OffersSignaturePageComponent } from './pages/offers-signatures/offers.component';
 import { AllBannersComponent } from './pages/all-banners/all-banners.component';
 import { OffersPageComponent } from './pages/offers/offers.component';
@@ -16,6 +17,7 @@ import { PropertyPageComponent } from './pages/property/property.component';
 
 const routes: Routes = [
   { path:  'offers', component:  OffersPageComponent},
+  { path:  'download-app', component:  DownloadAppPageComponent},
   { path:  'offers-signature', component:  OffersSignaturePageComponent},
   { path:  'search', component:  SearchPageComponent},
   { path:  'benefits', component:  BenefitsPageComponent},
