@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as AOS from '../../../vendor/aos-master/dist/aos.js';
 declare var $:any;
-import "./scroll.js";
+// import "./scroll.js";
 @Component({
   selector: 'cm-download-app',
   templateUrl: './download-app.component.html',

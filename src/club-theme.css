@@ -51,6 +51,21 @@
   cursor: text;
   background: transparent;
 }
+textarea.cm-textarea{
+  border: none;
+    border: 1px solid #000;
+    padding: 10px;
+    color: #000000;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    /* margin-bottom: 20px; */
+    font-weight: 300;
+    cursor: text;
+    background: #fff;
+    height: 125px;
+    resize: none;
+}
 .cm-input.cm-input-white,
 .cm-input.cm-input-white:focus
 {

@@ -1,0 +1,60 @@
+<form  id="memberForm" class="cm-form contact-form   visible" action="" method="post">
+
+  <!-- input group for name -->
+  <div class="row">
+    <div class="col-md-6">
+        <div class="cm-input-group">
+            <!-- custom select for all options -->
+            <div class="cm-select cm-input-item cm-select-mini" id="avail-title-select">
+             <i class="arrow-down"></i>
+              <input type="text" class="cm-input" autocomplete="new-password" placeholder="Title" id="avail-title" required >
+              <ul class="cm-select-options">
+                <li class="cm-select-option" data-value="Mr.">Mr.</li>
+                <li class="cm-select-option" data-value="Ms.">Ms.</li>
+              </ul>
+            </div>
+            <label for="" class="cm-input-label">
+              <input type="text" class="cm-input cm-input-item" id="fullname" required>
+              <span class="cm-placeholder-label">Full Name</span>
+            </label>
+          </div>
+    </div>
+    <div class="col-md-6">
+        <cm-form-dropdown></cm-form-dropdown>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-md-6">
+        <div class="cm-input-group">
+            <label for="" class="cm-input-label cm-input-mini">
+              <span class="cm-text-16 cm-input-text">+91</span>
+            </label>
+            <label for="" class="cm-input-label">
+              <input type="number" maxlength="10" class="cm-input"  required id="mobile" pattern="^[0-9]*$">
+              <span class="cm-placeholder-label">Mobile</span>
+            </label>
+        </div>
+      </div>
+      <div class="col-md-6">
+          <cm-form-dropdown></cm-form-dropdown>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-6">
+        <div class="cm-input-group">
+            <label for="" class="cm-input-label">
+                <input type="text" type="text" class="cm-input" id="email" name="email"  pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"        required>
+                <span class="cm-placeholder-label">Email address</span>
+              </label>
+        </div>
+      </div>
+      <div class="col-md-6">
+      </div>
+      <div class="col-md-12 mb-25">
+          <textarea name=""  class="cm-textarea"></textarea>
+      </div>
+  </div>
+    <div class="text-center">
+      <button class="cm-button primary mt-30 cm-wide-mobile">Submit</button>
+    </div>
+  </form>

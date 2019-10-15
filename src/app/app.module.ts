@@ -1,3 +1,5 @@
+import { FormDropdownComponent } from './components/form-dropdown/form-dropdown.component';
+import { ContactPageComponent } from './pages/contact/contact.component';
 import { DownloadAppPageComponent } from './pages/download-app/download-app.component';
 import { OffersSignaturePageComponent } from './pages/offers-signatures/offers.component';
 import { AutocompleteDropdownComponent } from './components/autocomplete-dropdown/autocomplete-dropdown.component';
@@ -66,6 +68,7 @@ import { PropertiesDetailsComponent } from './components/address/properties-deta
 import { OffersPageComponent } from './pages/offers/offers.component';
 import { AllBannersComponent } from './pages/all-banners/all-banners.component';
 import { BannerThreeComponent } from './components/banner-3/banner-3.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -132,7 +135,10 @@ import { BannerThreeComponent } from './components/banner-3/banner-3.component';
     MemberSectionComponent,
     AutocompleteDropdownComponent,
     OffersSignaturePageComponent,
-    DownloadAppPageComponent
+    DownloadAppPageComponent,
+    ContactPageComponent,
+    ContactFormComponent,
+    FormDropdownComponent
   ],
   imports: [
     BrowserModule,

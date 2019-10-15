@@ -327,6 +327,55 @@ body{
 }
 
 
+/* form dropdown style */
+.dropdown-type-form + .custom-combobox .custom-combobox-input{
+  background: transparent;
+    box-shadow: none;
+    padding-bottom: 5px;
+    font-family: "ProximaNova", sans-serif;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    color: #000000;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    /* margin-bottom: 20px; */
+    font-weight: 300;
+    cursor: text;
+    background: transparent;
+}
+.dropdown-type-form + .custom-combobox .custom-combobox-input:focus{
+  border-color: #c4b67e;
+}
+.dropdown-type-form + .custom-combobox .custom-combobox-input::placeholder {
+    color: #000;
+}
+
+.dropdown-type-form + .custom-combobox .custom-combobox-input::-webkit-input-placeholder {
+    color: #000;
+}
+
+.dropdown-type-form + .custom-combobox .custom-combobox-toggle::after{
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #000;
+  clear: both;
+  position: absolute;
+  right: 0px;
+  top:50%;
+  transform: translateY(-50%);
+  outline:none;
+}
+
+.dropdown-type-form + .custom-combobox .custom-combobox-toggle{
+  visibility: visible;
+}
+
+
 
 .is-hidden{
   display: none !important;

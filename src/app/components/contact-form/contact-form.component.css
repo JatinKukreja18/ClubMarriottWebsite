@@ -1,0 +1,24 @@
+.contact-form{
+  width: 100%;
+}
+.assist-space{
+  padding-left: 30px;
+}
+@media only screen and (max-width: 767px){
+  .cm-select.cm-select-mini{
+    width: 50px;
+    min-width: 50px;
+    margin-right: 15px;
+  }
+  .cm-input-label.cm-input-mini{
+    width: 50px;
+    max-width: 50px;
+    min-width: 50px;
+  }
+  .cm-input-group .cm-input-label{
+    margin-right: 15px;
+  }
+  .cm-input-group .cm-input-label:last-child{
+    margin-right: 0;
+  }
+}
