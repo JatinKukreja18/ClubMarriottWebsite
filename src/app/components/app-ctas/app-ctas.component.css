@@ -23,11 +23,12 @@
     margin-top: 25px;
   }
   .app-ctas-image img{
-    width: auto;
+    width: 100%;
     height: 40px;
   }
   .app-ctas-image{
     text-align: center;
+    flex: 1;
   }
   .app-ctas-text{
     text-align: center;

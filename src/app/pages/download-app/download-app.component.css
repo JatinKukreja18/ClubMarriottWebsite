@@ -22,7 +22,7 @@ height: 100%;
   opacity: 0;
   position: absolute;
   top: 50%;
-  transform: translate(-50%,calc(-50% + 40px));
+  transform: translate(0%,calc(-50% + 40px));
   left: 20px;
   transition: 0s;
 }
@@ -41,8 +41,13 @@ height: 100%;
   left: 50%;
   height: 80%;
   transition: 1s;
+  max-height: 680px;
+
 }
-.multi-content.visible,
+.multi-content.visible{
+  opacity: 1;
+  transform: translate(0%, -50%);
+}
 .sticky-image.visible{
   opacity: 1;
   transform: translate(-50%, -50%);
@@ -86,7 +91,7 @@ height: 100%;
 .sticky-section.section-3.section-2 #multi-content-3,
 .sticky-section.section-4.section-3.section-2 #multi-content-4{
   opacity: 1;
-  transform: translate(-50%, -50%);
+  transform: translate(0%, -50%);
   transition: 1s;
 }
 
@@ -148,6 +153,8 @@ height: 100%;
     padding: 25px;
     position: relative;
     width: auto;
+  max-height: 680px;
+
     /* flex: 1; */
     width: auto;
 }
@@ -182,23 +189,28 @@ height: 100%;
 .sticky-section-part-2.section-3 #part-2-image-3{
   transform: translate(100%,0);
 }
+
+/* third section */
 .personal-section{
   position: relative;
-  height: calc(180vh);
+  /* height: calc(180vh); */
 }
 .personal-section-inner{
   height: 100vh;
+  max-height: 680px;
 }
 #personal-section-2{
-  position: absolute;
-  top: 80vh;
+  /* position: absolute; */
+  /* top: 80vh;
   left: 0;
   right: 0;
   margin: auto;
+  height: auto; */
 }
 .personal-section .image-banner{
   text-align: center;
   height: 100%;
+  max-height: 680px;
 }
 .personal-section .content{
   height: 100%;
@@ -208,7 +220,141 @@ height: 100%;
   flex-direction: column;
 }
 .personal-section .image-banner img{
-  padding-top: 100px;
+  padding-top: 50px;
+    transition: 1s;
+    height: 100%;
+    max-height: 680px;
   height: 100%;
   box-sizing: border-box;
+}
+#personal-section-2 .image-banner img{
+  transform: translateY(15%);
+  opacity: 0;
+  padding-top: 0;
+}
+#personal-section-2 .image-banner img.shift{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1260px){
+  .sticky-section-part-2.section-3 #part-2-image-1{
+    transform: translate(-150%,0);
+  }
+
+  .sticky-section-part-2.section-3 #part-2-image-3{
+    transform: translate(50%,0);
+  }
+  .sticky-image.visible{
+    transform: translate(-75%, -50%);
+  }
+  .sticky-section .row{
+    flex-direction: column;
+  }
+  .sticky-section .content{
+    order: 2;
+    margin: auto;
+    padding-bottom: 50px;
+    /* flex: 1; */
+  }
+  .sticky-section .image{
+    order: 1;
+    flex: 1;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+  .sticky-section .content img{
+    display: none;
+  }
+  #sticky-image-2{
+    left: calc(52vw);
+  }
+  #sticky-image-3{
+    left: calc(55vw);
+  }
+  #sticky-image-4{
+    left: calc(58vw);
+  }
+  .multi-content{
+    text-align: center;
+  }
+  .sticky-section-part-2 p{
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .sticky-section-part-2.section-3 #part-2-image-1{
+    transform: translate(-100%,0);
+  }
+
+  .sticky-section-part-2.section-3 #part-2-image-3{
+    transform: translate(0%,0);
+  }
+}
+@media only screen and (max-width: 767px){
+  .sticky-section-part-2 p{
+    width: 100%;
+  }
+  .sticky-section .content{
+    flex: 1;
+  }
+  .sticky-section .image{
+    flex: 2;
+  }
+  .sticky-image{
+    transform: translate(0,0);
+    bottom: 0;
+    top: unset;
+  }
+  .sticky-image.visible{
+    transform: translate(-75%, 0%);
+    bottom: 0;
+    top: unset;
+  }
+  #sticky-image-2{
+    left: calc(56%);
+  }
+  #sticky-image-3{
+    left: calc(62%);
+  }
+  #sticky-image-4{
+    left: calc(68%);
+  }
+  .sticky-section-part-2 .image-container{
+    height: 50vh;
+  }
+  .multi-content{
+    left: 0;
+  }
+  #personal-section-1 .content{
+    order: 1;
+    height: auto;
+    padding: 50px 15px;
+    margin: 0;
+  }
+  #personal-section-1 .image-banner{
+    order: 2;
+  }
+  #personal-section-1 .image-banner img{
+    height: auto;
+    width: 100%;
+  }
+  #personal-section-2 .content{
+    order: 2;
+    height: auto;
+    padding: 50px 15px;
+    margin: 0;
+  }
+  #personal-section-2 .image-banner img{
+    height: auto;
+    width: 70%;
+    margin: auto;
+  }
+  #personal-section-2{
+    min-height: 100vh;
+    max-height: unset;
+    height: auto;
+  }
 }

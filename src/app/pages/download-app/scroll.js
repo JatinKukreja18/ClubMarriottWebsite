@@ -53,20 +53,24 @@ $(document).ready(function(){
       $('.sticky-section-part-2').removeClass('fixed');
     }
     if($(document).scrollTop()- ss2top >= difference2){
-      $('.sticky-section-part-2').addClass('section-2');
-
-    }else{
-      $('.sticky-section-part-2').removeClass('section-2');
-    }
-    if($(document).scrollTop()- ss2top >= difference2*2){
       $('.sticky-section-part-2').addClass('section-3');
+
     }else{
       $('.sticky-section-part-2').removeClass('section-3');
     }
+    // if($(document).scrollTop()- ss2top >= difference2*2){
+    //   $('.sticky-section-part-2').addClass('section-3');
+    // }else{
+    //   $('.sticky-section-part-2').removeClass('section-3');
+    // }
     // reset fixed
     if($(document).scrollTop()- ss2top >= (ss2height /3)*2 ){
       $('.sticky-section-part-2').removeClass('fixed');
       $('.sticky-sections-part-2').addClass('align-bottom');
+    }
+
+    if($(document).scrollTop() >= document.querySelector('#personal-section-1').offsetTop){
+      $('#personal-section-2 .image-banner img').addClass('shift');
     }
   })
 })

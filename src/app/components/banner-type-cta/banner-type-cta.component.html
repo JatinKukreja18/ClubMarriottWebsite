@@ -1,11 +1,11 @@
 <!-- this component is fot types of banner with text and call to action on it  -->
 <!-- this has no js . Onclick of button function shall be added by integration team -->
 
-<div class=" banner-type-cta with-gradient">
+<!-- full-height is toggleable -->
+<div class=" banner-type-cta with-gradient full-height">
   <div class="cm-wrapper">
-    <img src="../../../assets/mobile-mockup.png" alt="" class="d-block d-md-none banner-type-cta-image">
-    <div class="row content-align-row image-first">
-      <div class=" col-md-4  banner-type-cta-content">
+    <div class="row banner-type-cta-content-wrapper content-align-row image-first">
+      <div class="  banner-type-cta-content">
         <!-- This is rich text big size below -->
         <h1 class="cm-heading banner-type-cta-title small-margin">Instant Benefits on accomodation and dining at over 300 hotels in Asia Pacific.</h1>
         <!-- this is rich text with serif font below -->
@@ -13,11 +13,14 @@
           Our exclusive benefits now at your fingertips. Enjoy seamless traveling experiences at over 300 Hotels in Asia, 1000 restaurants, and 70 hotels in India. Access member benefits at some of the best hotels in the world, including, the Saint Regis Mumbai, JW Marriott Hong Kong and JW Marriott Phuket.
         </p>
         <div class="cm-button-group">
-          <button class="cm-button primary cm-wide-mobile">FOR ANDROID</button>
-          <button class="cm-button primary cm-wide-mobile">FOR IOS</button>
+          <button class="cm-button primary cm-button-sm">FOR ANDROID</button>
+          <button class="cm-button primary cm-button-sm">FOR IOS</button>
         </div>
       </div>
-       <img src="../../../assets/group_2019-10-14/group.png" alt="" class=" col-md-7  d-md-block d-none banner-type-cta-image">
+      <div class="col-md-7 height-100 banner-type-cta-image-block">
+
+        <img src="../../../assets/group_2019-10-14/group.png" alt="" class="banner-type-cta-image">
+      </div>
     </div>
   </div>
 </div>
