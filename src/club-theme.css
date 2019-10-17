@@ -576,7 +576,7 @@ h2.cm-heading {
 .mb-20{
   margin-bottom: 20px;
 }
-.mb-25{
+.mb-25,h1.mb-25,h2.mb-25{
   margin-bottom: 25px;
 }
 .mb-30{

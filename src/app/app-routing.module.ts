@@ -15,9 +15,11 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomePageComponent } from './pages/home/home.component';
 import { BlogLayout2Component } from './pages/blog-layout2/blog-layout2.component';
 import { PropertyPageComponent } from './pages/property/property.component';
+import { NotFoundPageComponent } from './pages/not-found/not-found.component';
 
 const routes: Routes = [
   { path:  'offers', component:  OffersPageComponent},
+  { path:  'not-found', component:  NotFoundPageComponent},
   { path:  'contact', component:  ContactPageComponent},
   { path:  'download-app', component:  DownloadAppPageComponent},
   { path:  'offers-signature', component:  OffersSignaturePageComponent},

@@ -1,3 +1,4 @@
+import { NotFoundPageComponent } from './pages/not-found/not-found.component';
 import { FormDropdownComponent } from './components/form-dropdown/form-dropdown.component';
 import { ContactPageComponent } from './pages/contact/contact.component';
 import { DownloadAppPageComponent } from './pages/download-app/download-app.component';
@@ -138,7 +139,8 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
     DownloadAppPageComponent,
     ContactPageComponent,
     ContactFormComponent,
-    FormDropdownComponent
+    FormDropdownComponent,
+    NotFoundPageComponent
   ],
   imports: [
     BrowserModule,
