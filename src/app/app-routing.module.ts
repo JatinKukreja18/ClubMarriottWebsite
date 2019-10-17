@@ -16,9 +16,11 @@ import { HomePageComponent } from './pages/home/home.component';
 import { BlogLayout2Component } from './pages/blog-layout2/blog-layout2.component';
 import { PropertyPageComponent } from './pages/property/property.component';
 import { NotFoundPageComponent } from './pages/not-found/not-found.component';
+import { FAQPageComponent } from './pages/faq/faq.component';
 
 const routes: Routes = [
   { path:  'offers', component:  OffersPageComponent},
+  { path:  'faq', component:  FAQPageComponent},
   { path:  'not-found', component:  NotFoundPageComponent},
   { path:  'contact', component:  ContactPageComponent},
   { path:  'download-app', component:  DownloadAppPageComponent},

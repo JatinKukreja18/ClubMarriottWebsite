@@ -70,6 +70,7 @@ import { OffersPageComponent } from './pages/offers/offers.component';
 import { AllBannersComponent } from './pages/all-banners/all-banners.component';
 import { BannerThreeComponent } from './components/banner-3/banner-3.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { FAQPageComponent } from './pages/faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -140,7 +141,8 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
     ContactPageComponent,
     ContactFormComponent,
     FormDropdownComponent,
-    NotFoundPageComponent
+    NotFoundPageComponent,
+    FAQPageComponent
   ],
   imports: [
     BrowserModule,

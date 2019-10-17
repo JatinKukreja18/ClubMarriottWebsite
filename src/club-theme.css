@@ -545,6 +545,45 @@ h2.cm-heading {
   height: 8px;
   transform-origin: center;
 }
+.cm-plus::after{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  right: 1px;
+  height: 100%;
+  content: '';
+  transition: .3s;
+  height: 1px;
+  transform-origin: center;
+  background: #979797;
+}
+.cm-plus::before{
+  position: absolute;
+  top: 0px;
+  width: 1px;
+  right: 0px;
+  height: 100%;
+  content: '';
+  left: 50%;
+  transform: translateX(-50%);
+  transition: .3s;
+  transform-origin: center;
+  background: #979797;
+}
+.cm-plus.is-minus::after,.cm-minus::before{
+  position: absolute;
+  top: 0px;
+  width: 1px;
+  right: 0px;
+  height: 100%;
+  content: '';transform: rotate(0deg);
+  transition: .5s;
+  height: 1px;
+  transform-origin: center;
+  background: #979797;
+}
 .cm-arrow.left::after{
   right: unset;
   left: 1px;
@@ -567,7 +606,7 @@ h2.cm-heading {
 .mt-40{
   margin-top: 40px;
 }
-.mt-50{
+.mt-50,h1.mt-50,h2.mt-50{
   margin-top: 50px;
 }
 .mb-10{
