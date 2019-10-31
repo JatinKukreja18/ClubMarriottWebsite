@@ -1,3 +1,4 @@
+import { TermsPageComponent } from './pages/terms/terms.component';
 import { NotFoundPageComponent } from './pages/not-found/not-found.component';
 import { FormDropdownComponent } from './components/form-dropdown/form-dropdown.component';
 import { ContactPageComponent } from './pages/contact/contact.component';
@@ -142,7 +143,8 @@ import { FAQPageComponent } from './pages/faq/faq.component';
     ContactFormComponent,
     FormDropdownComponent,
     NotFoundPageComponent,
-    FAQPageComponent
+    FAQPageComponent,
+    TermsPageComponent
   ],
   imports: [
     BrowserModule,

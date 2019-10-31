@@ -1,6 +1,8 @@
 $(document).ready(function(){
-  var children = document.querySelector("#general-list").children;
-  var children2 = document.querySelector("#membership-list").children;
+  if(document.querySelector("#general-list")){
+    var children = document.querySelector("#general-list").children;
+    var children2 = document.querySelector("#membership-list").children;
+
 
   for (let i = 0; i < children.length; i++) {
     const element = children[i];
@@ -12,7 +14,7 @@ $(document).ready(function(){
     element.children[0].innerHTML = i + 1 + '.';
     element.id= "membership-list-item-" + (i + 1);
   }
-
+  }
   $('.cm-accordion-link').on('click',function(){
     $('.cm-accordion-item:not(#' + this.parentElement.id + ')').removeClass('active');
     var heightOfContent = $(this).parent().find('.cm-accordion-content p').height();

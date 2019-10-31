@@ -1,0 +1,41 @@
+.section-links{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.section-links li{
+  margin-bottom: 25px;
+}
+.section-links a{
+  font-size: 24px;
+}
+.section-links a:hover{
+  color: #c4b67e;
+}
+.section-links a.active{
+  text-decoration: underline;
+  color: #c4b67e;
+}
+
+.section-links.is-fixed{
+  position: fixed;
+  top: 100px;
+}
+.section-links.is-bottom{
+  position: absolute;
+  bottom: 0;
+  top: unset;
+}
+@media only screen and (max-width:767px){
+  .cm-accordion-link{
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+  }
+  .questions-list .faq-sno{
+    font-size: 14px;
+  }
+  .questions-list li{
+    padding: 8px 0;
+  }
+}

@@ -1,3 +1,4 @@
+import { TermsPageComponent } from './pages/terms/terms.component';
 import { ContactPageComponent } from './pages/contact/contact.component';
 import { DownloadAppPageComponent } from './pages/download-app/download-app.component';
 import { OffersSignaturePageComponent } from './pages/offers-signatures/offers.component';
@@ -21,6 +22,7 @@ import { FAQPageComponent } from './pages/faq/faq.component';
 const routes: Routes = [
   { path:  'offers', component:  OffersPageComponent},
   { path:  'faq', component:  FAQPageComponent},
+  { path:  'terms', component:  TermsPageComponent},
   { path:  'not-found', component:  NotFoundPageComponent},
   { path:  'contact', component:  ContactPageComponent},
   { path:  'download-app', component:  DownloadAppPageComponent},
