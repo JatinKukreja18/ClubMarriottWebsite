@@ -1,6 +1,6 @@
 .app-ctas{
   display: flex;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
   flex-wrap: wrap;
 }
 .app-ctas-image{
@@ -24,6 +24,7 @@
   }
   .app-ctas-image img{
     width: 100%;
+    width: auto;
     height: 40px;
   }
   .app-ctas-image{
@@ -32,5 +33,6 @@
   }
   .app-ctas-text{
     text-align: center;
+    margin-top: 15px;
   }
 }

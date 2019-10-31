@@ -427,13 +427,22 @@ h2.cm-heading {
 
 .cm-text {
   font-family: "ProximaNova", sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  margin-bottom: 5px;
+  font-weight: 300;
+  color: #000000;
+}
+.cm-text.cm-text-12{
+  font-family: "ProximaNova", sans-serif;
   font-size: 12px;
   margin: 0px;
   margin-bottom: 5px;
   font-weight: 300;
   color: #000000;
 }
-.cm-text.cm-text-gray{
+.cm-text.cm-text-gray,
+.cm-text.cm-text-12.cm-text-gray{
   color: #a4a4a4;
 }
 .cm-text-16 {
@@ -469,7 +478,7 @@ h2.cm-heading {
   font-size: 16px;
   font-weight: 300;
   color: #000000;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
 }
 .cm-link.underlined,
@@ -482,7 +491,7 @@ h2.cm-heading {
 
 .cm-menu-link {
   font-family: "ProximaNova", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
   color: #000000;
   text-decoration: none;
@@ -602,6 +611,9 @@ h2.cm-heading {
 }
 .mt-30{
   margin-top: 30px;
+}
+.mt-25,h1.mt-25,h2.mt-25{
+  margin-top: 25px;
 }
 .mt-40{
   margin-top: 40px;
