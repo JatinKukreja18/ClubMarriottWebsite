@@ -136,10 +136,62 @@ body{
   top:38%;
   outline:none;
 }
-.teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev span,
-.teaser-owl-carousel.owl-carousel .owl-nav button.owl-next span{
+.cards-carousel.owl-carousel .owl-nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: calc(20.3vw - 60px);
+  /* height: calc(37.3vw - 30px); */
+  width: 100%;
+}
+.cards-carousel.owl-carousel .owl-nav button.owl-prev,
+.cards-carousel.owl-carousel .owl-nav button.owl-next{
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: calc(50% - 25px);
+  outline: none;
+}
+.cards-carousel.owl-carousel .owl-nav button.owl-prev{
+  background-image: url('./assets/slider-arrow-1.svg');
+  background-size: 100% 100%;
+  width: 30px;
+  left: 0px;
+}
+.cards-carousel.owl-carousel .owl-nav button.owl-next{
+  background-image: url('./assets/slider-arrow-1.svg');
+  background-size: 100% 100%;
+  width: 30px;
+  right: 0px;
+  transform: rotate(180deg);
+}
+
+.cards-carousel.owl-carousel .owl-nav button.owl-prev.disabled,
+.cards-carousel.owl-carousel .owl-nav button.owl-next.disabled{
   display: none;
 }
+.teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev span,
+.teaser-owl-carousel.owl-carousel .owl-nav button.owl-next span,
+.cards-carousel.owl-carousel .owl-nav button.owl-prev span,
+.cards-carousel.owl-carousel .owl-nav button.owl-next span{
+  display: none;
+}
+/* .cards-carousel .owl-item{
+  padding-right: 15px;
+   padding-left: 15px;
+} */
+/* .cards-carousel .owl-item:first-child{
+   padding-left: 0px;
+}
+.cards-carousel .owl-item:last-child{
+  padding-right: 0px;
+} */
+/* .cards-carousel.owl-carousel .owl-stage-outer{
+  margin: 0 -15px;
+} */
 .teaser-owl-carousel.owl-carousel .owl-nav button.owl-next{
   content: '';
   width: 0;
@@ -153,6 +205,11 @@ body{
   right: -40px;
   top:38%;
   outline:none;
+}
+
+.teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev.disabled,
+.teaser-owl-carousel.owl-carousel .owl-nav button.owl-next.disabled{
+  border-top-color: #ccc;
 }
 
 .cm-owl-carousel .owl-stage{
@@ -398,6 +455,9 @@ body{
   width: 100%;
 }
 @media only screen and (max-width: 767px){
+  .cards-carousel.owl-carousel .owl-nav{
+    height: calc(37.3vw - 30px);
+  }
   .visible-mobile{
     display: inherit !important;
   }
@@ -469,11 +529,13 @@ body{
 
 @media only screen and (max-width:1260px){
 
-  .teaser-owl-carousel.owl-carousel .owl-nav button.owl-next{
+  .teaser-owl-carousel.owl-carousel .owl-nav button.owl-next,
+  .cards-carousel.owl-carousel .owl-nav button.owl-next{
     right: 0;
   }
 
-  .teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev{
+  .teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev,
+  .cards-carousel.owl-carousel .owl-nav button.owl-prev{
     left: 0;
   }
 }

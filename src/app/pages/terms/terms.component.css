@@ -21,7 +21,7 @@
   position: fixed;
   top: 100px;
 }
-.section-links.is-bottom{
+.section-links.is-fixed.is-bottom{
   position: absolute;
   bottom: 0;
   top: unset;
