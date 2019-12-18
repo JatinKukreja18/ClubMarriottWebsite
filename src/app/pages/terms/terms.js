@@ -19,7 +19,26 @@ $(document).ready(function(){
             $('.section-links').removeClass('is-bottom');
           }
       }
+
+      // Manage active classes
+      var allSections = document.querySelectorAll('.terms-section-heading');
+
+      for (let i = 0; i < allSections.length; i++) {
+        const element = allSections[i];
+        if(document.scrollingElement.scrollTop > document.querySelector('#' + element.id).offsetTop +( window.innerHeight/2)){
+          resetAllLinks();
+          document.querySelector("a[data-href='#" + element.id  + "']").classList.add('active');
+        }
+      }
+
     })
   }
 })
 
+function resetAllLinks(){
+  var allLinks = document.querySelectorAll('.section-link-item');
+  for (let i = 0; i < allLinks.length; i++) {
+    const element = allLinks[i];
+    element.classList.remove('active');
+  }
+}
