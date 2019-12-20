@@ -48,10 +48,23 @@ padding-bottom: 100px;
   padding: 0 0px;
   display: flex;
 }
+
+/* 20th December changes */
 .per-page{
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
+.pagination-container{
+  display: inline-flex;
+}
+.centered-filters{
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+/* 20th December changes ends*/
+
+
 .per-page h2{
   margin-right: 5px;
 }

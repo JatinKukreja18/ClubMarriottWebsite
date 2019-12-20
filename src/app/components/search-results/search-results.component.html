@@ -47,10 +47,7 @@
       </div> -->
      <div class="search-filter-block row mb-50">
         <div class=" col-md-3 col-sm-12 mb-25-sm no-padding-sm">
-          <div class="per-page">
-            <h2 class="cm-heading cm-heading-gray">Hotels Per Page</h2>
-            <cm-dropdown-category></cm-dropdown-category>
-          </div>
+
         </div>
      </div>
       <div class="row hotels-listed" >
@@ -74,8 +71,18 @@
         </div>
       </div>
       <div class="row mb-100">
-        <div class="col-sm-12">
-            <nav aria-label="Page navigation">
+        <!-- /* 20th December changes */ -->
+<!-- added class in below div -->
+        <div class="col-sm-12 centered-filters">
+          <!-- moved this from top -->
+          <div class="per-page">
+            <h2 class="cm-heading cm-heading-gray">Hotels Per Page</h2>
+            <cm-dropdown-category></cm-dropdown-category>
+          </div>
+          <!-- moved this from top ends-->
+
+          <!-- added class in below div -->
+            <nav aria-label="Page navigation" class="pagination-container">
                 <ul class="pagination justify-content-end cm-pagination">
                   <li class="page-item">
                     <a class="page-link" href="#" aria-label="Previous">
