@@ -77,12 +77,15 @@ $(document).ready(function(){
     this.disabled = true;
     $('.cm-autocomplete').addClass('active');
   })
-  // Removes cross and reactivates inputs
+  // // Removes cross and reactivates inputs
   $('.cm-autocomplete-cross').on('click',function(){
     $('.cm-autocomplete-input').focus();
     $('.cm-autocomplete-input').val('');
     $('.cm-autocomplete-input').prop('disabled',false);
+    $(".autocomplete-dropdown-link").addClass('active');
     $('.cm-autocomplete').removeClass('active');
+    $(this).parent().find('input').autocomplete("search");
+
   })
 
   $(".autocomplete-dropdown-link").on('click',function(){

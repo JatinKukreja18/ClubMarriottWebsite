@@ -8,19 +8,31 @@ ul.cm-teasers-list{
 
 }
 .cm-teasers-list-item{
-  display: inline-flex;
+  /* display: inline-flex; */
   /* width: 33.33%; */
   flex-direction: column;
 }
 .cm-teasers-list-item .cm-teaser-list-image{
   width: 100%;
-  margin-bottom: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  object-fit: cover;
+  /* margin-bottom: 50px; */
 }
 .cm-teaser-list-image-block{
   position: relative;
   overflow: hidden;
   cursor: pointer;
   display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+  position: relative;
+  width: 100%;
+  padding-top: 149.58%;
 }
 .cm-teasers-list-item-cta{
   position: absolute;
