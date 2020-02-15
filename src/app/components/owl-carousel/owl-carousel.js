@@ -1,13 +1,14 @@
 $(document).ready(function(){
   $('.cm-owl-carousel').owlCarousel({
-    center: true,
-    items:2,
-    loop:true,
-    margin:30,
+    center: false,
+    items:3,
+    loop:false,
+    // autoWidth: true,
+    margin:10,
     nav:true,
     responsive:{
         600:{
-            items:3
+            items:1
         },
         769:{
           items:3
