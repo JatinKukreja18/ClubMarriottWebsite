@@ -14,7 +14,7 @@ $(document).ready(function(){
         // $('.cm-right-adjust').css('margin-left','auto')
       }else{
         $('.section-links').addClass('is-fixed');
-          if(document.scrollingElement.scrollTop + window.innerHeight > document.querySelector('#terms-conditions').offsetHeight + document.querySelector('#terms-conditions').offsetTop - 100){
+          if(document.scrollingElement.scrollTop  > document.querySelector('#terms-conditions').offsetHeight + document.querySelector('#terms-conditions').offsetTop - document.querySelector('.section-links').offsetHeight - 200){
             $('.section-links').addClass('is-bottom');
           }else{
             $('.section-links').removeClass('is-bottom');
@@ -26,7 +26,7 @@ $(document).ready(function(){
 
       for (let i = 0; i < allSections.length; i++) {
         const element = allSections[i];
-        if(document.scrollingElement.scrollTop > document.querySelector('#' + element.id).offsetTop +  document.querySelector('#terms-conditions').offsetTop - 100){
+        if(document.scrollingElement.scrollTop > document.querySelector('#' + element.id).offsetTop +  document.querySelector('#terms-conditions').offsetTop - window.innerHeight/2){
           resetAllLinks();
           document.querySelector("a[data-href='#" + element.id  + "']").classList.add('active');
         }
