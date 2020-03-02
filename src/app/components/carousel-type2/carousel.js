@@ -8,7 +8,7 @@ $('.owl-carousel.owl-exp').owlCarousel({
   margin:10,
   loop:true,
   autoWidth:true,
-  items:1,
+  items:2,
   center:true,
   nav:true,
   smartSpeed: 1000

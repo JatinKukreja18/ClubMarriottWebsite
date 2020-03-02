@@ -557,6 +557,9 @@ body {
   transform: scale(1);
 }
 /* expereince carousel new */
+.owl-exp.owl-carousel .owl-item.center.active .exp-carousel-caption {
+  opacity: 1;
+}
 .owl-exp.owl-carousel .owl-nav .owl-prev{
     background: #fff;
     width: 40px;

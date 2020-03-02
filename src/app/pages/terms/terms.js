@@ -1,9 +1,10 @@
 $(document).ready(function(){
 
-  $('.section-link-item').on('click',function(){
+  $('.section-link-item').on('click',function(e){
     // document.querySelector(this.dataset.href).scrollIntoView({block:'center',behavior:'smooth'});
     document.scrollingElement.style.scrollBehavior = 'smooth';
     document.scrollingElement.scrollTop =  document.querySelector('#terms-conditions').offsetTop + document.querySelector(this.dataset.href).offsetTop;
+    e.stopPropogation();
   })
 
   if(document.querySelector('#terms-conditions')){

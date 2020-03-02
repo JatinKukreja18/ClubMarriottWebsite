@@ -2,7 +2,7 @@
   position: relative;
 }
 .cm-carousel-type2 .item{
-  width: 90.5vw;
+  width: 65vw;
 }
 .cm-carousel-type2 .cm-banner-overlay{
     width: 100%;
@@ -71,9 +71,9 @@
   transition: 1s;
   transition-delay: .3s;
 }
-.cm-carousel-type2  .exp-carousel-caption{
+/* .cm-carousel-type2  .exp-carousel-caption{
   opacity: 1;
-}
+} */
 .cm-carousel-type2 .carousel-item.active.carousel-item-left .carousel-caption{
   opacity: 0;
   transition: 0s;
