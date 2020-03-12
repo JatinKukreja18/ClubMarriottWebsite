@@ -1,3 +1,5 @@
+import { LivechatComponent } from './components/livechat/livechat.component';
+import { SitemapPageComponent } from './pages/sitemap/sitemap.component';
 import { TermsPageComponent } from './pages/terms/terms.component';
 import { NotFoundPageComponent } from './pages/not-found/not-found.component';
 import { FormDropdownComponent } from './components/form-dropdown/form-dropdown.component';
@@ -146,7 +148,9 @@ import { CardCarouselComponent } from './components/card-carousel/card-carousel.
     NotFoundPageComponent,
     FAQPageComponent,
     TermsPageComponent,
-    CardCarouselComponent
+    CardCarouselComponent,
+    SitemapPageComponent,
+    LivechatComponent
   ],
   imports: [
     BrowserModule,

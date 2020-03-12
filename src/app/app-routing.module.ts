@@ -1,3 +1,4 @@
+import { SitemapPageComponent } from './pages/sitemap/sitemap.component';
 import { TermsPageComponent } from './pages/terms/terms.component';
 import { ContactPageComponent } from './pages/contact/contact.component';
 import { DownloadAppPageComponent } from './pages/download-app/download-app.component';
@@ -37,6 +38,7 @@ const routes: Routes = [
   { path:  'blog-layout2', component:  BlogLayout2Component},
   { path:  'blog-layout3', component:  BlogLayout3Component},
   { path:  'all-banners', component:  AllBannersComponent},
+  { path:  'sitemap', component:  SitemapPageComponent},
   { path:  '', component:  HomePageComponent}
 
 ];
