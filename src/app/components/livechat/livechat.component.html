@@ -1,23 +1,63 @@
 
         <div class="floating-chat marriott-lchat">
+          <div class="tooltip-onload">
+            <span class="tooltip-text">May I help you?</span>
+            <img src="../../../assets/cross.svg" id="tooltip-cross" />
+        </div>
           <img src="../../../assets/chat-icon.svg">
           <div class="chat">
               <div class="header">
                   <span class="title">
                       Live Assistance
                   </span>
-                  <button>
+                  <a>
                       <img src="../../../assets/cross.svg">
-                  </button>
+                  </a >
 
               </div>
-              <ul class="messages">
+              <!-- <ul class="messages">
                   <li class="other">How may I help you?</li>
                   <li class="self">Lorem Ipsum....</li>
-              </ul>
-              <div class="footer">
-                  <div class="text-box cm-input" contenteditable="true" disabled="true"></div>
-                  <button id="sendMessage"><img src="../../../assets/send.svg"/></button>
+              </ul> -->
+              <!--- using hidden class with chat-wrapper will hide the wrapper --->
+              <!-- Conversational body below -->
+              <div class="chat-wrapper ">
+                <ul class="messages">
+                    <li class="other">How may I help you?</li>
+                    <li class="self">Lorem Ipsum....</li>
+                </ul>
+                <div class="footer">
+                    <div class="text-box" contenteditable="true" disabled="true"></div>
+                    <button id="sendMessage">
+                      <img src="../../../assets/send.svg"/></button>
+                </div>
+              </div>
+
+              <!-- Assistant not available body below -->
+
+              <div class="hidden chat-wrapper cm-livechat-text-center leaveContMess">
+                  <img src="../../../assets/leavemessage-sad.svg" class="chat-illus"/>
+                <p>Our Live assistance is available from 8 AM to 8 PM IST. We would you like to hear from you.</p>
+                <a  id="leaveMessageLink">Leave a message</a>
+              </div>
+
+              <!-- Leave a message body below -->
+              <!-- This can also be toggled from clicking Leave a message in above body -->
+              <div class="hidden chat-wrapper leaveMessage cm-livechat-text-center">
+                  <div class="leaveMessage-form">
+                      <input type="text" placeholder="Full Name" class="form-input">
+                      <input type="text" placeholder="Email">
+                      <textarea placeholder="Type message"></textarea>
+
+                      <a href="#">Submit</a>
+                  </div>
+              </div>
+              <!-- Send Summary message body below -->
+              <div class="hidden chat-wrapper sendSummary cm-livechat-text-center">
+                  <img class="chat-illus" src="../../../assets/summary.svg"/>
+                <p>Would you like to receive a Chat Summary via email?</p>
+                <input type="text" placeholder="Email" id="summary-email">
+               <a href="#">Send Summary</a>
               </div>
           </div>
       </div>

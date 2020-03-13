@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+
+.tooltip-onload {
+  position: fixed;
+  bottom: 60px;
+  right: 10px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  border-radius: 6px;
+  background-color: #fff;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  display: flex;
+  color: black;
+    width: 150px;
+    font-size: 12px;
+    width: 110px;
+    border-radius: 0;
+    /* box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2); */
+    height: 32px;
+    align-items: center;
+}
+
+.tooltip-onload img{
+  width: 14px;
+}
+.tooltip-text {
+  font-family: "ProximaNova", sans-serif;
+  /* font-family: ProximaNova-Regular; */
+}
+
+.tooltip-onload.enter {
+  opacity: 1;
+}
 
 .floating-chat.marriott-lchat {
   cursor: pointer;
@@ -14,10 +48,11 @@
   transition: all 250ms ease-out;
   border-radius: 50%;
   opacity: 0;
-  font-family: ProximaNova,sans-serif;
+  /* font-family: ProximaNova,sans-serif; */
 /*   background: -moz-linear-gradient(-45deg, #183850 0, #183850 25%, #192C46 50%, #22254C 75%, #22254C 100%);
   background: -webkit-linear-gradient(-45deg, #183850 0, #183850 25%, #192C46 50%, #22254C 75%, #22254C 100%); */
   background-repeat: no-repeat;
+  font-family: "ProximaNova", sans-serif;
   background-attachment: fixed;
 }
 .floating-chat.marriott-lchat.enter:hover {
@@ -50,6 +85,7 @@
   border-radius: 3px;
   cursor: pointer;
   padding: 0 0 0 24px;
+  width: 51px;
 }
 .floating-chat.marriott-lchat .chat {
   display: flex;
@@ -76,28 +112,37 @@
 }
 .floating-chat.marriott-lchat .chat .header {
   flex-shrink: 0;
-  padding: 10px;
+  padding: 10px 20px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 38px;
   background: #000;
 }
 .floating-chat.marriott-lchat .chat .header .title {
   flex-grow: 1;
   flex-shrink: 1;
-  padding: 0 5px;
+  font-size: 14px;
+  line-height: 17px;
+  /* padding: 0 5px; */
 }
-.floating-chat.marriott-lchat .chat .header button {
-  flex-shrink: 0;
+.floating-chat.marriott-lchat .chat .header button img{
+  /* flex-shrink: 0; */
+  display: block;
 }
 .floating-chat.marriott-lchat .chat .messages {
-  margin: 10px;
   padding:0;
+  margin:0;
+  width: 100%;
   list-style: none;
+  height: 210px;
   overflow-y: scroll;
   overflow-x: hidden;
   flex-grow: 1;
   border-radius: 4px;
   background: transparent;
-
+  margin-bottom: 20px;
+  width: calc(100% + 20px);
 }
 .floating-chat.marriott-lchat .chat .messages::-webkit-scrollbar {
   width: 5px;
@@ -121,7 +166,7 @@
   word-wrap: break-word;
   font-weight: 300;
   max-width: 162px;
-  font-family: ProximaNova,sans-serif;
+  /* font-family: ProximaNova,sans-serif; */
 }
 /* .floating-chat.marriott-lchat .chat .messages li:before {
   position: absolute;
@@ -175,11 +220,16 @@
   transform:rotate(135deg);
 }
 .floating-chat.marriott-lchat .chat .footer {
+
   flex-shrink: 0;
   display: flex;
-  padding: 10px;
-  max-height: 90px;
-  background: transparent;
+  padding: 0px;
+  max-height: 45px;
+  background: #fff;
+  width: calc(100% - 20px);
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
 .floating-chat.marriott-lchat .chat .footer .text-box {
   border:1px solid #c4b67e;
@@ -204,6 +254,79 @@
 .floating-chat.marriott-lchat #sendMessage img{
   height:22px;
 }
+
+.chat-wrapper{
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.chat-wrapper.hidden{
+  display: none;
+}
+.cm-livechat-text-center{
+  text-align: center;
+  color: #000 !important;
+}
+.cm-livechat-text-center a{
+  text-decoration: underline;
+  color: #000;
+}
+.chat-illus{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.chat-wrapper input[type="text"]{
+  border: 0px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 4px;
+  width: 100%;
+  font-size: 12px;
+  margin-bottom: 20px;
+  /* font-family:ProximaNova-Regular; */
+  font-family: "ProximaNova", sans-serif;
+  max-height: 21px;
+}
+
+.leaveMessage-form textarea {
+  border: 1px solid #979797;
+  resize: none;
+  height: 100px;
+  font-size: 12px;
+  margin-bottom: 20px;
+  font-family: "ProximaNova", sans-serif;
+  /* font-family: ProximaNova-Regular; */
+}
+
+::placeholder {
+  color: black;
+}
+
+.leaveMessage-form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.leaveContMess,.sendSummary{
+  font-family: 'EB Garamond', serif;
+}
+.leaveContMess p{
+  margin-bottom: 20px;
+  line-height: normal;
+}
+
+.leaveContMess a{
+  cursor: pointer;
+}
+.leaveMessage{
+  font-family: "ProximaNova", sans-serif;
+}
+.sendSummary p{}
+
 @keyframes show-chat-even {
   0% {
     margin-left: -480px;
