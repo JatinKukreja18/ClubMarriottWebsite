@@ -1,3 +1,4 @@
+import { CertTermsPageComponent } from './pages/cert-terms/cert-terms.component';
 import { LivechatComponent } from './components/livechat/livechat.component';
 import { SitemapPageComponent } from './pages/sitemap/sitemap.component';
 import { TermsPageComponent } from './pages/terms/terms.component';
@@ -150,7 +151,8 @@ import { CardCarouselComponent } from './components/card-carousel/card-carousel.
     TermsPageComponent,
     CardCarouselComponent,
     SitemapPageComponent,
-    LivechatComponent
+    LivechatComponent,
+    CertTermsPageComponent
   ],
   imports: [
     BrowserModule,

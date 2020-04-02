@@ -1,3 +1,4 @@
+import { CertTermsPageComponent } from './pages/cert-terms/cert-terms.component';
 import { SitemapPageComponent } from './pages/sitemap/sitemap.component';
 import { TermsPageComponent } from './pages/terms/terms.component';
 import { ContactPageComponent } from './pages/contact/contact.component';
@@ -39,6 +40,7 @@ const routes: Routes = [
   { path:  'blog-layout3', component:  BlogLayout3Component},
   { path:  'all-banners', component:  AllBannersComponent},
   { path:  'sitemap', component:  SitemapPageComponent},
+  { path:  'cert-terms', component:  CertTermsPageComponent},
   { path:  '', component:  HomePageComponent}
 
 ];

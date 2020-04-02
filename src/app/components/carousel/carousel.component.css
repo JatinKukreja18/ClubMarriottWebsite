@@ -1,3 +1,4 @@
+
 /* type 1 for banner type */
 .cm-type-1{
   position: relative;
@@ -107,7 +108,31 @@
   fill: #c4b67e;
   transition: .3s;
 }
-
+.banner-slant{
+  min-height: 538px;
+  overflow: hidden;
+}
+.banner-slant .cm-banner.cm-type-1 img,
+.banner-slant .cm-banner.cm-type-1-image,
+.banner-slant .cm-banner.cm-type-1 video{
+  min-height: 538px !important  ;
+}
+.banner-slant:after{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    /* height: 40px; */
+    z-index: 1;
+    display: block;
+    border-style: solid;
+    border-width: 40px 100vw 0px 0;
+    border-color: transparent #fff transparent transparent;
+}
+.banner-slant.cm-type-1 .carousel .carousel-indicators{
+  margin-bottom: 80px ;
+}
 @media only screen and (max-width: 767px){
   .carousel-type-two-caption-block{
     width: 100%;
@@ -163,6 +188,17 @@
   .cm-type-1 .carousel-caption{
     max-width: calc(100vw - 170px);
     padding: 0;
+  }
+  .banner-slant {
+    min-height: unset;
+  }
+  .banner-slant .cm-banner.cm-type-1 img,
+  .banner-slant .cm-banner.cm-type-1-image,
+  .banner-slant .cm-banner.cm-type-1 video{
+    min-height: 340px !important  ;
+  }
+  .banner-slant.cm-type-1 .carousel .carousel-indicators{
+    margin-bottom: 40px ;
   }
 }
 .membership-form{
