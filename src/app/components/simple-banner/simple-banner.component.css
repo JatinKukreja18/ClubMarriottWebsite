@@ -1,6 +1,7 @@
 .simple-banner{
   height: 680px;
   max-height: calc(100vh - 80px);
+  min-height: 480px;
 }
 .simple-banner-image{
   width: 100%;
@@ -10,5 +11,6 @@
 @media only screen and (max-width:767px){
   .simple-banner{
     height: 280px;
+    min-height: unset;
   }
 }
