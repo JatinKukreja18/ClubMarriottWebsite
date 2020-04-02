@@ -109,13 +109,13 @@
   transition: .3s;
 }
 .banner-slant{
-  min-height: 538px;
+  min-height: 480px;
   overflow: hidden;
 }
 .banner-slant .cm-banner.cm-type-1 img,
 .banner-slant .cm-banner.cm-type-1-image,
 .banner-slant .cm-banner.cm-type-1 video{
-  min-height: 538px !important  ;
+  min-height: 480px !important  ;
 }
 .banner-slant:after{
     content: '';
