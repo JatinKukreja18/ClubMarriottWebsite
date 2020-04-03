@@ -59,7 +59,7 @@
   position: relative;
   width: 320px;
   text-align: left;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
   padding: 50px 27px;
   z-index: 1;
   left: unset;
