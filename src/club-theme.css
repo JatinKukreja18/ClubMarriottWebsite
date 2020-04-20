@@ -1,6 +1,117 @@
-@font-face {
-  font-family: "ProximaNova";
-  src: url("/fonts/FontsFree-Net-Proxima-Nova-Light.otf");
+
+/*
+Font reference
+--------------
+Proxima Nova Bold
+
+font-family: proxima-nova, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Proxima Nova Bold Italic
+
+font-family: proxima-nova, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Proxima Nova Regular
+
+font-family: proxima-nova, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Proxima Nova Italic
+
+font-family: proxima-nova, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Proxima Nova Extra Condensed Bold Italic
+
+font-family: proxima-nova-extra-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Proxima Nova Extra Condensed Bold
+
+font-family: proxima-nova-extra-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Proxima Nova Extra Condensed Italic
+
+font-family: proxima-nova-extra-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Proxima Nova Extra Condensed Regular
+
+font-family: proxima-nova-extra-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Proxima Nova Condensed Bold
+
+font-family: proxima-nova-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Proxima Nova Condensed Bold Italic
+
+font-family: proxima-nova-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Proxima Nova Condensed Regular
+
+font-family: proxima-nova-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Proxima Nova Condensed Italic
+
+font-family: proxima-nova-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: italic; */
+
+
+body{
+  font-family: "proxima-nova", sans-serif;
 }
 /* form elements */
 .cm-button-group {
@@ -20,7 +131,7 @@
 }
 
 .help-text,.cm-input-checkbox {
-  font-family: "ProximaNova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 12px;
   font-weight: 300;
   color: #b1aaaa;
@@ -88,14 +199,14 @@ textarea.cm-textarea{
 }
 
 .cm-input::placeholder {
-  font-family: "ProximaNova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #000000;
 }
 
 .cm-input::-webkit-input-placeholder {
-  font-family: "ProximaNova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #000000;
@@ -164,7 +275,7 @@ textarea.cm-textarea{
 }
 .cm-input-label span.cm-placeholder-label {
   position: absolute;
-  font-family: "ProximaNova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #000000;
@@ -185,7 +296,7 @@ textarea.cm-textarea{
 
 .disguise-text {
   width: calc(100% - 27px);
-  font-family: "ProximaNova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 10px;
   margin-left: 27px;
   font-weight: 300;
@@ -335,7 +446,7 @@ textarea.cm-textarea{
   height: 26px;
   padding: 5px;
   background-color: #fff;
-  font-family: "ProximaNova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 14px;
   width: 100%;
   transition: translate 0.3s;
@@ -356,7 +467,7 @@ textarea.cm-textarea{
 .cm-button {
   min-width: 168px;
   padding: 15px 20px;
-  font-family: "ProximaNova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 12px;
   font-weight: 300;
   text-transform: uppercase;
@@ -400,8 +511,9 @@ textarea.cm-textarea{
 */
 h1.cm-heading {
   font-size: 32px;
-  font-family: "ProximaNova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 32px;
+  font-weight: 400;
   font-weight: 300;
   line-height: 1.19;
   color: #000000;
@@ -417,7 +529,7 @@ h1.cm-heading.cm-heading-white {
 
 h2.cm-heading {
   font-size: 24px;
-  font-family: "ProximaNova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-weight: 300;
   line-height: 1.25;
   margin: 0px;
@@ -426,7 +538,7 @@ h2.cm-heading {
 }
 
 .cm-text {
-  font-family: "ProximaNova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 14px;
   margin: 0px;
   margin-bottom: 5px;
@@ -434,7 +546,7 @@ h2.cm-heading {
   color: #000000;
 }
 .cm-text.cm-text-12{
-  font-family: "ProximaNova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 12px;
   margin: 0px;
   margin-bottom: 5px;
@@ -446,7 +558,7 @@ h2.cm-heading {
   color: #a4a4a4;
 }
 .cm-text-16 {
-  font-family: "ProximaNova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 16px;
   margin: 0px;
   margin-bottom: 5px;
@@ -458,7 +570,7 @@ h2.cm-heading {
 }
 .cm-subtext {
   font-size: 12px;
-  font-family: "ProximaNova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-weight: 300;
   margin: 0px;
   margin-bottom: 5px;
@@ -474,7 +586,7 @@ h2.cm-heading {
 
 .cm-link,
 .cm-link:hover {
-  font-family: "ProximaNova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #000000;
@@ -490,7 +602,7 @@ h2.cm-heading {
 }
 
 .cm-menu-link {
-  font-family: "ProximaNova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #000000;

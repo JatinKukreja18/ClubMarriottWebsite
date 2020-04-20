@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "club-theme.css";
-@import "./vendor/bootstrap4/";
+@import "./vendor/bootstrap4";
 @import "./vendor/OwlCarousel/dist/assets/owl.carousel.min.css";
 @import "./vendor//aos-master//dist//aos.css";
 /* ../../themes/base/jquery.ui.all.css */
