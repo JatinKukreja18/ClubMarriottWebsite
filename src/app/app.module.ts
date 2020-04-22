@@ -77,6 +77,7 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 import { FAQPageComponent } from './pages/faq/faq.component';
 import { CardCarouselComponent } from './components/card-carousel/card-carousel.component';
 import { LevelsComponent } from './components/levels/levels.component';
+import { BannerTypeCta2Component } from './components/banner-type-cta-2/banner-type-cta-2.component';
 
 @NgModule({
   declarations: [
@@ -154,7 +155,8 @@ import { LevelsComponent } from './components/levels/levels.component';
     SitemapPageComponent,
     LivechatComponent,
     CertTermsPageComponent,
-    LevelsComponent
+    LevelsComponent,
+    BannerTypeCta2Component
   ],
   imports: [
     BrowserModule,

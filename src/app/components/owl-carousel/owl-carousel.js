@@ -4,7 +4,8 @@ $(document).ready(function(){
     items:3,
     loop:false,
     // autoWidth: true,
-    margin:10,
+    smartSpeed: 1000,
+    margin:27,
     nav:true,
     responsive:{
         600:{

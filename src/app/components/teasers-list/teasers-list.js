@@ -5,7 +5,7 @@ $('.teaser-owl-carousel').owlCarousel({
   margin:30,
   nav:true,
   items:1,
-  dots:false,
+  dots:true,
   responsive:{
       0:{
           // center: true,

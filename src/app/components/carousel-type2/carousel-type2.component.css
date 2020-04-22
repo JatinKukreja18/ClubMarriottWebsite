@@ -1,6 +1,9 @@
 .cm-carousel-type2{
   position: relative;
 }
+.cm-carousel-type2 .owl-carousel{
+  background-color: #fff;
+}
 .cm-carousel-type2 .item{
   width: 65vw;
 }
@@ -12,7 +15,12 @@
     left: 0;
     background-color: rgba(0, 0, 0, 0.1);
 }
-
+.cm-carousel-type2 .caption-title{
+  margin-bottom: 25px;
+}
+.cm-carousel-type2 .caption-text{
+  margin-bottom: 50px;
+}
 .cm-carousel-type2 img{
   height: 480px;
   min-height: 500px;

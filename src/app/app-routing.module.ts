@@ -38,7 +38,7 @@ const routes: Routes = [
   { path:  'blog-layout1', component:  BlogLayout1Component},
   { path:  'blog-layout2', component:  BlogLayout2Component},
   { path:  'blog-layout3', component:  BlogLayout3Component},
-  { path:  'all-banners', component:  AllBannersComponent},
+  { path:  'banners', component:  AllBannersComponent},
   { path:  'sitemap', component:  SitemapPageComponent},
   { path:  'cert-terms', component:  CertTermsPageComponent},
   { path:  '', component:  HomePageComponent}
