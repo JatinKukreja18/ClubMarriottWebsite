@@ -1,7 +1,11 @@
 <!-- add has-3-col in class below to have 3 cards in a row -->
 <!-- add has-4-col in class below to have 4 cards in a row-->
-<div class="cm-card-list " >
-  <div class='owl-carousel cards-carousel owl-theme' data-slides="4">
+      <!-- DONOT COPY [attr.data-slides] IT IS FOR DEMO PURPOSE ONLY
+      INSTEAD PUT THIS data-slides="3" or data-slides="4" based on requiremnt
+      -->
+
+<div class="cm-card-list has-3-col" >
+  <div class='owl-carousel cards-carousel owl-theme' [attr.data-slides]="slides">
     <div class="card-col">
       <cm-card></cm-card>
     </div>

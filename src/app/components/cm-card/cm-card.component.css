@@ -21,6 +21,7 @@
 .cm-card-arrow{
   position: relative;
   width: 15px;
+  height: 15px;
   transition: .2s;
 }
 .cm-card-arrow:hover{
@@ -39,10 +40,10 @@
 }
 .cm-card-arrow::after{
   position: absolute;
-  top: -4px;
-  transform: rotate(-45deg);
+  top: 50%;
+  transform: rotate(-45deg) translate(25%,-50%);
   width: 8px;
-  right: 1px;
+  right: 0px;
   height: 100%;
   content: '';
   border-right: 1px solid #d0d0d0;

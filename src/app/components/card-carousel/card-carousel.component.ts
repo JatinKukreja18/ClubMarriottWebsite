@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 declare var $:any;
 import './card-carousel.js';
 @Component({
@@ -7,4 +7,5 @@ import './card-carousel.js';
   styleUrls: ['./card-carousel.component.css']
 })
 export class CardCarouselComponent {
+  @Input() slides;
 }

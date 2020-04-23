@@ -2,8 +2,7 @@
   <!-- reused header -->
   <cm-header></cm-header>
   <!-- just image banner to be used -->
-  <cm-carousel>
-  </cm-carousel>
+  <cm-carousel></cm-carousel>
   <!-- first section after banner in benefits page -->
   <div class="cm-padding-block cm-wrapper">
     <div class="row">
@@ -13,7 +12,7 @@
       <div class="col-md-6 col-lg-7 offset-lg-1 offset-md-1">
           <img class="full-image" src="../../../assets/property-image-sample.png" alt="">
         </div>
-      <div class="col-12">
+      <div class="col-12 visible-mobile">
           <div class="cm-button-group start vertical-sm mt-50 property-actions">
               <button class="cm-button cm-button-sm cm-wide-mobile primary">BECOME A MEMBER</button>
             </div>
@@ -23,28 +22,28 @@
   <div class="cm-wrapper">
       <div class="row">
         <div class="col-md-6 offset-md-3">
-          <h2 class="cm-heading text-center mb-25">
-            Member Benefits and Offers
-          </h2>
-          <p class="cm-text-serif text-center mb-100">Benefits you are entitled to as a Club Marriott member of the Renaissance
-            Ahmedabad Hotel </p>
+          <h1 class="cm-heading text-center">
+            Dining Experiences
+          </h1>
+          <!-- <p class="cm-text-serif text-center mb-100">Benefits you are entitled to as a Club Marriott member of the Renaissance
+            Ahmedabad Hotel </p> -->
           </div>
         </div>
       <div class="mb-100">
-        <cm-card-list-section></cm-card-list-section>
-        <cm-card-list-section></cm-card-list-section>
-        <cm-card-list-section></cm-card-list-section>
+        <!-- DONOT COPY [SLIDES] IT IS FOR DEMO PURPOSE ONLY -->
+        <cm-card-list-section [slides]="3"></cm-card-list-section>
+        <cm-card-list-section [slides]="3"></cm-card-list-section>
+        <cm-card-list-section [slides]="3"></cm-card-list-section>
       </div>
     </div>
       <!-- carousel of type 2 to be used can be found in banner-5 -->
-  <cm-carousel>
-    </cm-carousel>
+  <cm-carousel-type2></cm-carousel-type2>
   <div class="cm-padding-block cm-wrapper">
     <div class="row">
       <div class="col-md-6 offset-md-3">
-        <h2 class="cm-heading text-center mb-25">
+        <h1 class="cm-heading text-center mb-25">
           Member Benefits and Offers
-        </h2>
+        </h1>
         <p class="cm-text-serif text-center mb-100">Benefits you are entitled to as a Club Marriott member of the Renaissance
           Ahmedabad Hotel </p>
         </div>

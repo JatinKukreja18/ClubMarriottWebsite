@@ -1,0 +1,15 @@
+.chat-toll-links{
+
+}
+.chat-toll-links a:hover{
+  color: #c4b67e;
+}
+.chat-toll-links a:first-child{
+  margin-right: 25px;
+}
+.chat-toll-links a img{
+  filter: grayscale(100%);
+}
+.chat-toll-links a:hover img{
+  filter: grayscale(0);
+}

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 declare var $:any;
 @Component({
   selector: 'cm-card-list-section',
@@ -6,4 +6,5 @@ declare var $:any;
   styleUrls: ['./card-list-section.component.css']
 })
 export class CardListSectionComponent {
+  @Input() slides;
 }

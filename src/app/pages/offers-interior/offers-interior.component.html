@@ -1,0 +1,69 @@
+<div class="main-body-container">
+  <!-- reused header -->
+  <cm-header></cm-header>
+
+  <!-- just image banner -->
+  <cm-simple-banner></cm-simple-banner>
+  <!-- first section after banner in benefits page -->
+  <div class="cm-padding-block cm-wrapper">
+    <div class="row">
+      <div class="col-md-5 col-lg-4">
+          <!-- reused rich text large, the content shall change from backend -->
+          <cm-properties-details></cm-properties-details>
+      </div>
+      <div class="col-md-6 col-lg-7 offset-lg-1 offset-md-1">
+          <img class="full-image" src="../../../assets/property-image-sample.png" alt="outlet-image">
+      </div>
+      <div class="col-12 visible-mobile">
+          <div class="cm-button-group start vertical-sm mt-50 property-actions">
+              <button class="cm-button cm-button-sm cm-wide-mobile primary cm-modal-link"
+                      data-target="#reserve">Reserve</button>
+              <button class="cm-button cm-button-sm cm-wide-mobile primary">VIEW CERTIFICATES</button>
+            </div>
+          <div class="mt-50">
+            <a href="" class="cm-link property-back-link underlined">Back to the Hotel</a>
+          </div>
+      </div>
+    </div>
+      <!-- reused rich text, the content needs to change from backend -->
+  </div>
+  <div class="cm-wrapper">
+      <!-- Reusing rich tect large component the text inside is based on it's first usage
+      replace the text with below in Content management system
+
+      "Explore our curated breadth of hotels"
+      -->
+      <div class="mb-25-sm mb-50">
+        <!-- <cm-rich-text-large></cm-rich-text-large> -->
+        <h1 class="cm-heading text-center">Featured Promotions in the City</h1>
+
+      </div>
+  </div>
+      <div class="mb-100">
+        <!-- For Offers individual page replace below carousel with teasers carousel -->
+        <div class="cm-wrapper">
+          <div class="row">
+            <div class="col-md-12">
+              <cm-teasers-list [shape]="'square'"></cm-teasers-list>
+            </div>
+          </div>
+        </div>
+        <!-- <cm-owl-carousel></cm-owl-carousel> -->
+        <!-- <cm-carousel-type2></cm-carousel-type2> -->
+      </div>
+  <cm-footer></cm-footer>
+  <div id="reserve" class="modal " role="dialog">
+    <div class="modal-body ">
+      <img src="../../../assets/x.svg" class="cm-modal-close" alt="" srcset="">
+
+    <h2 class="modal-heading cm-heading">Reserve</h2>
+    <p class="modal-content cm-text">
+        To book a reservation at Kuro- The Asian Bistro, please select one of the options below.
+    </p>
+    <div class="cm-button-group start vertical-sm mt-50">
+        <button class="cm-button  cm-wide-mobile primary">DOWNLOAD APP</button>
+        <button class="cm-button  cm-wide-mobile primary">CONTINUE ON WEB</button>
+      </div>
+</div>
+</div>
+</div>

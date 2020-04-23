@@ -1,3 +1,4 @@
+import { OffersInteriorPageComponent } from './pages/offers-interior/offers-interior.component';
 import { CertTermsPageComponent } from './pages/cert-terms/cert-terms.component';
 import { SitemapPageComponent } from './pages/sitemap/sitemap.component';
 import { TermsPageComponent } from './pages/terms/terms.component';
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path:  'contact', component:  ContactPageComponent},
   { path:  'download-app', component:  DownloadAppPageComponent},
   { path:  'offers-signature', component:  OffersSignaturePageComponent},
+  { path:  'offers-interior', component:  OffersInteriorPageComponent},
   { path:  'search', component:  SearchPageComponent},
   { path:  'benefits', component:  BenefitsPageComponent},
   { path:  'outlet', component:  OutletPageComponent},
