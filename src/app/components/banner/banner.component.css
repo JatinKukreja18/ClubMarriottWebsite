@@ -103,7 +103,7 @@
 }
 
 
-/* type 2 */
+/* type 2
 .cm-type-2{
   position: relative;
 }
@@ -159,11 +159,13 @@
   bottom: unset;
   transform: none;
   right: unset;
-  /* opacity: 0; */
+  /* opacity: 0;
   transition: 1s;
   transition-delay: .3s;
+} */
+.carousel-caption .row{
+  width: 100%;
 }
-
 @media only screen and (max-width: 767px){
   .cm-banner-content-block{
     text-align: center;

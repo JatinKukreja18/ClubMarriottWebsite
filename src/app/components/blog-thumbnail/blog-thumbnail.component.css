@@ -1,8 +1,13 @@
 .cm-blog-item {
 margin-bottom: 100px;
 }
-.blog-thumbnail-image{
+.blog-thumbnail-image {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .blog-item-content{
   text-align: left;
@@ -11,9 +16,12 @@ margin-bottom: 100px;
   order: 1
 }
 .left-aligned .blog-thumbnail-image-block{
-  order: 3;
+  order: 4;
 }
 .left-aligned .spacer{
+  order: 3;
+}
+.left-aligned .spacer-end{
   order: 2;
 }
 
@@ -26,7 +34,14 @@ margin-bottom: 100px;
 .right-aligned .spacer{
   order: 2;
 }
-
+.right-aligned .spacer-end{
+  order: 4;
+}
+.blog-thumbnail-image-aspect {
+  width: 100%;
+  padding-top: 64.3%;
+  position: relative;
+}
 
 @media only screen and (max-width: 767px){
   .blog-thumbnail-image-block{

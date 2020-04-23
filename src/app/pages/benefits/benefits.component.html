@@ -11,23 +11,30 @@
       <div class="col-md-10 offset-md-1">
         <div class="mb-50 mb-25-sm">
           <!-- reused rich text large, the content shall change from backend -->
-          <cm-rich-text-large ></cm-rich-text-large>
+          <!-- <cm-rich-text-large ></cm-rich-text-large> -->
+          <h1 class="cm-heading text-center">About Club Marriott</h1>
         </div>
-        <cm-rich-text></cm-rich-text>
+        <!-- <cm-rich-text></cm-rich-text> -->
+        <h2 class="cm-heading text-center">
+          More. This is at the heart of what Club Marriott stands for. More to savor, more to sample, more to experience, more to love. Whether you’re staying with us or you’re simply visiting forthe day, we will make sure you get more of what you want: choice.
+          <br>
+          <br>
+          As a Club Marriott member, you will have the world at your finger tips, with special offers, select access to leisure facilities and exclusive privileges at over 300 participating hotels and resorts across Asia Pacific.
+        </h2>
       </div>
     </div>
       <!-- reused rich text, the content needs to change from backend -->
   </div>
-  <div class="cm-wrapper cm-wrapper-collapse-mobile">
+  <div class="cm-wrapper cm-wrapper-collapse-mobile cm-top-padding-block">
     <cm-blog-thumbnail></cm-blog-thumbnail>
-    <cm-blog-thumbnail></cm-blog-thumbnail>
+    <cm-blog-thumbnail [align]="'left'"></cm-blog-thumbnail>
     <cm-blog-thumbnail></cm-blog-thumbnail>
   </div>
   <cm-benefits-search-container></cm-benefits-search-container>
   <cm-benefits-hotels-container></cm-benefits-hotels-container>
 
-  <!-- <cm-home-membership-container></cm-home-membership-container> -->
+
   <!-- cm-carousel can be used with one banner -->
-  <cm-simple-banner></cm-simple-banner>
+  <cm-banner></cm-banner>
   <cm-footer></cm-footer>
 </div>

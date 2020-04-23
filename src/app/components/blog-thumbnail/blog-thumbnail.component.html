@@ -8,25 +8,30 @@
 
 
   by default the text is right aligned. add "left-aligned" on alternate items for left alignment
+  Do not copy [ngClass] it is only for demo perposes
 -->
-<div class="cm-blog-item right-aligned">
+<div class="cm-blog-item" [ngClass]="{'left-aligned' : align == 'left','right-aligned' : align == '','right-aligned' : align == 'right'}">
+
   <div class="row">
-    <div class="col-md-7 blog-thumbnail-image-block">
-      <img class="" src="../../../assets/plate-screenshot.png" alt="" class="blog-thumbnail-image">
+    <div class="col-md-6 blog-thumbnail-image-block">
+      <div class="blog-thumbnail-image-aspect">
+        <img class="" src="../../../assets/plate-screenshot.png" alt="" class="blog-thumbnail-image">
+      </div>
     </div>
-    <div class="col-md-1 spacer"></div>
-    <div class="col-md-4 blog-item-content">
+    <div class="col-md-1 col-lg-2 spacer"></div>
+    <div class="col-md-4 col-lg-3 blog-item-content">
       <div class="blog-item-content-block">
-        <h2 class="cm-heading caption-title mb-50 mb-25-sm">A gastronomical affair</h2>
+        <h2 class="cm-heading caption-title mb-50 mb-25-sm">Unique dining experiences</h2>
 
         <p class="cm-text-serif caption-text" >
-            Our award-winning kitchens and chefs serve a variety of refined and flavoursome cuisines ranging from local to international using ingredients that are sourced organic and locally whenever possible.
+          Our award-winning kitchens and chefs serve a variety of refined and flavoursome cuisines ranging from local to international using ingredients that are sourced organic and locally whenever possible.
         </p>
-        <a href="" class="cm-link  cm-link-serif">
-          Read More
+        <a href="" class="cm-link underlined  cm-link-serif">
+          Enjoy up to a 30% off on food and beverage at a host hotel.
         </a>
       </div>
     </div>
+    <div class="col-md-1  spacer-end"></div>
     <!-- overlay for banners  -->
     <div class="cm-banner-overlay"></div>
   </div>
