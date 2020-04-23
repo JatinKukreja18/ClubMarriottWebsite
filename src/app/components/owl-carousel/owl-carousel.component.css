@@ -61,3 +61,6 @@
 .cm-owl-carousel.owl-carousel .owl-nav button.owl-next.disabled,.cm-owl-carousel.owl-carousel .owl-nav button.owl-prev.disabled {
     display: none
 }
+.cm-owl-carousel-subtext{
+  margin-bottom: 5px;
+}
