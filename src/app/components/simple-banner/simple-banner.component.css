@@ -1,13 +1,33 @@
 .simple-banner{
-  height: 680px;
-  max-height: calc(100vh - 80px);
-  min-height: 480px;
+  height: 480px;
+  /* max-height: calc(100vh - 80px); */
+  /* min-height: 480px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 .simple-banner-image{
   width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
   height: 100%;
   object-fit: cover;
 }
+/* .simple-banner-content{
+  z-index: 1;
+  color: #fff;
+}
+.simple-banner.cm-banner-overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 0;
+} */
 @media only screen and (max-width:767px){
   .simple-banner{
     height: 280px;

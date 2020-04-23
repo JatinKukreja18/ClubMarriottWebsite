@@ -1,23 +1,35 @@
 .hotel-card{
-    width: 100%;
-    margin-bottom: 100px;
-    position: relative;
-    width: 100%;
-    padding-top: 177.77%; /* 16:9 Aspect Ratio */
+  margin-bottom: 50px;
+  position: relative;
+  width: 100%;
 }
 .aspect-fix{
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  position: relative;
+  width: 100%;
+  padding-top: 121.2%;
+  height: 0;
+  margin: 0;
+  margin-bottom: 25px
 }
 .hotel-card.less-space{
   margin-bottom: 50px;
 }
 .hotel-card-image{
   width: 100%;
-  margin-bottom: 25px;
-  height: 83.5%;
+  height: 100%;
   object-fit: cover;
+}
+.hotel-link:hover .hotel-card-image {
+  opacity: .8;
+}
+.hotel-link, .hotel-link:hover {
+  color: #2d2d2d;
+  text-decoration: none;
+}
+.aspect-fix .hotel-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }

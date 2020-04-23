@@ -1,18 +1,18 @@
-.cm-teasers-list-block{
+.cm-hotel-list-block{
   /* margin-top: 100px; */
 }
-ul.cm-teasers-list{
+ul.cm-hotel-list{
   margin: 0;
   padding: 0;
   list-style-type: none;
 
 }
-.cm-teasers-list-item{
+.cm-hotel-list-item{
   /* display: inline-flex; */
   /* width: 33.33%; */
   flex-direction: column;
 }
-.cm-teasers-list-item .cm-teaser-list-image{
+.cm-hotel-list-item .cm-teaser-list-image{
   width: 100%;
   position: absolute;
   top: 0;
@@ -35,7 +35,7 @@ ul.cm-teasers-list{
   padding-top: 121.2%;
 }
 .cm-teaser-square-image-block{padding-top:82.58%}
-.cm-teasers-list-item-cta{
+.cm-hotel-list-item-cta{
   position: absolute;
   top: 0%;
   background: rgba(255, 255, 255, 0.2);
@@ -48,32 +48,42 @@ ul.cm-teasers-list{
   justify-content: center;
   transition: .3s;
 }
-.cm-teaser-list-image-block:hover .cm-teasers-list-item-cta{
+.cm-teaser-list-image-block:hover .cm-hotel-list-item-cta{
   top: 0px;
   opacity: 1;
 }
 .cm-teaser-desc.top{
   margin-bottom: 5px;
 }
+.teaser-tag{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(196, 182, 126, .81);
+  padding: 8px 10px;
+  font-size: 12px;
+  color: #fff;
+  line-height: 1;
+}
 @media only screen and (max-width: 767px){
 
-  .cm-teasers-list-block{
+  .cm-hotel-list-block{
     /* padding: 0 20px; */
   }
-  .cm-teasers-list-item{
+  .cm-hotel-list-item{
     display:  block;
     background: #fff;
     width: calc(100% - 110px);
     margin: auto;
     min-width: 245px;
   }
-  .cm-teasers-list-block{
+  .cm-hotel-list-block{
     margin-top: 30px;
   }
-  ul.cm-teasers-list{
+  ul.cm-hotel-list{
     margin: 0%;
   }
-  .cm-teasers-list-item .cm-text-serif{
+  .cm-hotel-list-item .cm-text-serif{
     margin-bottom: 0;
   }
   .cm-teaser-desc,

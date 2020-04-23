@@ -78,6 +78,7 @@ import { FAQPageComponent } from './pages/faq/faq.component';
 import { CardCarouselComponent } from './components/card-carousel/card-carousel.component';
 import { LevelsComponent } from './components/levels/levels.component';
 import { BannerTypeCta2Component } from './components/banner-type-cta-2/banner-type-cta-2.component';
+import { HotelListComponent } from './components/hotel-list/hotel-list.component';
 
 @NgModule({
   declarations: [
@@ -156,7 +157,8 @@ import { BannerTypeCta2Component } from './components/banner-type-cta-2/banner-t
     LivechatComponent,
     CertTermsPageComponent,
     LevelsComponent,
-    BannerTypeCta2Component
+    BannerTypeCta2Component,
+    HotelListComponent
   ],
   imports: [
     BrowserModule,
