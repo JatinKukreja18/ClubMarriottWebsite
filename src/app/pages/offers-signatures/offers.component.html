@@ -1,7 +1,7 @@
 <div class="main-body-container">
 
 <cm-header></cm-header>
-<cm-carousel></cm-carousel>
+<cm-carousel [hasSlant]="false"></cm-carousel>
   <div class="cm-wrapper cm-padding-block">
       <div class="row">
           <div class="col-md-7">
@@ -22,11 +22,11 @@
           <cm-card-list-section></cm-card-list-section>
         </div>
     </div>
-    <div class="cm-padding-block">
+    <div class="cm-top-padding-block">
       <div class="row">
         <div class="col-md-10 offset-md-1 mb-50">
-          <cm-rich-text-large></cm-rich-text-large>
-
+          <!-- <cm-rich-text-large></cm-rich-text-large> -->
+          <h1 class="cm-heading text-center">Available at these destinations</h1>
         </div>
       </div>
       <div class="offers-carousel-container">
@@ -38,16 +38,18 @@
   <!-- reusing text component.
   Ideal text here "Curated Club Marriott Experiences"
   -->
-      <div class="cm-wrapper">
+      <div class="cm-wrapper cm-bottom-padding-block">
           <div class="row">
-              <div class="col-md-10 offset-md-1 cm-inner-wrapper">
-                <cm-rich-text-large></cm-rich-text-large>
+              <div class="col-md-10 offset-md-1 cm-inner-wrapper mb-50">
+                <!-- <cm-rich-text-large></cm-rich-text-large> -->
+                <h1 class="cm-heading text-center"> Related collections</h1>
+
               </div>
           </div>
           <!-- reusing carousel. ideal data to be updated from backend -->
-          <div class="curated-experience-container mt-50">
-            <cm-teasers-list></cm-teasers-list>
-          </div>
+          <!-- use with class square -->
+            <cm-teasers-list [shape]="'square'"></cm-teasers-list>
+
       </div>
 <cm-footer></cm-footer>
 </div>

@@ -20,7 +20,7 @@
     <!-- teaser item -->
     <li class=" item cm-teasers-list-item  ">
       <!-- add .cm-teaser-square-image-block class for squared posts -->
-      <div class="cm-teaser-list-image-block">
+      <div class="cm-teaser-list-image-block" [ngClass]="{'cm-teaser-square-image-block': shape == 'square'}">
         <img
           src="../../../../assets/dining.jpg"
           class="cm-teaser-list-image"
@@ -40,7 +40,7 @@
     </li>
     <!-- teaser item -->
     <li class=" item cm-teasers-list-item ">
-      <div class="cm-teaser-list-image-block">
+      <div class="cm-teaser-list-image-block" [ngClass]="{'cm-teaser-square-image-block': shape == 'square'}">
         <img
           src="../../../../assets/spa.jpg"
           class="cm-teaser-list-image"
@@ -63,7 +63,7 @@
 
     <!-- teaser item -->
     <li class=" item cm-teasers-list-item ">
-      <div class="cm-teaser-list-image-block">
+      <div class="cm-teaser-list-image-block" [ngClass]="{'cm-teaser-square-image-block': shape == 'square'}">
         <img
           src="../../../../assets/spa.jpg"
           class="cm-teaser-list-image"
@@ -82,7 +82,7 @@
 
     </li>
     <li class=" item cm-teasers-list-item ">
-      <div class="cm-teaser-list-image-block">
+      <div class="cm-teaser-list-image-block" [ngClass]="{'cm-teaser-square-image-block': shape == 'square'}">
         <img
           src="../../../../assets/spa.jpg"
           class="cm-teaser-list-image"

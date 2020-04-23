@@ -1,4 +1,4 @@
-import { Component ,ViewEncapsulation } from '@angular/core';
+import { Component ,ViewEncapsulation, Input } from '@angular/core';
 declare var $:any;
 import "./carousel.js";
 @Component({
@@ -8,4 +8,5 @@ import "./carousel.js";
   encapsulation: ViewEncapsulation.None
 })
 export class CarouselComponent {
+  @Input() hasSlant;
 }

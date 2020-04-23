@@ -20,9 +20,9 @@
 
   #To hide any item add is-hidden to that particular component like carousel-indicators and arrows.
 
-
+  !! DO NOT USE OR COPY [ngClass] IT IS ONLY FOR DEMO PURPOSE
 -->
-<div class="cm-type-1 banner-slant cm-carousel">
+<div class="cm-type-1  cm-carousel" [ngClass]="{'banner-slant': hasSlant != false}">
   <div id="cm-generic-carousel" class="carousel slide" data-ride="carousel" >
     <ol class="carousel-indicators">
     </ol>

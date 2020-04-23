@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 declare var $:any;
 import "./teasers-list.js";
 @Component({
@@ -7,4 +7,5 @@ import "./teasers-list.js";
   styleUrls: ['./teasers-list.component.css']
 })
 export class TeasersListComponent {
+  @Input() shape;
 }

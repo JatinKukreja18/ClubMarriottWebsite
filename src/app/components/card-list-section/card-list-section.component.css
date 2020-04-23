@@ -1,8 +1,11 @@
 .cm-card-list-block{
   margin-top: 50px;
   border-bottom: solid 1px #a1a1a1;
-
 }
+/* uncomment this when integrating */
+/* .cm-card-list-block:last-child{
+  border-bottom: none;
+} */
 ul.cm-card-list{
   margin: 0;
   padding: 0;
