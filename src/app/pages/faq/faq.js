@@ -22,6 +22,7 @@ $(document).ready(function(){
     if(this.parentElement.classList.contains('active')){
       $(this).parent().find('.cm-accordion-content').css('height','0px')
     }else{
+      $('.cm-accordion-content').css('height','0px');
       $(this).parent().find('.cm-accordion-content').css('height',heightOfContent)
     }
     $(this).parent().toggleClass('active');
