@@ -81,6 +81,7 @@ import { BannerTypeCta2Component } from './components/banner-type-cta-2/banner-t
 import { HotelListComponent } from './components/hotel-list/hotel-list.component';
 import { ChatTollLinksComponent } from './components/chat-toll-link/chat-toll.component';
 import { OffersInteriorPageComponent } from './pages/offers-interior/offers-interior.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -166,7 +167,8 @@ import { OffersInteriorPageComponent } from './pages/offers-interior/offers-inte
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
