@@ -36,10 +36,11 @@
 .cm-accordion-item.active .cm-accordion-content{
   height: auto;
   opacity: 1;
-  padding-top: 25px;
   transition: .3s;
+  box-sizing: border-box;
 }
 .cm-accordion-content p{
+  padding-top: 25px;
   color: #a4a4a4;
 }
 
@@ -54,5 +55,8 @@
   }
   .questions-list li{
     padding: 8px 0;
+  }
+  .cm-accordion-content p{
+    line-height: 1.3;
   }
 }

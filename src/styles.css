@@ -777,14 +777,38 @@ body {
 .owl-carousel button.owl-dot.active{
   background-color: #b1aaaa;
 }
+.hidden-accessibility{
+  position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
 @media (max-width: 767px) {
+  .dropdown-type-form + .custom-combobox .custom-combobox-input{
+    font-size: 12px;
+  }
   .teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-next,
   .teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-prev{
     top: 26%;
   }
-  .cm-owl-carousel .owl-item.active ~ .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block,.cm-owl-carousel .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block{padding-top:52.7%;margin-top:30%}
-  .cm-owl-carousel .owl-item.active.center .cm-owl-carousel-image-block{padding-top:105%;margin-top:0}
-
+  .cm-owl-carousel .owl-item .cm-owl-carousel-image-block,
+  .cm-owl-carousel .owl-item.active ~ .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block, .cm-owl-carousel .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block{
+    padding-top:88%;margin-top:10%
+  }
+  /* .cm-owl-carousel .owl-item.active ~ .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block,.cm-owl-carousel .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block{
+    padding-top:52.7%;margin-top:30%
+  } */
+  .cm-owl-carousel .owl-item.active.center .cm-owl-carousel-image-block{
+    padding-top:105%;margin-top:0
+  }
+  .cards-carousel.owl-carousel .owl-nav button.owl-next,
+  .cards-carousel.owl-carousel .owl-nav button.owl-prev{
+    width: 20px;
+    height: 40px;
+    opacity: .9;
+  }
   .owl-exp.owl-carousel .owl-nav .owl-next,
   .owl-exp.owl-carousel .owl-nav .owl-prev{
     top: 280px;
@@ -854,6 +878,12 @@ body {
   .cm-top-padding-block {
     padding-top: 50px;
   }
+  .cm-bottom-padding-block {
+    padding-bottom: 50px;
+  }
+  .overflow-hidden{
+    overflow: hidden;
+  }
   body {
     overflow-x: hidden;
   }
@@ -870,7 +900,8 @@ body {
     height: 25px;
   }
   .dropdown-type2 + .custom-combobox .custom-combobox-input {
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size: 16px;
   }
   .cm-inner-wrapper {
     width: 100%;

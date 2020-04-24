@@ -44,6 +44,9 @@ margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 767px){
+  .cm-blog-item {
+    overflow: hidden;;
+  }
   .blog-thumbnail-image-block{
     margin-bottom: 30px;
   }
@@ -53,5 +56,21 @@ margin-bottom: 100px;
   }
   .blog-item-content-block{
     padding: 0 20px;
+  }
+  .left-aligned .blog-item-content,
+  .right-aligned .blog-item-content{
+    order: 2
+  }
+  .left-aligned .blog-thumbnail-image-block,
+  .right-aligned .blog-thumbnail-image-block{
+    order: 1;
+  }
+  .left-aligned .spacer,
+  .right-aligned .spacer{
+    order: 3;
+  }
+  .left-aligned .spacer-end,
+  .right-aligned .spacer-end{
+    order: 4;
   }
 }

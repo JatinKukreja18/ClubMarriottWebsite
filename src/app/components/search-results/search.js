@@ -9,14 +9,17 @@ $(document).ready(function(){
     if(searchedString == 'not found'){
       $('.search-results-section-active').removeClass('search-results-section-active');
       $('#not-found-container').addClass('search-results-section-active');
+      $('#search-banner').addClass('is-hidden');
       scrollToResults();
 
     }else if(searchedString == 'abra'){
       $('.search-results-section-active').removeClass('search-results-section-active');
       $('#did-you-mean-container').addClass('search-results-section-active');
+      $('#search-banner').addClass('is-hidden');
       scrollToResults();
     }
     else{
+      $('#search-banner').removeClass('is-hidden');
       console.log('results found for city selected');
       $('.search-results-section-active').removeClass('search-results-section-active');
       $('#total-results').addClass('search-results-section-active');

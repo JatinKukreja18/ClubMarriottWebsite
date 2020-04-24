@@ -17,8 +17,8 @@ $(document).ready(function(){
   }
   $('.cm-accordion-link').on('click',function(){
     $('.cm-accordion-item:not(#' + this.parentElement.id + ')').removeClass('active');
-    var heightOfContent = $(this).parent().find('.cm-accordion-content p').height();
-
+    var heightOfContent = document.querySelector('#'+this.parentElement.id).querySelector('.cm-accordion-content p').clientHeight + 'px';
+    console.log(heightOfContent)
     if(this.parentElement.classList.contains('active')){
       $(this).parent().find('.cm-accordion-content').css('height','0px')
     }else{

@@ -35,6 +35,9 @@
 }
 
 @media only screen and (max-width:767px){
+  .filter-links{
+    padding: 0 20px;
+  }
   .blog-categories{
     margin-bottom: 00px;
     width: 100%;

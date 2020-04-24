@@ -11,8 +11,17 @@
 .property-content-item-body{
   margin: 0;
 }
+.outlet-image {
+  max-width: 246px;
+  margin: auto;
+  display: block;
+  margin-bottom: 25px;
+}
 @media only screen and (max-width:767px){
   .property-content{
     margin-top: 25px;
+  }
+  .property-back-link-block{
+    text-align: center;
   }
 }

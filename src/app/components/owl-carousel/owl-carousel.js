@@ -10,7 +10,8 @@ $(document).ready(function(){
     responsive:{
         320:{
             items:2,
-            center: true
+            center: true,
+            margin:14
         },
         769:{
           items:3

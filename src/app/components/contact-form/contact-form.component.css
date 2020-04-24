@@ -21,4 +21,8 @@
   .cm-input-group .cm-input-label:last-child{
     margin-right: 0;
   }
+  .contact-form{
+    max-width: 245px;
+    margin: auto;
+  }
 }

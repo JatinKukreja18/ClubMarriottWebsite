@@ -180,6 +180,7 @@
 }
 }
 @media only screen and (max-width: 767px){
+
   .carousel-type-two-caption-block{
     width: 100%;
     position: relative;
@@ -203,11 +204,22 @@
     height: 280px;
     min-height: 280px;
   }
-  .cm-carousel .carousel-control-next,
+  /* .cm-carousel .carousel-control-next,
   .cm-carousel .carousel-control-prev{
     top: 280px;
     height: 80px;
+  } */
+  .cm-carousel .carousel-control-next, .cm-carousel .carousel-control-prev{
+    top: 50%;
+    height: 40px;
+    transform:  translateY(-50%);
+    width: auto;
   }
+.cm-carousel .carousel-control-next svg, .cm-carousel .carousel-control-prev svg{
+  height: 100%;
+  width: auto;
+  opacity: 0.9;
+}
   .carousel-control-next svg path,
   .carousel-control-prev svg path{
     fill: #c4b67e;

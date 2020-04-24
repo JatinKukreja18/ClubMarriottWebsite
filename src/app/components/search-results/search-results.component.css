@@ -70,6 +70,12 @@ padding-bottom: 100px;
   margin-bottom: 0px;
 }
 @media only screen and (max-width:767px){
+  .search-results-container{
+    padding-bottom: 0;
+  }
+  .pagination-container{
+    margin: auto;
+  }
   .search-categories{
     margin-bottom: 30px;
   }

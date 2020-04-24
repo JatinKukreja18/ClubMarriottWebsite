@@ -90,3 +90,19 @@
 .blog-fixed-navigation.show{
   top: 80px;
 }
+
+@media (max-width: 767px){
+  .blog-social-icons{
+    /* margin-bottom: 25px; */
+    justify-content: center;
+  }
+  .blog-meta{
+    text-align: center;
+  }
+  .blog-fixed-navigation.show{
+    top: 50px;
+  }
+  .blog-fixed-navigation{
+    height: 80px;
+  }
+}

@@ -45,4 +45,11 @@
   .blog-content-images{
     margin-top: 25px;
   }
+  .blog-social-icons{
+    margin-bottom: 25px;
+    justify-content: center;
+  }
+  .blog-meta{
+    text-align: center;
+  }
 }
