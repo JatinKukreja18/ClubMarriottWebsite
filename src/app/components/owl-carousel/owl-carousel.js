@@ -8,8 +8,9 @@ $(document).ready(function(){
     margin:27,
     nav:true,
     responsive:{
-        600:{
-            items:1
+        320:{
+            items:2,
+            center: true
         },
         769:{
           items:3

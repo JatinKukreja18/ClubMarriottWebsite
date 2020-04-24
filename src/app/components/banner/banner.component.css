@@ -179,4 +179,7 @@
     height: 280px;
     min-height: unset;
   }
+  .cm-banner-action{
+    margin-top: 25px;
+  }
 }

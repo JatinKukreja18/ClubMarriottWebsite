@@ -273,7 +273,7 @@ body {
   transform: rotate(90deg);
   position: absolute;
   left: -40px;
-  top: 38%;
+  top: 32%;
   outline: none;
 }
 .cards-carousel.owl-carousel .owl-nav {
@@ -343,7 +343,7 @@ body {
   transform: rotate(-90deg);
   position: absolute;
   right: -40px;
-  top: 38%;
+  top: 32%;
   outline: none;
 }
 
@@ -778,6 +778,13 @@ body {
   background-color: #b1aaaa;
 }
 @media (max-width: 767px) {
+  .teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-next,
+  .teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-prev{
+    top: 26%;
+  }
+  .cm-owl-carousel .owl-item.active ~ .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block,.cm-owl-carousel .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block{padding-top:52.7%;margin-top:30%}
+  .cm-owl-carousel .owl-item.active.center .cm-owl-carousel-image-block{padding-top:105%;margin-top:0}
+
   .owl-exp.owl-carousel .owl-nav .owl-next,
   .owl-exp.owl-carousel .owl-nav .owl-prev{
     top: 280px;
@@ -810,6 +817,20 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+  .owl-carousel button.owl-dot{
+    width: 8px;
+    height: 8px;
+    margin: 0 7px;
+  }
+  .owl-dots{
+    margin-top: 20px;
+  }
+  .owl-exp.owl-carousel .owl-nav .owl-next:after{
+    border-top: 13px solid #c4b67e;
+  }
+  .owl-exp.owl-carousel .owl-nav .owl-prev:after{
+    border-top: 13px solid #c4b67e
+  }
   .cards-carousel.owl-carousel .owl-nav {
     height: calc(37.3vw - 30px);
   }

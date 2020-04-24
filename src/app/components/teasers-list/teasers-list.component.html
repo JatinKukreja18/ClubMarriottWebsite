@@ -16,7 +16,8 @@
 
 
 <div class="cm-teasers-list-block">
-  <ul class="cm-teasers-list  owl-carousel teaser-owl-carousel owl-theme">
+  <!-- add .teaser-square-carousel class for squared posts -->
+  <ul class="cm-teasers-list  owl-carousel teaser-owl-carousel owl-theme" [ngClass]="{'teaser-square-carousel': shape == 'square'}" >
     <!-- teaser item -->
     <li class=" item cm-teasers-list-item  ">
       <!-- add .cm-teaser-square-image-block class for squared posts -->
