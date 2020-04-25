@@ -15,7 +15,7 @@
 }
 
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 1171px){
   .cm-header-cta{
     margin-left: auto;
     display: block;
@@ -25,9 +25,12 @@
     margin-right: 10px;
   }
 }
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1170px){
   .cm-header-cta.cm-button-group .cm-button.cm-button-sm,
   .cm-header-cta.cm-button-group .cm-button.cm-button-sm:last-child{
-    margin-right: auto;
+    margin-right: 0;
+  }
+  .cm-header-cta{
+    align-items: center;
   }
 }

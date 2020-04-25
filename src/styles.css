@@ -935,12 +935,14 @@ overflow:hidden;
 
 @media only screen and (max-width: 1260px) {
   .teaser-owl-carousel.owl-carousel .owl-nav button.owl-next,
-  .cards-carousel.owl-carousel .owl-nav button.owl-next {
+  .cards-carousel.owl-carousel .owl-nav button.owl-next,
+  .cm-owl-carousel.owl-carousel .owl-nav button.owl-next{
     right: 0;
   }
 
   .teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev,
-  .cards-carousel.owl-carousel .owl-nav button.owl-prev {
+  .cards-carousel.owl-carousel .owl-nav button.owl-prev,
+  .cm-owl-carousel.owl-carousel .owl-nav button.owl-prev{
     left: 0;
   }
 }
