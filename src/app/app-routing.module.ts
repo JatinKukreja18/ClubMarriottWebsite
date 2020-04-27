@@ -1,3 +1,4 @@
+import { IndexPageComponent } from './pages/index-page/index-page.component';
 import { OffersInteriorPageComponent } from './pages/offers-interior/offers-interior.component';
 import { CertTermsPageComponent } from './pages/cert-terms/cert-terms.component';
 import { SitemapPageComponent } from './pages/sitemap/sitemap.component';
@@ -43,8 +44,8 @@ const routes: Routes = [
   { path:  'banners', component:  AllBannersComponent},
   { path:  'sitemap', component:  SitemapPageComponent},
   { path:  'cert-terms', component:  CertTermsPageComponent},
+  { path: 'index-page', component: IndexPageComponent},
   { path:  '', component:  HomePageComponent}
-
 ];
 
 @NgModule({

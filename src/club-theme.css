@@ -609,12 +609,16 @@ h3.cm-heading {
   font-family: "EB Garamond", serif;
 }
 
-.cm-menu-link {
+.cm-menu-link,.cm-menu-link a {
   font-family: "proxima-nova", sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #000000;
   text-decoration: none;
+}
+.cm-menu-link a:hover{
+  color: #c4b67e;
+  text-decoration: underline;
 }
 /* pagination boostrap overwritten*/
 .cm-pagination .page-link,

@@ -1,3 +1,4 @@
+import { IndexPageComponent } from './pages/index-page/index-page.component';
 import { CertTermsPageComponent } from './pages/cert-terms/cert-terms.component';
 import { LivechatComponent } from './components/livechat/livechat.component';
 import { SitemapPageComponent } from './pages/sitemap/sitemap.component';
@@ -163,7 +164,8 @@ import { CommonModule } from '@angular/common';
     BannerTypeCta2Component,
     HotelListComponent,
     ChatTollLinksComponent,
-    OffersInteriorPageComponent
+    OffersInteriorPageComponent,
+    IndexPageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+ol{
+  /* display: flex; */
+  /* flex-direction: column; */
+  padding: 80px;
+  margin: 0;
+  column-count: 3;
+}
+li{
+  margin-bottom: 20px;
+}
+.index-heading{
+  padding: 60px 80px 0 80px;
+}
