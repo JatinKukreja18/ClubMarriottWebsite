@@ -8,12 +8,14 @@ $(document).ready(function(){
     margin:27,
     nav:true,
     responsive:{
-        320:{
+        275:{
             items:2,
             center: true,
-            margin:14
+            margin:14,
+            nav:false,
+            startPosition:1
         },
-        769:{
+        768:{
           items:3
         }
     }

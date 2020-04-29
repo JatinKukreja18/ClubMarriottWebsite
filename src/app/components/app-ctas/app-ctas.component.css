@@ -36,3 +36,12 @@
     margin-top: 15px;
   }
 }
+@media only screen and (max-width:560px){
+  .app-ctas-image{
+    flex: 1;
+  }
+  .app-ctas-image img{
+    height: auto;
+    width: 100%;
+  }
+}
