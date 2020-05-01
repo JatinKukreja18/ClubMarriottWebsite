@@ -326,12 +326,12 @@
   font-family: "ProximaNova", sans-serif;
 }
 .sendSummary p{}
-.embeddedServiceSidebarForm .embeddedServiceSidebarFormField:first-child,
-.embeddedServiceSidebarForm .embeddedServiceSidebarFormField:nth-child(2){
+.offlineSupportUI .embeddedServiceSidebarForm .embeddedServiceSidebarFormField:first-child,
+.offlineSupportUI .embeddedServiceSidebarForm .embeddedServiceSidebarFormField:nth-child(2){
   width: calc(50% - 12px);
   display: inline-block;
 }
-.embeddedServiceSidebarForm .fieldList{
+.offlineSupportUI .embeddedServiceSidebarForm .fieldList{
   text-align: left;
 }
 @keyframes show-chat-even {
