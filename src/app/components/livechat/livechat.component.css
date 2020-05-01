@@ -326,7 +326,14 @@
   font-family: "ProximaNova", sans-serif;
 }
 .sendSummary p{}
-
+.embeddedServiceSidebarForm .embeddedServiceSidebarFormField:first-child,
+.embeddedServiceSidebarForm .embeddedServiceSidebarFormField:nth-child(2){
+  width: calc(50% - 12px);
+  display: inline-block;
+}
+.embeddedServiceSidebarForm .fieldList{
+  text-align: left;
+}
 @keyframes show-chat-even {
   0% {
     margin-left: -480px;
