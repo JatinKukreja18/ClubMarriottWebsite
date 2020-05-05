@@ -118,6 +118,12 @@ body{
   display: flex;
   justify-content: space-between;
 }
+.cm-button-group.wrapped{
+  flex-wrap: wrap;
+}
+.cm-button-group.wrapped .cm-button{
+  margin-bottom: 25px;
+}
 .cm-button-group.centered {
   justify-content: center;
 }

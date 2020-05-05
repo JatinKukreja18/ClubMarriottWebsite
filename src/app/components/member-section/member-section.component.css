@@ -36,23 +36,28 @@
 .level-selection-list-item{
   margin-right: 34px;
   padding: 10px 20px;
-  border: 1px solid ;
+  border: 1px solid #b1aaaa;
   background-color: #fff;
-  color: #c4b67e;
+  color: #b1aaaa;
   cursor: pointer;
   height: 42px;
   display: inline-flex;
   align-items: center;
   margin-bottom: 25px;
+  font-weight: 300;
 }
 .level-selection-list-item.active{
   background: #c4b67e;
   color: #fff;
+  border-color: #c4b67e;
 }
 .level-selection-list-item:last-child{
   margin-right: 0;
 }
 @media only screen and (max-width: 767px){
+  .level-selection-list-item{
+    font-size: 14px;
+  }
   .content-title{
     margin-bottom: 50px;
     text-align: center;
@@ -66,5 +71,9 @@
   }
   .member-links-block{
     text-align: center;
+  }
+  .price{
+    font-size: 16px;
+    margin: 20px 0;
   }
 }

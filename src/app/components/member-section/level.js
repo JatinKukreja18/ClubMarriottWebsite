@@ -7,5 +7,7 @@ $(document).ready(function(){
       gstValue = $(this).data().price + ($(this).data().price * .18)
       $('#price-value').html($(this).data().price);
       $('#price-after-gst').html(gstValue)
+      $('#selected-level').html($(this).data().value)
+      $('#selected-level-description').html($(this).data().description)
   })
 })
