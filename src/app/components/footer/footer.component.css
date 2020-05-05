@@ -164,6 +164,7 @@
   }
   .custom-hotel-row {
     padding: 20px 0;
+    flex-wrap: wrap;
   }
   .custom-hotel-list-logo{
     height: 20px;
