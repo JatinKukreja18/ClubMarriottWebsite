@@ -32,8 +32,11 @@
 }
 
 .banner-type-cta-image{
-  height: ;: 100%;
   max-height: 600px;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  max-width: 100%;
 }
 .banner-type-cta-content{
   padding-right: 15px;

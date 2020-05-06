@@ -17,9 +17,9 @@
 
 <div class="cm-teasers-list-block">
   <!-- add .teaser-square-carousel class for squared posts -->
-  <ul class="cm-teasers-list  owl-carousel teaser-owl-carousel owl-theme" [ngClass]="{'teaser-square-carousel': shape == 'square'}" >
+  <div class="cm-teasers-list  owl-carousel teaser-owl-carousel owl-theme" [ngClass]="{'teaser-square-carousel': shape == 'square'}" >
     <!-- teaser item -->
-    <li class=" item cm-teasers-list-item  ">
+    <div class=" item cm-teasers-list-item  ">
       <!-- add .cm-teaser-square-image-block class for squared posts -->
       <div class="cm-teaser-list-image-block" [ngClass]="{'cm-teaser-square-image-block': shape == 'square'}">
         <img
@@ -29,7 +29,7 @@
           srcset=""
         />
         <div class="cm-teasers-list-item-cta hidden-mobile">
-          <!-- the redirect link in below should be same in both anchor tags in the same <li> -->
+          <!-- the redirect link in below should be same in both anchor tags in the same <div> -->
           <a href="#" class="cm-button primary cm-teaser-link">discover more</a>
         </div>
 
@@ -38,9 +38,9 @@
       <h2 class="cm-heading cm-teaser-title">Unique dining experiences</h2>
       <p class="cm-text-serif cm-teaser-desc">Up to a 20% off on food and beverage.</p>
       <a href="#" class="cm-link cm-teaser-link visible-mobile">Discover More</a>
-    </li>
+    </div>
     <!-- teaser item -->
-    <li class=" item cm-teasers-list-item ">
+    <div class=" item cm-teasers-list-item ">
       <div class="cm-teaser-list-image-block" [ngClass]="{'cm-teaser-square-image-block': shape == 'square'}">
         <img
           src="../../../../assets/spa.jpg"
@@ -60,10 +60,10 @@
       </p>
       <a href="#" class="cm-link cm-teaser-link visible-mobile">Discover More</a>
 
-    </li>
+    </div>
 
     <!-- teaser item -->
-    <li class=" item cm-teasers-list-item ">
+    <div class=" item cm-teasers-list-item ">
       <div class="cm-teaser-list-image-block" [ngClass]="{'cm-teaser-square-image-block': shape == 'square'}">
         <img
           src="../../../../assets/spa.jpg"
@@ -81,8 +81,8 @@
       <p class="cm-text-serif cm-teaser-desc">Up to a 20% off on select Spa treatments.</p>
       <a href="#" class="cm-link cm-teaser-link visible-mobile">Discover More</a>
 
-    </li>
-    <li class=" item cm-teasers-list-item ">
+    </div>
+    <div class=" item cm-teasers-list-item ">
       <div class="cm-teaser-list-image-block" [ngClass]="{'cm-teaser-square-image-block': shape == 'square'}">
         <img
           src="../../../../assets/spa.jpg"
@@ -98,6 +98,6 @@
       <p class="cm-text-serif cm-teaser-desc">Up to a 20% off on select Spa treatments.</p>
       <a href="#" class="cm-link cm-teaser-link visible-mobile">Discover More</a>
 
-    </li>
-  </ul>
+    </div>
+  </div>
 </div>
