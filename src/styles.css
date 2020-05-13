@@ -64,7 +64,7 @@ body {
   height: 0;
   border-left: 13px solid transparent;
   border-right: 13px solid transparent;
-  border-top: 13px solid #c4b67e;
+  border-top: 13px solid #A98E4C;
   clear: both;
   transform: rotate(90deg);
   position: absolute;
@@ -82,7 +82,7 @@ body {
   height: 0;
   border-left: 13px solid transparent;
   border-right: 13px solid transparent;
-  border-top: 13px solid #c4b67e;
+  border-top: 13px solid #A98E4C;
   clear: both;
   transform: rotate(-90deg);
   position: absolute;
@@ -153,7 +153,7 @@ body {
   height: 0;
   border-left: 13px solid transparent;
   border-right: 13px solid transparent;
-  border-top: 13px solid #c4b67e;
+  border-top: 13px solid #A98E4C;
   clear: both;
   transform: rotate(90deg);
   position: absolute;
@@ -172,7 +172,7 @@ body {
   height: 0;
   border-left: 13px solid transparent;
   border-right: 13px solid transparent;
-  border-top: 13px solid #c4b67e;
+  border-top: 13px solid #A98E4C;
   clear: both;
   transform: rotate(-90deg);
   position: absolute;
@@ -234,7 +234,7 @@ body {
   height: 0;
   border-left: 13px solid transparent;
   border-right: 13px solid transparent;
-  border-top: 13px solid #c4b67e;
+  border-top: 13px solid #A98E4C;
   clear: both;
   transform: rotate(90deg);
   position: absolute;
@@ -252,7 +252,7 @@ body {
   height: 0;
   border-left: 13px solid transparent;
   border-right: 13px solid transparent;
-  border-top: 13px solid #c4b67e;
+  border-top: 13px solid #A98E4C;
   clear: both;
   transform: rotate(-90deg);
   position: absolute;
@@ -268,7 +268,7 @@ body {
   height: 0;
   border-left: 13px solid transparent;
   border-right: 13px solid transparent;
-  border-top: 13px solid #c4b67e;
+  border-top: 13px solid #A98E4C;
   clear: both;
   transform: rotate(90deg);
   position: absolute;
@@ -338,7 +338,7 @@ body {
   height: 0;
   border-left: 13px solid transparent;
   border-right: 13px solid transparent;
-  border-top: 13px solid #c4b67e;
+  border-top: 13px solid #A98E4C;
   clear: both;
   transform: rotate(-90deg);
   position: absolute;
@@ -502,7 +502,7 @@ body {
   margin-left: 10px;
 }
 .dropdown-type2 + .custom-combobox .custom-combobox-input:focus {
-  border-color: #c4b67e;
+  border-color: #A98E4C;
 }
 .dropdown-type2 + .custom-combobox .custom-combobox-input::placeholder {
   color: #b1aaaa;
@@ -553,7 +553,7 @@ body {
   background: transparent;
 }
 .dropdown-type-form + .custom-combobox .custom-combobox-input:focus {
-  border-color: #c4b67e;
+  border-color: #A98E4C;
 }
 .dropdown-type-form + .custom-combobox .custom-combobox-input::placeholder {
   color: #000;
@@ -744,7 +744,7 @@ body {
 
 .owl-exp.owl-carousel .owl-nav .owl-prev:hover:after,
 .owl-exp.owl-carousel .owl-nav .owl-next:hover:after{
-  border-top-color:#c4b67e;
+  border-top-color:#A98E4C;
 }
 .owl-exp.owl-carousel .owl-nav .owl-next:after{
   content: "";
@@ -891,10 +891,10 @@ overflow:hidden;
     margin-top: 20px;
   }
   .owl-exp.owl-carousel .owl-nav .owl-next:after{
-    border-top: 13px solid #c4b67e;
+    border-top: 13px solid #A98E4C;
   }
   .owl-exp.owl-carousel .owl-nav .owl-prev:after{
-    border-top: 13px solid #c4b67e
+    border-top: 13px solid #A98E4C
   }
   .cards-carousel.owl-carousel .owl-nav {
     height: calc(37.3vw - 30px);

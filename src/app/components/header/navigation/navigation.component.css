@@ -20,11 +20,11 @@
 }
 .cm-header-menu-list-item.cm-header-menu-list-item-active,
 .cm-header-menu-list-item a.cm-active-link{
-  color: #c4b67e;
+  color: #A98E4C;
 }
 
 .cm-header-menu-list-item a.cm-active-link::after{
-  background: #c4b67e;
+  background: #A98E4C;
 }
 /* active link */
 .cm-header-menu-list-item a::after{

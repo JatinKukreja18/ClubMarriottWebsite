@@ -192,10 +192,10 @@ textarea.cm-textarea{
 .cm-input.cm-input-gg{
   border-bottom: 1px solid #b1aaaa;
   font-size: 14px;
-  color: #c4b67e;
+  color: #A98E4C;
 }
 .cm-input.cm-input-gg:focus{
-  border-bottom: 1px solid #c4b67e;
+  border-bottom: 1px solid #A98E4C;
 }
 .cm-input.touched:invalid {
   border-color: #e44b4b;
@@ -277,7 +277,7 @@ textarea.cm-textarea{
   color: #fff;
 }
 .cm-input-label .cm-input-gg + span.cm-placeholder-label{
-  color: #c4b67e;
+  color: #A98E4C;
 }
 .cm-input-label span.cm-placeholder-label,
 .cm-placeholder-label {
@@ -368,7 +368,7 @@ textarea.cm-textarea{
     width: 16px;
     height: 16px;
     background: #fff;
-    border: 1px solid #c4b67e;
+    border: 1px solid #A98E4C;
     border-radius: 1px;
     cursor: pointer;
     transition: background .3s; }
@@ -484,7 +484,7 @@ textarea.cm-textarea{
   font-size: 12px;
   font-weight: 300;
   text-transform: uppercase;
-  color: #c4b67e;
+  color: #A98E4C;
   background: #ffffff;
   box-sizing: border-box;
   border: none;
@@ -503,7 +503,7 @@ textarea.cm-textarea{
 
 .cm-button.primary {
   color: #ffffff;
-  background: #c4b67e;
+  background: #A98E4C;
 }
 .cm-button:hover {
   text-decoration: none;
@@ -630,7 +630,7 @@ h3.cm-heading {
   text-decoration: none;
 }
 .cm-menu-link a:hover{
-  color: #c4b67e;
+  color: #A98E4C;
   text-decoration: underline;
 }
 /* pagination boostrap overwritten*/
@@ -647,12 +647,12 @@ h3.cm-heading {
   color: #b1aaaa;
 }
 .cm-pagination .page-link:hover{
-  color: #c4b67e;
+  color: #A98E4C;
   background: transparent;
   text-decoration: underline;
 }
 .cm-pagination .page-item.active .page-link{
-    color: #c4b67e;
+    color: #A98E4C;
   background-color: transparent;
   text-decoration: underline;
 }

@@ -47,9 +47,9 @@
   font-weight: 300;
 }
 .level-selection-list-item.active{
-  background: #c4b67e;
+  background: #A98E4C;
   color: #fff;
-  border-color: #c4b67e;
+  border-color: #A98E4C;
 }
 .level-selection-list-item:last-child{
   margin-right: 0;

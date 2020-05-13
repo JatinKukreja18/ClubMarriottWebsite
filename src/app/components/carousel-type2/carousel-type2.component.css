@@ -36,7 +36,7 @@
 }
 .carousel-control-next:hover svg path,
 .carousel-control-prev:hover svg path{
-  fill: #c4b67e;
+  fill: #A98E4C;
   transition: .3s;
 }
 .carousel-type-two-caption-block{
@@ -124,7 +124,7 @@
   }
   .carousel-control-next svg path,
   .carousel-control-prev svg path{
-    fill: #c4b67e;
+    fill: #A98E4C;
   }
   .cm-carousel-type2 .cm-banner-overlay{
     height: 280px;

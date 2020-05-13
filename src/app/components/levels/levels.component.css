@@ -17,7 +17,7 @@
   cursor: pointer;
 }
 .levels-list-item-link:hover,.levels-list-item-link.active{
-  color: #c4b67e;
+  color: #A98E4C;
   text-decoration: underline;
 }
 .level-info{

@@ -28,7 +28,7 @@
 
 .carousel-control-next svg path,
 .carousel-control-prev svg path{
-  fill: #c4b67e;
+  fill: #A98E4C;
   transition: .3s;
 }
 
@@ -110,7 +110,7 @@
   }
   .carousel-control-next svg path,
   .carousel-control-prev svg path{
-    fill: #c4b67e;
+    fill: #A98E4C;
   }
   .cm-carousel-type4-nagivations{
     top: 280px;
