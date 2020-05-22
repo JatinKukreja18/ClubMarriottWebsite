@@ -832,7 +832,7 @@ overflow:hidden;
   }
   .teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-next,
   .teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-prev{
-    top: 26%;
+    top: 30%;
   }
   .cm-owl-carousel .owl-item .cm-owl-carousel-image-block,
   .cm-owl-carousel .owl-item.active ~ .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block, .cm-owl-carousel .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block{
