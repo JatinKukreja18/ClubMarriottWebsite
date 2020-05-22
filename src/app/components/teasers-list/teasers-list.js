@@ -13,6 +13,11 @@ $('.teaser-owl-carousel').owlCarousel({
           margin:0,
           items:1
       },
+      576:{
+        center: false,
+        items:2,
+        loop:false
+      },
       768:{
         center: false,
         items:3,
