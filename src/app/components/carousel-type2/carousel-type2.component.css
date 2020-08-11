@@ -27,7 +27,7 @@
   height: 480px;
   min-height: 500px;
   max-height: calc(100vh - 100px);
-  /* object-fit: cover; */
+  object-fit: cover;
   width: 100%;
 }
 
