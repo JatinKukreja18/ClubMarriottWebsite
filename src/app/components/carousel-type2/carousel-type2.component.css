@@ -21,11 +21,13 @@
 .cm-carousel-type2 .caption-text{
   margin-bottom: 50px;
 }
+
+.cm-carousel-type2 video,
 .cm-carousel-type2 img{
   height: 480px;
   min-height: 500px;
   max-height: calc(100vh - 100px);
-  object-fit: cover;
+  /* object-fit: cover; */
   width: 100%;
 }
 

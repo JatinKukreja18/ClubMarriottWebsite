@@ -63,9 +63,9 @@ ul.cm-teasers-list{
   .cm-teasers-list-item{
     display:  block;
     background: #fff;
-    width: calc(100% - 110px);
+    /* width: calc(100% - 110px); */
     margin: auto;
-    min-width: 245px;
+    /* min-width: 245px; */
   }
   /* .cm-teasers-list-block{
     margin-top: 30px;
@@ -84,5 +84,18 @@ ul.cm-teasers-list{
   .cm-teaser-link{
     display: block;
     margin-top: 5px;
+  }
+}
+@media only screen and (max-width: 575px){
+
+  .cm-teasers-list-block{
+    /* padding: 0 20px; */
+  }
+  .cm-teasers-list-item{
+    display:  block;
+    background: #fff;
+    width: calc(100% - 110px);
+    margin: auto;
+    min-width: 245px;
   }
 }

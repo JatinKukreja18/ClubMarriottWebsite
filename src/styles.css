@@ -810,29 +810,29 @@ overflow:hidden;
 }
 
 @media (max-width: 767px) {
-  .teaser-owl-carousel.owl-carousel.teaser-square-carousel .owl-nav button.owl-next,
+  /* .teaser-owl-carousel.owl-carousel.teaser-square-carousel .owl-nav button.owl-next,
   .teaser-owl-carousel.owl-carousel.teaser-square-carousel .owl-nav button.owl-prev{
     top: 25vw;
-  }
+  } */
   .teaser-owl-carousel.owl-carousel .owl-nav button.owl-next,
   .cards-carousel.owl-carousel .owl-nav button.owl-next,
   .cm-owl-carousel.owl-carousel .owl-nav button.owl-next{
     right: 0;
-    top: 40vw;
+    top: 26.5vw;
   }
 
   .teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev,
   .cards-carousel.owl-carousel .owl-nav button.owl-prev,
   .cm-owl-carousel.owl-carousel .owl-nav button.owl-prev{
     left: 0;
-    top: 40vw;
+    top: 26.5vw;
   }
   .dropdown-type-form + .custom-combobox .custom-combobox-input{
     font-size: 12px;
   }
   .teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-next,
   .teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-prev{
-    top: 26%;
+    top: 18vw;
   }
   .cm-owl-carousel .owl-item .cm-owl-carousel-image-block,
   .cm-owl-carousel .owl-item.active ~ .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block, .cm-owl-carousel .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block{
@@ -879,9 +879,7 @@ overflow:hidden;
   .modal .modal-footer {
     position: relative;
   }
-}
 
-@media only screen and (max-width: 767px) {
   .owl-carousel button.owl-dot{
     width: 8px;
     height: 8px;
@@ -974,4 +972,17 @@ overflow:hidden;
   } */
 }
 
+@media only screen and (max-width: 575px){
 
+  .teaser-owl-carousel.owl-carousel .owl-nav button.owl-next, .cards-carousel.owl-carousel .owl-nav button.owl-next, .cm-owl-carousel.owl-carousel .owl-nav button.owl-next{
+    top: 40vw;
+  }
+  .teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev,
+  .cards-carousel.owl-carousel .owl-nav button.owl-prev,
+  .cm-owl-carousel.owl-carousel .owl-nav button.owl-prev{
+    top: 40vw;
+  }
+  .teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-next, .teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-prev{
+    top: 26vw;
+  }
+}
