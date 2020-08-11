@@ -818,21 +818,21 @@ overflow:hidden;
   .cards-carousel.owl-carousel .owl-nav button.owl-next,
   .cm-owl-carousel.owl-carousel .owl-nav button.owl-next{
     right: 0;
-    top: 26.5vw;
+    top: 30%;
   }
 
   .teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev,
   .cards-carousel.owl-carousel .owl-nav button.owl-prev,
   .cm-owl-carousel.owl-carousel .owl-nav button.owl-prev{
     left: 0;
-    top: 26.5vw;
+    top: 30%;
   }
   .dropdown-type-form + .custom-combobox .custom-combobox-input{
     font-size: 12px;
   }
   .teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-next,
   .teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-prev{
-    top: 18vw;
+    top: 30%;
   }
   .cm-owl-carousel .owl-item .cm-owl-carousel-image-block,
   .cm-owl-carousel .owl-item.active ~ .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block, .cm-owl-carousel .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block{
