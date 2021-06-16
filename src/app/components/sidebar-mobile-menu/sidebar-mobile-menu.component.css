@@ -1,0 +1,22 @@
+.sidebar-mobile{
+    font-family: "ProximaNova",sans-serif;
+}
+.sidebar-mobile h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    line-height: 1;
+}
+.sidebar-mobile ul{
+    list-style: none;
+    padding: 0;
+}
+.sidebar-mobile li{
+   margin-bottom: 15px;
+   line-height: 1.25;
+   font-weight: 300;
+   font-size: 16px;
+}
+.sidebar-menu li.gold{
+    color: #c4b67e;
+}

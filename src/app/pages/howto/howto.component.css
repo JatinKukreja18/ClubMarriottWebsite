@@ -1,6 +1,9 @@
 .howto{
   font-family: "ProximaNova",sans-serif;
 }
+.cm-accordion-item.active .cm-accordion-link2.cm-plus::before{
+  transform: rotate(90deg);
+}
 .howtocont{
   padding-top: 40px;
 }
@@ -27,7 +30,7 @@
   font-weight: 300;
   margin-bottom: 0;
 }
-.cm-accordion-link{
+.cm-accordion-link2{
   width: 16px;
     height: 16px;
     position: relative;
@@ -54,14 +57,11 @@
   font-size: 24px;
   font-weight: 300;
 }
-.cm-accordion-item.active .cm-accordion-link.cm-plus::before{
-  transform: rotate(90deg);
-}
 .howto .questions-list .cm-accordion-item{
   border-bottom: 1px solid #a1a1a1;
 }
 .howto #general-list.questions-list .cm-accordion-item:last-child{
-  border-bottom: 1px solid #a1a1a1;
+  border-bottom: 0px solid #a1a1a1;
 }
 .howto .questions-list .cm-accordion-item:last-child{
   border-bottom: 0px solid #a1a1a1;
@@ -98,8 +98,12 @@
 #membership-list{
   display: none;
 }
+.fixedElement {
+  z-index:100;
+  background-color: #fff;
+}
 @media only screen and (max-width:767px){
-  .cm-accordion-link{
+  .cm-accordion-link2{
     width: 14px;
     height: 14px;
     vertical-align: middle;
@@ -115,5 +119,8 @@
   }
   .cm-banner-mt{
     margin-top: 50px;
+  }
+  .questions-list{
+    padding-left: 0;
   }
 }

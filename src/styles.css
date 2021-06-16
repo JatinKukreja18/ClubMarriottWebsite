@@ -814,6 +814,12 @@ overflow:hidden;
   .teaser-owl-carousel.owl-carousel.teaser-square-carousel .owl-nav button.owl-prev{
     top: 25vw;
   } */
+  .d-sm-none{
+    display: none !important;
+  }
+  .nopadding{
+    padding: 0 !important;
+  }
   .teaser-owl-carousel.owl-carousel .owl-nav button.owl-next,
   .cards-carousel.owl-carousel .owl-nav button.owl-next,
   .cm-owl-carousel.owl-carousel .owl-nav button.owl-next{

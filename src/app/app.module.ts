@@ -85,6 +85,7 @@ import { ChatTollLinksComponent } from './components/chat-toll-link/chat-toll.co
 import { OffersInteriorPageComponent } from './pages/offers-interior/offers-interior.component';
 import { CommonModule } from '@angular/common';
 import { accordionSidebarComponent } from './components/accordion-sidebar/accordion-sidebar.component';
+import { SidebarMobileMenuComponent } from './components/sidebar-mobile-menu/sidebar-mobile-menu.component';
 
 
 @NgModule({
@@ -170,7 +171,8 @@ import { accordionSidebarComponent } from './components/accordion-sidebar/accord
     ChatTollLinksComponent,
     OffersInteriorPageComponent,
     IndexPageComponent,
-    accordionSidebarComponent
+    accordionSidebarComponent,
+    SidebarMobileMenuComponent
 
    
   ],

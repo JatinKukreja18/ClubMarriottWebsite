@@ -23,7 +23,7 @@ $(document).ready(function(){
       $(this).parent().find('.cm-accordion-content').css('height','0px')
     }else{
       $('.cm-accordion-content').css('height','0px');
-      $(this).parent().find('.cm-accordion-content').css('height','auto')
+      $(this).parent().find('.cm-accordion-content').css('height',heightOfContent)
     }
     $(this).parent().toggleClass('active');
   })
