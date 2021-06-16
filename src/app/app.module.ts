@@ -76,6 +76,7 @@ import { AllBannersComponent } from './pages/all-banners/all-banners.component';
 import { BannerThreeComponent } from './components/banner-3/banner-3.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { FAQPageComponent } from './pages/faq/faq.component';
+import { howToComponent } from './pages/howto/howto.component';
 import { CardCarouselComponent } from './components/card-carousel/card-carousel.component';
 import { LevelsComponent } from './components/levels/levels.component';
 import { BannerTypeCta2Component } from './components/banner-type-cta-2/banner-type-cta-2.component';
@@ -83,6 +84,8 @@ import { HotelListComponent } from './components/hotel-list/hotel-list.component
 import { ChatTollLinksComponent } from './components/chat-toll-link/chat-toll.component';
 import { OffersInteriorPageComponent } from './pages/offers-interior/offers-interior.component';
 import { CommonModule } from '@angular/common';
+import { accordionSidebarComponent } from './components/accordion-sidebar/accordion-sidebar.component';
+
 
 @NgModule({
   declarations: [
@@ -155,6 +158,7 @@ import { CommonModule } from '@angular/common';
     FormDropdownComponent,
     NotFoundPageComponent,
     FAQPageComponent,
+    howToComponent,
     TermsPageComponent,
     CardCarouselComponent,
     SitemapPageComponent,
@@ -165,7 +169,10 @@ import { CommonModule } from '@angular/common';
     HotelListComponent,
     ChatTollLinksComponent,
     OffersInteriorPageComponent,
-    IndexPageComponent
+    IndexPageComponent,
+    accordionSidebarComponent
+
+   
   ],
   imports: [
     BrowserModule,

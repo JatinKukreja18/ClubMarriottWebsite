@@ -22,10 +22,12 @@ import { BlogLayout2Component } from './pages/blog-layout2/blog-layout2.componen
 import { PropertyPageComponent } from './pages/property/property.component';
 import { NotFoundPageComponent } from './pages/not-found/not-found.component';
 import { FAQPageComponent } from './pages/faq/faq.component';
+import { howToComponent } from './pages/howto/howto.component';
 
 const routes: Routes = [
   { path:  'offers', component:  OffersPageComponent},
   { path:  'faq', component:  FAQPageComponent},
+  { path:  'howto', component:  howToComponent},
   { path:  'terms', component:  TermsPageComponent},
   { path:  'not-found', component:  NotFoundPageComponent},
   { path:  'contact', component:  ContactPageComponent},
