@@ -105,11 +105,23 @@
 .header-mob-only{
   display: none;
 }
+.howto .full-image.img-desktop{
+  display: block;
+}
+.howto .full-image.img-mobile{
+  display: none;
+}
 @media only screen and (max-width:767px){
   .cm-accordion-link2{
     width: 14px;
     height: 14px;
     vertical-align: middle;
+  }
+  .howto .full-image.img-desktop{
+    display: none;
+  }
+  .howto .full-image.img-mobile{
+    display: block;
   }
   .header-mob-only p{
     font-size: 16px;
