@@ -117,6 +117,11 @@
     height: 14px;
     vertical-align: middle;
   }
+  .howto-banner{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+  }
   .howto .full-image.img-desktop{
     display: none;
   }
