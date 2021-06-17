@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $(".sidenav-accordion-cont .tab-content li").click(function(){
         $(this).addClass("gold");

@@ -102,17 +102,49 @@
   z-index:100;
   background-color: #fff;
 }
+.header-mob-only{
+  display: none;
+}
 @media only screen and (max-width:767px){
   .cm-accordion-link2{
     width: 14px;
     height: 14px;
     vertical-align: middle;
   }
+  .header-mob-only p{
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+  }
+  .how-question.cm-heading{
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .howtocont p.cm-text-serif,.howtocont h6{
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .howtocont h6{
+    font-weight: 500;
+  }
+  .header-mob-only{
+    display: block;
+    padding: 0 15px;
+    margin-bottom: 40px;
+  }
+  .hide-mob{
+    display: none;
+  }
+  .hideformobileinitially{
+    display: none;
+  }
   .questions-list .how-sno{
     font-size: 14px;
   }
   .questions-list li{
-    padding: 8px 0;
+    padding: 25px 0;
   }
   .cm-accordion-content p{
     line-height: 1.3;
@@ -122,5 +154,6 @@
   }
   .questions-list{
     padding-left: 0;
+    padding: 0 15px;
   }
 }
