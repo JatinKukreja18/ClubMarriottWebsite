@@ -33,6 +33,12 @@ $(document).ready(function(){
         element.id= "member-list-item-" + (i + 1);
       }
     }
+    // choose which section to show first on desktop
+    $('.questions-list').hide()
+    if(window.innerWidth > 768){
+      $('#sign-list').show();
+    }
+    
     $('.cm-accordion-link2').on('click',function(){
       $('.cm-accordion-item:not(#' + this.parentElement.id + ')').removeClass('active');
       var heightOfContent = document.querySelector('#'+this.parentElement.id).querySelector('.cm-accordion-content p').clientHeight + 'px';
@@ -56,10 +62,14 @@ $(function() {
     // attach click event handlers to the sidenav links with the class page-link2 of accordion
     $("li.page-link2").on("click", function() {
         var ref = $(this).data("page");
-        $(ref).toggleClass('active');
-        $(ref).find('.cm-accordion-content').css('height','auto');
-        $(ref).siblings().removeClass('active');
-        $(ref).siblings().find('.cm-accordion-content').css('height','0px');
+        var refitem = $(this).data("item");
+        $('.questions-list').hide();
+        $(ref).show();
+        $('.cm-accordion-item').removeClass('active');
+        $(refitem).toggleClass('active');
+        $(refitem).css('height','auto');
+        $(refitem).siblings().removeClass('active');
+        $(refitem).siblings().css('height','0px');
         $('html,body').animate({
             scrollTop: $(ref).offset().top
         }, 500); 
