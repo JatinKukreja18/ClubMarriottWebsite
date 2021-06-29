@@ -53,6 +53,9 @@ $(document).ready(function(){
       }, 500); 
       }
       $(this).parent().toggleClass('active');
+      $(".cm-accordion-item.active").css('height','auto');
+      $(".cm-accordion-item.active .cm-accordion-content").css('height','auto');
+      
     })
   })
   
@@ -68,10 +71,12 @@ $(function() {
         $('.cm-accordion-item').removeClass('active');
         $(refitem).toggleClass('active');
         $(refitem).css('height','auto');
+        $(".cm-accordion-item.active").css('height','auto');
+        $(".cm-accordion-item.active .cm-accordion-content").css('height','auto');
         $(refitem).siblings().removeClass('active');
-        $(refitem).siblings().css('height','0px');
+        $(refitem).siblings().find('.cm-accordion-content').css('height','0px');
         $('html,body').animate({
-            scrollTop: $(ref).offset().top
+            scrollTop: $(refitem).offset().top
         }, 500); 
     
     });

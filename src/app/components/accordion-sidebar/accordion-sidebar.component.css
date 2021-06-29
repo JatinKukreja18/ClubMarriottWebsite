@@ -5,6 +5,7 @@
     font-size: 14px;
   font-weight: normal;
   cursor: pointer;
+  color: #000;
 }
 .sidenav-accordion-cont ul li.gold{
   color: #c4b67e;
