@@ -3,14 +3,14 @@
 <div class="cm-banner center-aligned cm-type-1">
   <img class="cm-banner-mt full-image howto-banner" src="../../../assets/howto-banner.png"  alt="First slide">
 </div>
-<div class="cm-wrapper cm-padding-block howto">
+<div class="cm-wrapper cm-padding-block howto" id="howTo">
 
     <div class="error-content row">
       <div class="col-sm-12 d-md-none">
         <app-sidebar-mobile-menu></app-sidebar-mobile-menu>
       </div>
       <div class="col-md-4 d-md-block d-sm-none"> 
-        <cm-accordion-sidebar class="fixedElement"></cm-accordion-sidebar>
+        <cm-accordion-sidebar></cm-accordion-sidebar>
       </div>
       <div class="col-md-8 col-sm-12 nopadding hideformobileinitially">
         <!-- Rich text medium -->
@@ -26,7 +26,7 @@
             
           </div>
           <ul class="questions-list" id="sign-list">
-            <li class="cm-accordion-item cm-padding-top-0" >
+            <li class="cm-accordion-item cm-padding-top-0"  data-page="#sign1">
               <span class="how-sno"></span>
               <span class="how-question cm-heading mb-25">Sign up</span>
               <span class="cm-plus cm-accordion-link2"></span>
@@ -61,7 +61,7 @@
                 </div>
               </div>
             </li>
-            <li class="cm-accordion-item" >
+            <li class="cm-accordion-item"  data-page="#sign2">
                 <span class="how-sno"></span>
                 <span class="how-question cm-heading mb-25">Activate Membership
                   </span>
@@ -97,7 +97,7 @@
                   </div>
                 </div>
               </li>
-              <li class="cm-accordion-item" >
+              <li class="cm-accordion-item"  data-page="#sign3">
                 <span class="how-sno"></span>
                 <span class="how-question cm-heading mb-25">Login</span>
                 <span class="cm-plus cm-accordion-link2"></span>
@@ -132,7 +132,7 @@
                   </div>
                 </div>
               </li>
-              <li class="cm-accordion-item" >
+              <li class="cm-accordion-item"  data-page="#sign4">
                   <span class="how-sno"></span>
                   <span class="how-question cm-heading mb-25">Gift a Membership
                     </span>
@@ -168,7 +168,7 @@
                     </div>
                   </div>
                 </li>
-                <li class="cm-accordion-item" >
+                <li class="cm-accordion-item"  data-page="#sign5">
                   <span class="how-sno"></span>
                   <span class="how-question cm-heading mb-25">Buy another Membership</span>
                   <span class="cm-plus cm-accordion-link2"></span>
@@ -203,7 +203,7 @@
                     </div>
                   </div>
                 </li>
-                <li class="cm-accordion-item" >
+                <li class="cm-accordion-item"  data-page="#sign6">
                     <span class="how-sno"></span>
                     <span class="how-question cm-heading mb-25">Renewal Membership
                       </span>
@@ -244,7 +244,7 @@
           <!-- <h2 class="cm-heading mt-50 mb-25">General</h2> -->
 
           <ul class="questions-list" id="manage-list">
-              <li class="cm-accordion-item active">
+              <li class="cm-accordion-item active" data-page="#manage1">
                   <span class="how-sno"></span>
                   <span class="how-question cm-heading mb-25">Membership Page</span>
                   <span class="cm-plus cm-accordion-link2"></span>
@@ -258,7 +258,7 @@
                     </div>
                   </div>
                 </li>
-                <li class="cm-accordion-item">
+                <li class="cm-accordion-item" data-page="#manage2">
                   <span class="how-sno"></span>
                   <span class="how-question cm-heading mb-25">Multiple Memberships 
                     </span>
@@ -277,6 +277,82 @@
                       </div>
                     </div>
                   </li>
+                  <li class="cm-accordion-item" data-page="#manage3">
+                    <span class="how-sno"></span>
+                    <span class="how-question cm-heading mb-25">Multiple Memberships 
+                      </span>
+                    <span class="cm-plus cm-accordion-link2"></span>
+                    <div class="cm-accordion-content">
+                      <div class="howtocont">
+                        <p class="cm-text-serif">
+                          Card Wallet lets you manage multiple memberships on the same page. 
+  
+                          Select the membership you want to use and click on update membership. This will allow you to see all card and certificate benefits of the corresponding membership.
+                          
+                          You can also port your card details to Apple Wallet.                      </p>
+                        <img class="full-image img-desktop" src="../../../assets/howto/signup4.png">
+                      <img class="full-image img-mobile" src="../../../assets/howto/mob/sign1.png">
+                      
+                        </div>
+                      </div>
+                    </li>
+                    <li class="cm-accordion-item" data-page="#manage4">
+                      <span class="how-sno"></span>
+                      <span class="how-question cm-heading mb-25">Multiple Memberships 
+                        </span>
+                      <span class="cm-plus cm-accordion-link2"></span>
+                      <div class="cm-accordion-content">
+                        <div class="howtocont">
+                          <p class="cm-text-serif">
+                            Card Wallet lets you manage multiple memberships on the same page. 
+    
+                            Select the membership you want to use and click on update membership. This will allow you to see all card and certificate benefits of the corresponding membership.
+                            
+                            You can also port your card details to Apple Wallet.                      </p>
+                          <img class="full-image img-desktop" src="../../../assets/howto/signup4.png">
+                        <img class="full-image img-mobile" src="../../../assets/howto/mob/sign1.png">
+                        
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cm-accordion-item" data-page="#manage5">
+                        <span class="how-sno"></span>
+                        <span class="how-question cm-heading mb-25">Multiple Memberships 
+                          </span>
+                        <span class="cm-plus cm-accordion-link2"></span>
+                        <div class="cm-accordion-content">
+                          <div class="howtocont">
+                            <p class="cm-text-serif">
+                              Card Wallet lets you manage multiple memberships on the same page. 
+      
+                              Select the membership you want to use and click on update membership. This will allow you to see all card and certificate benefits of the corresponding membership.
+                              
+                              You can also port your card details to Apple Wallet.                      </p>
+                            <img class="full-image img-desktop" src="../../../assets/howto/signup4.png">
+                          <img class="full-image img-mobile" src="../../../assets/howto/mob/sign1.png">
+                          
+                            </div>
+                          </div>
+                        </li>
+                        <li class="cm-accordion-item" data-page="#manage6">
+                          <span class="how-sno"></span>
+                          <span class="how-question cm-heading mb-25">Multiple Memberships 
+                            </span>
+                          <span class="cm-plus cm-accordion-link2"></span>
+                          <div class="cm-accordion-content">
+                            <div class="howtocont">
+                              <p class="cm-text-serif">
+                                Card Wallet lets you manage multiple memberships on the same page. 
+        
+                                Select the membership you want to use and click on update membership. This will allow you to see all card and certificate benefits of the corresponding membership.
+                                
+                                You can also port your card details to Apple Wallet.                      </p>
+                              <img class="full-image img-desktop" src="../../../assets/howto/signup4.png">
+                            <img class="full-image img-mobile" src="../../../assets/howto/mob/sign1.png">
+                            
+                              </div>
+                            </div>
+                          </li>
               
           </ul>
 

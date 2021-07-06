@@ -98,10 +98,10 @@
 #membership-list{
   display: none;
 }
-.fixedElement {
+/* .fixedElement {
   z-index:100;
   background-color: #fff;
-}
+} */
 .header-mob-only{
   display: none;
 }
@@ -111,6 +111,33 @@
 .howto .full-image.img-mobile{
   display: none;
 }
+/*Adhoc changes*/
+cm-accordion-sidebar{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: calc(100vh - 120px);
+  width: 100%;
+  overflow: overlay;
+  -ms-overflow-style: none;
+}
+
+cm-accordion-sidebar.is-fixed{
+  position: fixed;
+  top: 100px;
+  width: calc(33.33% - 116px);
+
+}
+cm-accordion-sidebar.is-fixed.is-bottom{
+  position: absolute;
+  bottom: 0;
+  top: unset;
+  width: calc(100% - 30px);
+}
+cm-accordion-sidebar::-webkit-scrollbar {
+  display: none;
+}
+
 @media only screen and (max-width:767px){
   .cm-accordion-link2{
     width: 14px;
