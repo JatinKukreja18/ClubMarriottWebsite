@@ -90,23 +90,51 @@ $(document).ready(function(){
         for (let i = 0; i < allSections.length; i++) {
           const element = allSections[i];
           if(document.scrollingElement.scrollTop > document.querySelector('#' + element.id).offsetTop +  document.querySelector('#howTo').offsetTop - window.innerHeight/2){
-            resetAllLinks();
+            // resetAllLinks();
             // document.querySelector('#' + element.id).classList.add('active');
-            // document.querySelector("a[data-href='#" + element.id  + "']").classList.add('active');
-            // document.querySelector('#' + element.id).siblings().classList.remove('active');
+            // document.querySelector(".page-link2[data-item='#" + element.id  + "']").classList.add('gold');
+            // $(".page-link2[data-item='#" + element.id  + "']").siblings().removeClass('gold');
+            // $(".page-link2[data-item='#" + element.id  + "']").parent().closest('.tab').siblings().children().find('.page-link2').removeClass('gold');
+                 if($(".page-link2[data-item='#" + element.id  + "']").parent().parent().parent().find('.tab-label').hasClass("checked")){
+                  $(".page-link2[data-item='#" + element.id  + "']").addClass('gold');
+                  $(".page-link2[data-item='#" + element.id  + "']").siblings().removeClass('gold');
+                 }
+                 else{
+                  $(".page-link2[data-item='#" + element.id  + "']").removeClass('gold');
+                  $(".page-link2[data-item='#" + element.id  + "']").siblings().removeClass('gold');
+                 }
           }
         }
   
       })
     }
-  })
-  function resetAllLinks(){
-    var allLinks = document.querySelectorAll('.page-link2');
-    for (let i = 0; i < allLinks.length; i++) {
-      const element = allLinks[i];
-      element.classList.remove('active');
-    }
-  }
+  });
+
+//   $('input:radio[name=rd]').change(function() {
+//     if (!$(this).is(":checked")) {
+//       $('.page-link2').removeClass('gold');
+//     }
+//     else {
+//       $('.page-link2').addClass('gold');
+//     }
+// });
+$(function() {
+  $(".tab-label").on("click", function() {
+    // e.preventDefault();
+    $(this).addClass('checked');
+    // if (!$(this).hasClass('checked')) {
+    //         $(this).siblings().children().find('.page-link2').removeClass('gold');
+    //     }
+       
+  });
+});
+  // function resetAllLinks(){
+  //   var allLinks = document.querySelectorAll('.page-link2');
+  //   for (let i = 0; i < allLinks.length; i++) {
+  //     const element = allLinks[i];
+  //     element.classList.remove('gold');
+  //   }
+  // }
 
 
 $(function() {
@@ -128,6 +156,7 @@ $(function() {
         }, 500); 
     
     });
+ 
 });
 // $(function() {
 //      // attach click event handlers to the accordion with the class sidenav links
