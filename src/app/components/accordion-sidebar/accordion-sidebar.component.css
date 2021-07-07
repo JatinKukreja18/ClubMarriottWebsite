@@ -54,8 +54,8 @@
   }
   .sidenav-accordion-cont .tab-label::after {
     content: url(src/assets/menu-drop-down-close-icon.svg);
-    width: 1em;
-    height: 1em;
+    /* width: 1em; */
+    /* height: 1em; */
     transform: rotate(180deg);
     text-align: center;
     transition: all 0.35s;

@@ -44,7 +44,10 @@ $(document).ready(function(){
       var heightOfContent = document.querySelector('#'+this.parentElement.id).querySelector('.cm-accordion-content p').clientHeight + 'px';
       console.log(heightOfContent)
       if(this.parentElement.classList.contains('active')){
-        $(this).parent().find('.cm-accordion-content').css('height','0px')
+        $(this).parent().find('.cm-accordion-content').css('height','0px');
+        $('html,body').animate({
+          scrollTop: $(this).offset().top},
+          'slow');
       }else{
         $('.cm-accordion-content').css('height','0px');
         $(this).parent().find('.cm-accordion-content').css('height','auto');
