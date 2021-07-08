@@ -62,6 +62,7 @@ $(document).ready(function(){
       $(ref).toggleClass('gold');
       $(ref).siblings().removeClass('gold');
       $(ref).closest('.tab').find(':radio').prop('checked', true);
+      $(ref).closest('.tab').find('.tab-label').addClass('checked');
     });
 
 
