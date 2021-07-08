@@ -109,7 +109,16 @@
   bottom: 0;
   top: unset;
   width: calc(100% - 30px);
+  max-width: 363px;
 }
 .sidenav-accordion-cont::-webkit-scrollbar {
   display: none;
+}
+@media only screen and (max-width:1360px){
+  .sidenav-accordion-cont.is-fixed{
+    position: fixed;
+    top: 100px;
+    width: calc(33.33% - 90px);
+  
+  }
 }
