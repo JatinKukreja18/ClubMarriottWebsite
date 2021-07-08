@@ -160,6 +160,22 @@ $(function() {
         }, 500); 
     
     });
+    $(".tab-label").on("click", function() {
+      var ref = $(this).data("page");
+      var refitem = $(this).data("item");
+      $('.questions-list').hide();
+      $(ref).show();
+      $('.cm-accordion-item').removeClass('active');
+      $(refitem).toggleClass('active');
+      $(refitem).css('height','auto');
+      $(".cm-accordion-item.active").css('height','auto');
+      $(".cm-accordion-item.active .cm-accordion-content").css('height','auto');
+      $(refitem).siblings().removeClass('active');
+      $(refitem).siblings().find('.cm-accordion-content').css('height','0px');
+      $('html,body').animate({
+          scrollTop: $(ref).offset().top
+      }, 500); 
+    });
  
 });
 // $(function() {
