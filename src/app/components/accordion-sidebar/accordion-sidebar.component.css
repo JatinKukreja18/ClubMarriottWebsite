@@ -102,14 +102,14 @@
   position: fixed;
   top: 100px;
   width: calc(33.33% - 116px);
-
+  max-width: 363px;
 }
 .sidenav-accordion-cont.is-fixed.is-bottom{
   position: absolute;
   bottom: 0;
   top: unset;
   width: calc(100% - 30px);
-  max-width: 363px;
+  
 }
 .sidenav-accordion-cont::-webkit-scrollbar {
   display: none;
