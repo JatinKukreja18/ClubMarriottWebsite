@@ -86,3 +86,30 @@
     font-weight: 500;
     margin-bottom: 10px;
   }
+
+  /*Adhoc changes*/
+.sidenav-accordion-cont{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: calc(100vh - 120px);
+  width: 100%;
+  overflow: overlay;
+  -ms-overflow-style: none;
+}
+
+.sidenav-accordion-cont.is-fixed{
+  position: fixed;
+  top: 100px;
+  width: calc(33.33% - 116px);
+
+}
+.sidenav-accordion-cont.is-fixed.is-bottom{
+  position: absolute;
+  bottom: 0;
+  top: unset;
+  width: calc(100% - 30px);
+}
+.sidenav-accordion-cont::-webkit-scrollbar {
+  display: none;
+}

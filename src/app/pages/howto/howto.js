@@ -76,14 +76,14 @@ $(document).ready(function(){
       $(document).on('scroll',function(){
   
         if(document.scrollingElement.scrollTop <= document.querySelector('#howTo').offsetTop){
-          $('cm-accordion-sidebar').removeClass('is-fixed');
+          $('.sidenav-accordion-cont').removeClass('is-fixed');
           // $('.cm-right-adjust').css('margin-left','auto')
         }else{
-          $('cm-accordion-sidebar').addClass('is-fixed');
-            if(document.scrollingElement.scrollTop  > document.querySelector('#howTo').offsetHeight + document.querySelector('#howTo').offsetTop - document.querySelector('cm-accordion-sidebar').offsetHeight - 200){
-              $('cm-accordion-sidebar').addClass('is-bottom');
+          $('.sidenav-accordion-cont').addClass('is-fixed');
+            if(document.scrollingElement.scrollTop  > document.querySelector('#howTo').offsetHeight + document.querySelector('#howTo').offsetTop - document.querySelector('.sidenav-accordion-cont').offsetHeight - 200){
+              $('.sidenav-accordion-cont').addClass('is-bottom');
             }else{
-              $('cm-accordion-sidebar').removeClass('is-bottom');
+              $('.sidenav-accordion-cont').removeClass('is-bottom');
             }
         }
   
