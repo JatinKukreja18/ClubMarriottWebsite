@@ -121,6 +121,10 @@
   .howtocont{
     padding-top: 10px;
   }
+  .howtocont img{
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
   .howto-banner{
     width: 100%;
     height: 280px;
