@@ -46,13 +46,13 @@ $(document).ready(function(){
       if(this.parentElement.classList.contains('active')){
         $(this).parent().find('.cm-accordion-content').css('height','0px');
         $('html,body').animate({
-          scrollTop: $(this).offset().top},
-          'slow');
+          scrollTop: $(this).offset().top - 200},
+          500);
       }else{
         $('.cm-accordion-content').css('height','0px');
         $(this).parent().find('.cm-accordion-content').css('height','auto');
         $('html,body').animate({
-          scrollTop: $(this).closest(".cm-accordion-item").offset().top
+          scrollTop: $(this).closest(".cm-accordion-item").offset().top - 100
       }, 500); 
       }
       $(this).parent().toggleClass('active');
@@ -93,7 +93,7 @@ $(document).ready(function(){
   
         for (let i = 0; i < allSections.length; i++) {
           const element = allSections[i];
-          if(document.scrollingElement.scrollTop > document.querySelector('#' + element.id).offsetTop +  document.querySelector('#howTo').offsetTop - window.innerHeight/2){
+          if(document.scrollingElement.scrollTop > document.querySelector('#' + element.id).offsetTop +  document.querySelector('#howTo').offsetTop - window.innerHeight/2 + 200){
             // resetAllLinks();
             // document.querySelector('#' + element.id).classList.add('active');
             // document.querySelector(".page-link2[data-item='#" + element.id  + "']").classList.add('gold');
@@ -156,7 +156,7 @@ $(function() {
         $(refitem).siblings().removeClass('active');
         $(refitem).siblings().find('.cm-accordion-content').css('height','0px');
         $('html,body').animate({
-            scrollTop: $(refitem).offset().top
+            scrollTop: $(refitem).offset().top - 100
         }, 500); 
     
     });
@@ -172,9 +172,15 @@ $(function() {
       $(".cm-accordion-item.active .cm-accordion-content").css('height','auto');
       $(refitem).siblings().removeClass('active');
       $(refitem).siblings().find('.cm-accordion-content').css('height','0px');
-      $('html,body').animate({
-          scrollTop: $(ref).offset().top
-      }, 500); 
+      if( refitem === undefined){
+        $(".cm-accordion-item .cm-accordion-content").css('height','0px');
+        setTimeout(function(){///workaround
+          $("li.page-link2").removeClass('gold');
+      }, 10);
+      }
+      // $('html,body').animate({
+      //     scrollTop: $(ref).offset().top - 100
+      // }, 500); 
     });
  
 });
