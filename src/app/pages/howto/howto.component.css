@@ -96,7 +96,7 @@
   color: #000;
   font-size: 18px;
   font-weight: 300;
-  font-family: "ProximaNova",sans-serif;
+  font-family: proxima-nova,sans-serif;
 }
 #membership-list{
   display: none;
@@ -147,7 +147,7 @@
     line-height: 1.25;
   }
   .how-question.cm-heading{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
   }
   .howtocont p.cm-text-serif,.howtocont h6{
@@ -156,6 +156,8 @@
   }
   .howtocont h6{
     font-weight: 300;
+    color: #000;
+    font-size: 16px;
   }
   .header-mob-only{
     display: block;
