@@ -1,5 +1,6 @@
 .howto{
-  font-family: "ProximaNova",sans-serif;
+  /* font-family: "ProximaNova",sans-serif; */
+  font-family: proxima-nova,sans-serif;
 }
 .cm-accordion-item.active .cm-accordion-link2.cm-plus::before{
   transform: rotate(90deg);
@@ -22,11 +23,11 @@
 }
 .howtocont h6{
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 8px;
 }
 .howtocont p.cm-text-serif,.howtocont div.cm-text-serif{
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 300;
   margin-bottom: 0;
 }
@@ -55,7 +56,9 @@
 }
 .how-question.cm-heading{
   font-size: 24px;
-  font-weight: 300;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 300;
+    line-height: 1.25;
 }
 .howto .questions-list .cm-accordion-item{
   border-bottom: 1px solid #a1a1a1;
@@ -152,7 +155,7 @@
     font-weight: 300;
   }
   .howtocont h6{
-    font-weight: 500;
+    font-weight: 300;
   }
   .header-mob-only{
     display: block;

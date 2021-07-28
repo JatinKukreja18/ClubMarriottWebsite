@@ -66,11 +66,11 @@ $(document).ready(function(){
     });
 
 
-    // $('.page-link2').on('click',function(e){
+    // $('.tab-label').on('click',function(e){
     //   // document.querySelector(this.dataset.href).scrollIntoView({block:'center',behavior:'smooth'});
     //   document.scrollingElement.style.scrollBehavior = 'smooth';
     //   document.scrollingElement.scrollTop =  document.querySelector('#howTo').offsetTop + document.querySelector(this.dataset.href).offsetTop;
-    //   e.stopPropogation();
+    //   // e.stopPropogation();
     // })
   
     if(document.querySelector('#howTo')){
@@ -104,7 +104,7 @@ $(document).ready(function(){
                   $(".page-link2[data-item='#" + element.id  + "']").siblings().removeClass('gold');
                  }
                  else{
-                  $(".page-link2[data-item='#" + element.id  + "']").removeClass('gold');
+                  $(".page-link2[data-item='#" + element.id  + "']").addClass('gold');
                   $(".page-link2[data-item='#" + element.id  + "']").siblings().removeClass('gold');
                  }
           }
@@ -126,10 +126,12 @@ $(function() {
   $(".tab-label").on("click", function() {
     // e.preventDefault();
     $(this).addClass('checked');
+    $('html,body').animate({
+      scrollTop: $('#howTo').offset().top - 100},
+      500);
     // if (!$(this).hasClass('checked')) {
     //         $(this).siblings().children().find('.page-link2').removeClass('gold');
     //     }
-       
   });
 });
   // function resetAllLinks(){
@@ -172,15 +174,19 @@ $(function() {
       $(".cm-accordion-item.active .cm-accordion-content").css('height','auto');
       $(refitem).siblings().removeClass('active');
       $(refitem).siblings().find('.cm-accordion-content').css('height','0px');
-      if( refitem === undefined){
-        $(".cm-accordion-item .cm-accordion-content").css('height','0px');
-        setTimeout(function(){///workaround
-          $("li.page-link2").removeClass('gold');
-      }, 10);
-      }
-      // $('html,body').animate({
-      //     scrollTop: $(ref).offset().top - 100
-      // }, 500); 
+      // if( refitem === undefined){
+      //   $(".cm-accordion-item .cm-accordion-content").css('height','0px');
+      //   setTimeout(function(){///workaround
+      //     $("li.page-link2").removeClass('gold');
+      // }, 10);
+      // }
+      // if ($(this).hasClass('checked')){
+      //   $(this).closest('.page-link2').addClass('gold');
+
+      //  }
+      $('html,body').animate({
+          scrollTop: $('#howTo').offset().top - 150
+      }, 500); 
     });
  
 });
